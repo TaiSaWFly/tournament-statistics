@@ -1,0 +1,7592 @@
+[
+    {
+        "ID": 1,
+        "Btag": "Mars#23130",
+        "Nickname": "Mars",
+        "twitch": "marssteel"
+    },
+    {
+        "ID": 1,
+        "Btag": "MullerTsukik#2138",
+        "Nickname": "MullerTsukik",
+        "twitch": "marssteel"
+    },
+    {
+        "ID": 1,
+        "Btag": "M13Hurricane#2578",
+        "Nickname": "M13Hurricane",
+        "twitch": "marssteel"
+    },
+    {
+        "ID": 2,
+        "Btag": "Bloodghast#2754",
+        "Nickname": "Bloodghast",
+        "twitch": "BloodghastZK"
+    },
+    {
+        "ID": 2,
+        "Btag": "GeistJager#2503",
+        "Nickname": "GeistJager",
+        "twitch": "BloodghastZK"
+    },
+    {
+        "ID": 3,
+        "Btag": "Soter#22797",
+        "Nickname": "Soter",
+        "twitch": "bokal_za_Sotera"
+    },
+    {
+        "ID": 3,
+        "Btag": "SeKo#21704",
+        "Nickname": "SeKo",
+        "twitch": "bokal_za_Sotera"
+    },
+    {
+        "ID": 4,
+        "Btag": "AGKorvin#2101",
+        "Nickname": "AGKorvin",
+        "twitch": "Anthony_Korvin"
+    },
+    {
+        "ID": 5,
+        "Btag": "Baida#21855",
+        "Nickname": "Baida",
+        "twitch": "Baida94"
+    },
+    {
+        "ID": 5,
+        "Btag": "Torusikano#2493",
+        "Nickname": "Torusikano",
+        "twitch": "Baida94"
+    },
+    {
+        "ID": 5,
+        "Btag": "Baida#21470",
+        "Nickname": "Baida",
+        "twitch": "Baida94"
+    },
+    {
+        "ID": 6,
+        "Btag": "OnePunchMan#21895",
+        "Nickname": "OnePunchMan",
+        "twitch": "OnePunchManOW"
+    },
+    {
+        "ID": 6,
+        "Btag": "sirMura#2713",
+        "Nickname": "sirMura",
+        "twitch": "OnePunchManOW"
+    },
+    {
+        "ID": 7,
+        "Btag": "avokaphs#2906",
+        "Nickname": "avokaphs",
+        "twitch": "avokaphs"
+    },
+    {
+        "ID": 8,
+        "Btag": "LoganSky#2154",
+        "Nickname": "LoganSky",
+        "twitch": "LoganSky"
+    },
+    {
+        "ID": 9,
+        "Btag": "Mind#22534",
+        "Nickname": "Mind",
+        "twitch": "universal_mind"
+    },
+    {
+        "ID": 9,
+        "Btag": "UniversMind#2844,",
+        "Nickname": "UniversMind",
+        "twitch": "universal_mind"
+    },
+    {
+        "ID": 9,
+        "Btag": "КОТ#23463",
+        "Nickname": "КОТ",
+        "twitch": "universal_mind"
+    },
+    {
+        "ID": 10,
+        "Btag": "RevolLol#2663",
+        "Nickname": "RevolLol",
+        "twitch": "RevolLol"
+    },
+    {
+        "ID": 10,
+        "Btag": "Rvlll#2574",
+        "Nickname": "Rvlll",
+        "twitch": "RevolLol"
+    },
+    {
+        "ID": 11,
+        "Btag": "ToR#22245",
+        "Nickname": "ToR",
+        "twitch": "unroq_ToR"
+    },
+    {
+        "ID": 12,
+        "Btag": "ReDBoX#21112",
+        "Nickname": "ReDBoX",
+        "twitch": "redbox1424"
+    },
+    {
+        "ID": 12,
+        "Btag": "sqrym#2246",
+        "Nickname": "sqrym",
+        "twitch": "redbox1424"
+    },
+    {
+        "ID": 13,
+        "Btag": "Shinobu#22562",
+        "Nickname": "Shinobu",
+        "twitch": "Dybochek"
+    },
+    {
+        "ID": 14,
+        "Btag": "jonsnow#22990",
+        "Nickname": "jonsnow",
+        "twitch": "jessard"
+    },
+    {
+        "ID": 14,
+        "Btag": "Jessard#2646",
+        "Nickname": "Jessard",
+        "twitch": "jessard"
+    },
+    {
+        "ID": 14,
+        "Btag": "AegonVTarg#2864",
+        "Nickname": "AegonVTarg",
+        "twitch": "jessard"
+    },
+    {
+        "ID": 15,
+        "Btag": "c00per#21976",
+        "Nickname": "c00per",
+        "twitch": "c00pern1"
+    },
+    {
+        "ID": 16,
+        "Btag": "MiniMe#2864",
+        "Nickname": "MiniMe",
+        "twitch": "minime____"
+    },
+    {
+        "ID": 17,
+        "Btag": "Maecenas#21978",
+        "Nickname": "Maecenas",
+        "twitch": "Maecenas_"
+    },
+    {
+        "ID": 18,
+        "Btag": "Attaynez#21400",
+        "Nickname": "Attaynez",
+        "twitch": "valerone2323"
+    },
+    {
+        "ID": 19,
+        "Btag": "Smitt#21163",
+        "Nickname": "Smitt",
+        "twitch": "SmittOW"
+    },
+    {
+        "ID": 20,
+        "Btag": "zuuuuuuuuuuz#2690",
+        "Nickname": "zuuuuuuuuuuz",
+        "twitch": "DANYA_ZUUUZ"
+    },
+    {
+        "ID": 20,
+        "Btag": "Silvan#21341",
+        "Nickname": "Silvan",
+        "twitch": "DANYA_ZUUUZ"
+    },
+    {
+        "ID": 54,
+        "Btag": "uN1Xoid#2622",
+        "Nickname": "uN1Xoid",
+        "twitch": "un1xoid"
+    },
+    {
+        "ID": 54,
+        "Btag": "Sparda#22878",
+        "Nickname": "Sparda",
+        "twitch": "un1xoid"
+    },
+    {
+        "ID": 54,
+        "Btag": "Archistratig#21103",
+        "Nickname": "Archistratig",
+        "twitch": "un1xoid"
+    },
+    {
+        "ID": 22,
+        "Btag": "KerelStorm#2382",
+        "Nickname": "KerelStorm",
+        "twitch": "kiranakofeine"
+    },
+    {
+        "ID": 23,
+        "Btag": "TaiSaWFly#2144",
+        "Nickname": "TaiSaWFly",
+        "twitch": "TaiSaWFly"
+    },
+    {
+        "ID": 23,
+        "Btag": "Slowpoke#21738,",
+        "Nickname": "Slowpoke",
+        "twitch": "TaiSaWFly"
+    },
+    {
+        "ID": 23,
+        "Btag": "Tai_SaWFly#6521",
+        "Nickname": "Tai_SaWFly",
+        "twitch": "TaiSaWFly"
+    },
+    {
+        "ID": 24,
+        "Btag": "LucidMind#2773",
+        "Nickname": "LucidMind",
+        "twitch": "PleaseDeleteGame"
+    },
+    {
+        "ID": 25,
+        "Btag": "s1lver#2404",
+        "Nickname": "s1lver",
+        "twitch": "s1lv_"
+    },
+    {
+        "ID": 26,
+        "Btag": "CandyCandy#21806",
+        "Nickname": "CandyCandy",
+        "twitch": "CandyCandyOW"
+    },
+    {
+        "ID": 26,
+        "Btag": "C00kie#21548",
+        "Nickname": "C00kie",
+        "twitch": "CandyCandyOW"
+    },
+    {
+        "ID": 27,
+        "Btag": "Tolgrn#2248",
+        "Nickname": "Tolgrn",
+        "twitch": "Tolgrn"
+    },
+    {
+        "ID": 27,
+        "Btag": "Михаил#21833",
+        "Nickname": "Михаил",
+        "twitch": "Tolgrn"
+    },
+    {
+        "ID": 28,
+        "Btag": "dlurtys#2455",
+        "Nickname": "dlurtys",
+        "twitch": "dlurtys"
+    },
+    {
+        "ID": 29,
+        "Btag": "Reelmj#2444",
+        "Nickname": "Reelmj",
+        "twitch": "reelmj"
+    },
+    {
+        "ID": 30,
+        "Btag": "morSevit#2272",
+        "Nickname": "morSevit",
+        "twitch": "morSevit"
+    },
+    {
+        "ID": 31,
+        "Btag": "Sensei44#2921",
+        "Nickname": "Sensei44",
+        "twitch": "sensei_g44"
+    },
+    {
+        "ID": 31,
+        "Btag": "Yurius#21828",
+        "Nickname": "Yurius",
+        "twitch": "sensei_g44"
+    },
+    {
+        "ID": 32,
+        "Btag": "Dikerik#2659",
+        "Nickname": "Dikerik",
+        "twitch": "Dikerik"
+    },
+    {
+        "ID": 32,
+        "Btag": "Papamashi#21290",
+        "Nickname": "Papamashi",
+        "twitch": "Dikerik"
+    },
+    {
+        "ID": 33,
+        "Btag": "kurokurokuro#2370",
+        "Nickname": "kurokurokuro",
+        "twitch": "darthhomius"
+    },
+    {
+        "ID": 34,
+        "Btag": "Freezzle#21837",
+        "Nickname": "Freezzle",
+        "twitch": "freezzle"
+    },
+    {
+        "ID": 34,
+        "Btag": "Boosted#21897",
+        "Nickname": "Boosted",
+        "twitch": "freezzle"
+    },
+    {
+        "ID": 35,
+        "Btag": "cherenok#21210",
+        "Nickname": "cherenok",
+        "twitch": "cherenok69"
+    },
+    {
+        "ID": 35,
+        "Btag": "arskrif#2916",
+        "Nickname": "arskrif",
+        "twitch": "cherenok69"
+    },
+    {
+        "ID": 36,
+        "Btag": "Зайчонок#21109",
+        "Nickname": "Зайчонок",
+        "twitch": "LM989"
+    },
+    {
+        "ID": 37,
+        "Btag": "room#2343",
+        "Nickname": "room",
+        "twitch": "roomssss"
+    },
+    {
+        "ID": 38,
+        "Btag": "MrSpase#21321",
+        "Nickname": "MrSpase",
+        "twitch": "mrspase53"
+    },
+    {
+        "ID": 39,
+        "Btag": "Talos#22431",
+        "Nickname": "Talos",
+        "twitch": "AnyaAnyaa"
+    },
+    {
+        "ID": 39,
+        "Btag": "Anonymous#24832",
+        "Nickname": "Anonymous",
+        "twitch": "AnyaAnyaa"
+    },
+    {
+        "ID": 40,
+        "Btag": "eXEvi#2589",
+        "Nickname": "eXEvi",
+        "twitch": "ex_evi"
+    },
+    {
+        "ID": 41,
+        "Btag": "Pazzle#21707",
+        "Nickname": "Pazzle",
+        "twitch": "Pazzill"
+    },
+    {
+        "ID": 42,
+        "Btag": "tracker#2861",
+        "Nickname": "tracker",
+        "twitch": "mtrackertf2"
+    },
+    {
+        "ID": 43,
+        "Btag": "Noellerox#2167",
+        "Nickname": "Noellerox",
+        "twitch": "Noellerox_"
+    },
+    {
+        "ID": 43,
+        "Btag": "Дарья#21201",
+        "Nickname": "Дарья",
+        "twitch": "Noellerox_"
+    },
+    {
+        "ID": 43,
+        "Btag": "Dice#21840",
+        "Nickname": "Dice",
+        "twitch": "Noellerox_"
+    },
+    {
+        "ID": 44,
+        "Btag": "Askhay#21578",
+        "Nickname": "Askhay",
+        "twitch": "Askhay641"
+    },
+    {
+        "ID": 44,
+        "Btag": "Askhay641#21648",
+        "Nickname": "Askhay641",
+        "twitch": "Askhay641"
+    },
+    {
+        "ID": 45,
+        "Btag": "MIyuki#21854",
+        "Nickname": "MIyuki",
+        "twitch": "miyukaa_"
+    },
+    {
+        "ID": 45,
+        "Btag": "YeonSakura#2244",
+        "Nickname": "YeonSakura",
+        "twitch": "miyukaa_"
+    },
+    {
+        "ID": 46,
+        "Btag": "CrEatIVchIk#21531",
+        "Nickname": "CrEatIVchIk",
+        "twitch": "Hungry_Den"
+    },
+    {
+        "ID": 46,
+        "Btag": "monster#22904",
+        "Nickname": "monster",
+        "twitch": "Hungry_Den"
+    },
+    {
+        "ID": 46,
+        "Btag": "Narkoman2580#2922",
+        "Nickname": "Narkoman2580",
+        "twitch": "Hungry_Den"
+    },
+    {
+        "ID": 47,
+        "Btag": "Cherry#22701",
+        "Nickname": "Cherry",
+        "twitch": "Klafuti_"
+    },
+    {
+        "ID": 48,
+        "Btag": "Snofa#21982",
+        "Nickname": "Snofa",
+        "twitch": "snofa"
+    },
+    {
+        "ID": 49,
+        "Btag": "Artign#2341",
+        "Nickname": "Artign",
+        "twitch": "artign"
+    },
+    {
+        "ID": 50,
+        "Btag": "AuntPetunia#2696",
+        "Nickname": "AuntPetunia",
+        "twitch": "Dyadya_Piton"
+    },
+    {
+        "ID": 51,
+        "Btag": "freestylers#2618",
+        "Nickname": "freestylers",
+        "twitch": "freestylersx"
+    },
+    {
+        "ID": 51,
+        "Btag": "Freesty#21964",
+        "Nickname": "Freesty",
+        "twitch": "freestylersx"
+    },
+    {
+        "ID": 52,
+        "Btag": "Gigabidd#2788",
+        "Nickname": "Gigabidd",
+        "twitch": "Gigabidq"
+    },
+    {
+        "ID": 53,
+        "Btag": "Extra#2857",
+        "Nickname": "Extra",
+        "twitch": "Extra_Naya"
+    },
+    {
+        "ID": 53,
+        "Btag": "Extra#21144",
+        "Nickname": "Extra",
+        "twitch": "Extra_Naya"
+    },
+    {
+        "ID": 21,
+        "Btag": "dasha21cm#2481",
+        "Nickname": "dasha21cm",
+        "twitch": "dashabreeze"
+    },
+    {
+        "ID": 55,
+        "Btag": "Епшик#2736",
+        "Nickname": "Епшик",
+        "twitch": "Epshik"
+    },
+    {
+        "ID": 56,
+        "Btag": "LookAtMyDuck#2249",
+        "Nickname": "LookAtMyDuck",
+        "twitch": "Sugoi_as_fck"
+    },
+    {
+        "ID": 57,
+        "Btag": "RedSkull#2769",
+        "Nickname": "RedSkull",
+        "twitch": "redskull242"
+    },
+    {
+        "ID": 57,
+        "Btag": "JohnSheppard#22830",
+        "Nickname": "JohnSheppard",
+        "twitch": "redskull242"
+    },
+    {
+        "ID": 58,
+        "Btag": "lemonylight7#2785",
+        "Nickname": "lemonylight7",
+        "twitch": "lemonylight7"
+    },
+    {
+        "ID": 59,
+        "Btag": "deadshot#21703",
+        "Nickname": "deadshot",
+        "twitch": "f1ynfall"
+    },
+    {
+        "ID": 59,
+        "Btag": "flynfall#21850",
+        "Nickname": "flynfall",
+        "twitch": "f1ynfall"
+    },
+    {
+        "ID": 60,
+        "Btag": "Frieza666#2313",
+        "Nickname": "Frieza666",
+        "twitch": "Frieza666"
+    },
+    {
+        "ID": 61,
+        "Btag": "jed1master#2662",
+        "Nickname": "jed1master",
+        "twitch": "Jed1Master"
+    },
+    {
+        "ID": 62,
+        "Btag": "Davin4#2286",
+        "Nickname": "Davin4",
+        "twitch": "Davin4i"
+    },
+    {
+        "ID": 62,
+        "Btag": "Widow76#2530",
+        "Nickname": "Widow76",
+        "twitch": "Davin4i"
+    },
+    {
+        "ID": 63,
+        "Btag": "Getrush#2894",
+        "Nickname": "Getrush",
+        "twitch": "getrush_7"
+    },
+    {
+        "ID": 63,
+        "Btag": "Чудогном#220817",
+        "Nickname": "Чудогном",
+        "twitch": "getrush_7"
+    },
+    {
+        "ID": 63,
+        "Btag": "Legenda3012#2540",
+        "Nickname": "Legenda3012",
+        "twitch": "getrush_7"
+    },
+    {
+        "ID": 64,
+        "Btag": "Mello#21505",
+        "Nickname": "Mello",
+        "twitch": "katrin_46"
+    },
+    {
+        "ID": 65,
+        "Btag": "BabaYaga#21533",
+        "Nickname": "BabaYaga",
+        "twitch": "Samura1Blade"
+    },
+    {
+        "ID": 65,
+        "Btag": "MasterShiphy#2621",
+        "Nickname": "MasterShiphy",
+        "twitch": "Samura1Blade"
+    },
+    {
+        "ID": 65,
+        "Btag": "Astardes#21613",
+        "Nickname": "Astardes",
+        "twitch": "Samura1Blade"
+    },
+    {
+        "ID": 66,
+        "Btag": "Karnage#22778",
+        "Nickname": "Karnage",
+        "twitch": "admiralkarnage"
+    },
+    {
+        "ID": 67,
+        "Btag": "ShadowBran#2488",
+        "Nickname": "ShadowBran",
+        "twitch": "mittzki"
+    },
+    {
+        "ID": 68,
+        "Btag": "Geksana#2637",
+        "Nickname": "Geksana",
+        "twitch": "Geksana"
+    },
+    {
+        "ID": 68,
+        "Btag": "Jijin#21368",
+        "Nickname": "Jijin",
+        "twitch": "Geksana"
+    },
+    {
+        "ID": 69,
+        "Btag": "Vsemhoroso#2471",
+        "Nickname": "Vsemhoroso",
+        "twitch": "Vsemhoroso"
+    },
+    {
+        "ID": 70,
+        "Btag": "B1ackMamba#2430",
+        "Nickname": "B1ackMamba",
+        "twitch": "Mr_B1ack_B1ur"
+    },
+    {
+        "ID": 71,
+        "Btag": "Brunsong#21698",
+        "Nickname": "Brunsong",
+        "twitch": "DrBrunsong; NewSleipnir"
+    },
+    {
+        "ID": 72,
+        "Btag": "Honoka#21889",
+        "Nickname": "Honoka",
+        "twitch": "honokawitch"
+    },
+    {
+        "ID": 73,
+        "Btag": "CallMeWizzy#2193",
+        "Nickname": "CallMeWizzy",
+        "twitch": "wizzyquizzy"
+    },
+    {
+        "ID": 74,
+        "Btag": "Montegro#2590",
+        "Nickname": "Montegro",
+        "twitch": "Montegra"
+    },
+    {
+        "ID": 74,
+        "Btag": "Montegro#21167",
+        "Nickname": "Montegro",
+        "twitch": "Montegra"
+    },
+    {
+        "ID": 74,
+        "Btag": "Axiomatic#21932",
+        "Nickname": "Axiomatic",
+        "twitch": "Montegra"
+    },
+    {
+        "ID": 75,
+        "Btag": "Veasun#2788",
+        "Nickname": "Veasun",
+        "twitch": "veasun"
+    },
+    {
+        "ID": 76,
+        "Btag": "Avgust#2477",
+        "Nickname": "Avgust",
+        "twitch": "avgustinn"
+    },
+    {
+        "ID": 76,
+        "Btag": "DoctorWho#22489",
+        "Nickname": "DoctorWho",
+        "twitch": "avgustinn"
+    },
+    {
+        "ID": 77,
+        "Btag": "SwitchOFF#21566",
+        "Nickname": "SwitchOFF",
+        "twitch": "switchoff"
+    },
+    {
+        "ID": 77,
+        "Btag": "KillaShkreck#2830",
+        "Nickname": "KillaShkreck",
+        "twitch": "switchoff"
+    },
+    {
+        "ID": 78,
+        "Btag": "GoodImp#2660",
+        "Nickname": "GoodImp",
+        "twitch": "GoodImp"
+    },
+    {
+        "ID": 78,
+        "Btag": "GoodImp#22562",
+        "Nickname": "GoodImp",
+        "twitch": "GoodImp"
+    },
+    {
+        "ID": 79,
+        "Btag": "CuChulainn#21911",
+        "Nickname": "CuChulainn",
+        "twitch": "gae_bolg"
+    },
+    {
+        "ID": 80,
+        "Btag": "Warrkan#1755",
+        "Nickname": "Warrkan",
+        "twitch": "warrkan_7734"
+    },
+    {
+        "ID": 80,
+        "Btag": "Turbokiller#21324",
+        "Nickname": "Turbokiller",
+        "twitch": "warrkan_7734"
+    },
+    {
+        "ID": 81,
+        "Btag": "vader181#2765",
+        "Nickname": "vader181",
+        "twitch": "vader181"
+    },
+    {
+        "ID": 82,
+        "Btag": "Slogger#21148",
+        "Nickname": "Slogger",
+        "twitch": "slogger"
+    },
+    {
+        "ID": 82,
+        "Btag": "LitleSlogger#2397",
+        "Nickname": "LitleSlogger",
+        "twitch": "slogger"
+    },
+    {
+        "ID": 83,
+        "Btag": "Hardstylerz#21775",
+        "Nickname": "Hardstylerz",
+        "twitch": "Hardstylerzzx"
+    },
+    {
+        "ID": 84,
+        "Btag": "GOLD#22429",
+        "Nickname": "GOLD",
+        "twitch": "xx_GOLD_x"
+    },
+    {
+        "ID": 85,
+        "Btag": "ReinLu#2607",
+        "Nickname": "ReinLu",
+        "twitch": "reinlu"
+    },
+    {
+        "ID": 86,
+        "Btag": "Yasparady#2398",
+        "Nickname": "Yasparady",
+        "twitch": "Arawilds"
+    },
+    {
+        "ID": 86,
+        "Btag": "Arawilds#2795",
+        "Nickname": "Arawilds",
+        "twitch": "Arawilds"
+    },
+    {
+        "ID": 87,
+        "Btag": "zubermann#2460",
+        "Nickname": "zubermann",
+        "twitch": "megapupkin"
+    },
+    {
+        "ID": 87,
+        "Btag": "megapupkin#",
+        "Nickname": "megapupkin",
+        "twitch": "megapupkin"
+    },
+    {
+        "ID": 88,
+        "Btag": "Kars#21831",
+        "Nickname": "Kars",
+        "twitch": "dvoretzkiysebas"
+    },
+    {
+        "ID": 89,
+        "Btag": "corowa#2997",
+        "Nickname": "corowa",
+        "twitch": "genrikh302"
+    },
+    {
+        "ID": 89,
+        "Btag": "GoodThought#2808",
+        "Nickname": "GoodThought",
+        "twitch": "genrikh302"
+    },
+    {
+        "ID": 90,
+        "Btag": "LnSky#21756",
+        "Nickname": "LnSky",
+        "twitch": "LnSky_"
+    },
+    {
+        "ID": 91,
+        "Btag": "Chuvachela#21342",
+        "Nickname": "Chuvachela",
+        "twitch": "chuvachela_"
+    },
+    {
+        "ID": 92,
+        "Btag": "Axe#1348",
+        "Nickname": "Axe",
+        "twitch": "Axeisdead"
+    },
+    {
+        "ID": 93,
+        "Btag": "Onarh#2381",
+        "Nickname": "Onarh",
+        "twitch": "onarhl"
+    },
+    {
+        "ID": 94,
+        "Btag": "Mishail#21762",
+        "Nickname": "Mishail",
+        "twitch": "Etherrrnet"
+    },
+    {
+        "ID": 95,
+        "Btag": "ReCreator#21832",
+        "Nickname": "ReCreator",
+        "twitch": "unreal_captain"
+    },
+    {
+        "ID": 95,
+        "Btag": "Motivated#21509",
+        "Nickname": "Motivated",
+        "twitch": "unreal_captain"
+    },
+    {
+        "ID": 96,
+        "Btag": "alisaking#2732",
+        "Nickname": "alisaking",
+        "twitch": "alisaking"
+    },
+    {
+        "ID": 96,
+        "Btag": "KekSick#21761,",
+        "Nickname": "KekSick",
+        "twitch": "alisaking"
+    },
+    {
+        "ID": 96,
+        "Btag": "Manga#21130,",
+        "Nickname": "Manga",
+        "twitch": "alisaking"
+    },
+    {
+        "ID": 96,
+        "Btag": "Raduga#21642",
+        "Nickname": "Raduga",
+        "twitch": "alisaking"
+    },
+    {
+        "ID": 97,
+        "Btag": "Crabretti#2650",
+        "Nickname": "Crabretti",
+        "twitch": "crabretti"
+    },
+    {
+        "ID": 97,
+        "Btag": "ХитрыйКраб#27182",
+        "Nickname": "ХитрыйКраб",
+        "twitch": "crabretti"
+    },
+    {
+        "ID": 97,
+        "Btag": "Croobs#2449",
+        "Nickname": "Croobs",
+        "twitch": "crabretti"
+    },
+    {
+        "ID": 98,
+        "Btag": "VicExtreme#2402",
+        "Nickname": "VicExtreme",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 98,
+        "Btag": "VicEver#2652",
+        "Nickname": "VicEver",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 98,
+        "Btag": "VicEver2#2688",
+        "Nickname": "VicEver2",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 99,
+        "Btag": "PsyVers#2608",
+        "Nickname": "PsyVers",
+        "twitch": "PsyVers"
+    },
+    {
+        "ID": 99,
+        "Btag": "JugemJugem#21589",
+        "Nickname": "JugemJugem",
+        "twitch": "PsyVers"
+    },
+    {
+        "ID": 100,
+        "Btag": "kranopodem#2598",
+        "Nickname": "kranopodem",
+        "twitch": "kranopodem"
+    },
+    {
+        "ID": 101,
+        "Btag": "Teama#21301",
+        "Nickname": "Teama",
+        "twitch": "Pachiimuri"
+    },
+    {
+        "ID": 102,
+        "Btag": "Hendo#21647",
+        "Nickname": "Hendo",
+        "twitch": "grim_hendo_"
+    },
+    {
+        "ID": 103,
+        "Btag": "vles#21994",
+        "Nickname": "vles",
+        "twitch": "vlles"
+    },
+    {
+        "ID": 104,
+        "Btag": "Waizy#21480",
+        "Nickname": "Waizy",
+        "twitch": "Waizyz"
+    },
+    {
+        "ID": 105,
+        "Btag": "pear#2939",
+        "Nickname": "pear",
+        "twitch": "skryaga_"
+    },
+    {
+        "ID": 105,
+        "Btag": "applepie#21173",
+        "Nickname": "applepie",
+        "twitch": "skryaga_"
+    },
+    {
+        "ID": 106,
+        "Btag": "Evankhelm#2561",
+        "Nickname": "Evankhelm",
+        "twitch": "Evankhelm"
+    },
+    {
+        "ID": 106,
+        "Btag": "Black#2954",
+        "Nickname": "Black",
+        "twitch": "Evankhelm"
+    },
+    {
+        "ID": 107,
+        "Btag": "MaGistR#21158",
+        "Nickname": "MaGistR",
+        "twitch": "Magistr248"
+    },
+    {
+        "ID": 107,
+        "Btag": "Kratos#26547",
+        "Nickname": "Kratos",
+        "twitch": "Magistr248"
+    },
+    {
+        "ID": 108,
+        "Btag": "hiegirsis#2198",
+        "Nickname": "hiegirsis",
+        "twitch": "Hiegirsiss"
+    },
+    {
+        "ID": 109,
+        "Btag": "zMize#2978",
+        "Nickname": "zMize",
+        "twitch": "zMize"
+    },
+    {
+        "ID": 110,
+        "Btag": "Babaika#21292",
+        "Nickname": "Babaika",
+        "twitch": "Babaikah"
+    },
+    {
+        "ID": 110,
+        "Btag": "Mimimi#22859",
+        "Nickname": "Mimimi",
+        "twitch": "Babaikah"
+    },
+    {
+        "ID": 111,
+        "Btag": "Eternity#22994",
+        "Nickname": "Eternity",
+        "twitch": "ILQsk"
+    },
+    {
+        "ID": 111,
+        "Btag": "ilq#21883",
+        "Nickname": "ilq",
+        "twitch": "ILQsk"
+    },
+    {
+        "ID": 112,
+        "Btag": "Starche#2116",
+        "Nickname": "Starche",
+        "twitch": "ArtStarche"
+    },
+    {
+        "ID": 113,
+        "Btag": "mota#21212",
+        "Nickname": "mota",
+        "twitch": "mota_po"
+    },
+    {
+        "ID": 113,
+        "Btag": "kyon#21318",
+        "Nickname": "kyon",
+        "twitch": "mota_po"
+    },
+    {
+        "ID": 114,
+        "Btag": "DelaQure#2427",
+        "Nickname": "DelaQure",
+        "twitch": "DelaQure"
+    },
+    {
+        "ID": 115,
+        "Btag": "FirstSin#21384",
+        "Nickname": "FirstSin",
+        "twitch": "first_sin"
+    },
+    {
+        "ID": 115,
+        "Btag": "PLUSULTRA#21832,",
+        "Nickname": "PLUSULTRA",
+        "twitch": "first_sin"
+    },
+    {
+        "ID": 115,
+        "Btag": "NeverGiveUP#21513",
+        "Nickname": "NeverGiveUP",
+        "twitch": "first_sin"
+    },
+    {
+        "ID": 115,
+        "Btag": "Orche#21422",
+        "Nickname": "Orche",
+        "twitch": "first_sin"
+    },
+    {
+        "ID": 116,
+        "Btag": "Sa5aiKudasai#2342",
+        "Nickname": "Sa5aiKudasai",
+        "twitch": "Mimokrokodi1"
+    },
+    {
+        "ID": 117,
+        "Btag": "ZL0YW0LK#2133",
+        "Nickname": "ZL0YW0LK",
+        "twitch": "ZL0YW0LK"
+    },
+    {
+        "ID": 117,
+        "Btag": "DemonHunter#2535",
+        "Nickname": "DemonHunter",
+        "twitch": "ZL0YW0LK"
+    },
+    {
+        "ID": 118,
+        "Btag": "svevoloch#2433",
+        "Nickname": "svevoloch",
+        "twitch": "svevoloch"
+    },
+    {
+        "ID": 119,
+        "Btag": "Rio#22414",
+        "Nickname": "Rio",
+        "twitch": "Timurrio"
+    },
+    {
+        "ID": 120,
+        "Btag": "neur0nix#2927",
+        "Nickname": "neur0nix",
+        "twitch": "neur0nix"
+    },
+    {
+        "ID": 121,
+        "Btag": "resmaster#21468",
+        "Nickname": "resmaster",
+        "twitch": "ResFlowMaster"
+    },
+    {
+        "ID": 122,
+        "Btag": "ArgentySky#2423",
+        "Nickname": "ArgentySky",
+        "twitch": "ArSky_ow(бывш. kopoJIb_aHca6oB)"
+    },
+    {
+        "ID": 123,
+        "Btag": "Lizard#21839",
+        "Nickname": "Lizard",
+        "twitch": "lizzard_1337"
+    },
+    {
+        "ID": 124,
+        "Btag": "Scene#21517",
+        "Nickname": "Scene",
+        "twitch": "KateScene"
+    },
+    {
+        "ID": 124,
+        "Btag": "Sight#21441",
+        "Nickname": "Sight",
+        "twitch": "KateScene"
+    },
+    {
+        "ID": 125,
+        "Btag": "FuNyTrO#21928",
+        "Nickname": "FuNyTrO",
+        "twitch": "funytro"
+    },
+    {
+        "ID": 126,
+        "Btag": "gRayWoLf#21983",
+        "Nickname": "gRayWoLf",
+        "twitch": "gRayWoLf113"
+    },
+    {
+        "ID": 127,
+        "Btag": "YBIVASHKA#2377",
+        "Nickname": "YBIVASHKA",
+        "twitch": "XYJINGUN"
+    },
+    {
+        "ID": 128,
+        "Btag": "KrulTepes#21956",
+        "Nickname": "KrulTepes",
+        "twitch": "Ibela_dimitrescu"
+    },
+    {
+        "ID": 128,
+        "Btag": "Meliodas#24994",
+        "Nickname": "Meliodas",
+        "twitch": "Ibela_dimitrescu"
+    },
+    {
+        "ID": 129,
+        "Btag": "Esternit#2726",
+        "Nickname": "Esternit",
+        "twitch": "esternit"
+    },
+    {
+        "ID": 130,
+        "Btag": "Михан#21694",
+        "Nickname": "Михан",
+        "twitch": "BL3656"
+    },
+    {
+        "ID": 130,
+        "Btag": "Миха#21137",
+        "Nickname": "Миха",
+        "twitch": "BL3656"
+    },
+    {
+        "ID": 131,
+        "Btag": "Discor#2933",
+        "Nickname": "Discor",
+        "twitch": "Green_Valet"
+    },
+    {
+        "ID": 132,
+        "Btag": "Liberate#2320",
+        "Nickname": "Liberate",
+        "twitch": "libretei"
+    },
+    {
+        "ID": 133,
+        "Btag": "Larwyd#2215",
+        "Nickname": "Larwyd",
+        "twitch": "Larchq"
+    },
+    {
+        "ID": 134,
+        "Btag": "dimas228#",
+        "Nickname": "dimas228",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 134,
+        "Btag": "Aimbottzfan1#2234",
+        "Nickname": "Aimbottzfan1",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 134,
+        "Btag": "СаПоРтАсАсИн#2244",
+        "Nickname": "СаПоРтАсАсИн",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 134,
+        "Btag": "TheBest#22550",
+        "Nickname": "TheBest",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 135,
+        "Btag": "lilamurasaki#2783",
+        "Nickname": "lilamurasaki",
+        "twitch": "lilamurasaki_"
+    },
+    {
+        "ID": 135,
+        "Btag": "Shinobibox#2433",
+        "Nickname": "Shinobibox",
+        "twitch": "lilamurasaki_"
+    },
+    {
+        "ID": 136,
+        "Btag": "Esperanto#21766",
+        "Nickname": "Esperanto",
+        "twitch": "TotallyAccuratee"
+    },
+    {
+        "ID": 137,
+        "Btag": "bruno#24723",
+        "Nickname": "bruno",
+        "twitch": "bruno_kiki"
+    },
+    {
+        "ID": 138,
+        "Btag": "Печенька#22693",
+        "Nickname": "Печенька",
+        "twitch": "psina_tatarskaia"
+    },
+    {
+        "ID": 138,
+        "Btag": "Psina#21290",
+        "Nickname": "Psina",
+        "twitch": "psina_tatarskaia"
+    },
+    {
+        "ID": 139,
+        "Btag": "eug#2513",
+        "Nickname": "eug",
+        "twitch": "elfcheg"
+    },
+    {
+        "ID": 140,
+        "Btag": "sindeiruNANI#2967",
+        "Nickname": "sindeiruNANI",
+        "twitch": "sindeiru"
+    },
+    {
+        "ID": 141,
+        "Btag": "Wokalist#2447",
+        "Nickname": "Wokalist",
+        "twitch": "WoKaLiSt"
+    },
+    {
+        "ID": 142,
+        "Btag": "megamourlaw#2526",
+        "Nickname": "megamourlaw",
+        "twitch": "megamurlaw"
+    },
+    {
+        "ID": 142,
+        "Btag": "olapah#2293",
+        "Nickname": "olapah",
+        "twitch": "megamurlaw"
+    },
+    {
+        "ID": 142,
+        "Btag": "m3lting3y3#1925",
+        "Nickname": "m3lting3y3",
+        "twitch": "megamurlaw"
+    },
+    {
+        "ID": 143,
+        "Btag": "PUPSIK#21628",
+        "Nickname": "PUPSIK",
+        "twitch": "pupsik__ow"
+    },
+    {
+        "ID": 143,
+        "Btag": "Mari#22812",
+        "Nickname": "Mari",
+        "twitch": "pupsik__ow"
+    },
+    {
+        "ID": 143,
+        "Btag": "БичПакет#21807",
+        "Nickname": "БичПакет",
+        "twitch": "pupsik__ow"
+    },
+    {
+        "ID": 144,
+        "Btag": "ALVAREZ#2349",
+        "Nickname": "ALVAREZ",
+        "twitch": "alvarez_ska"
+    },
+    {
+        "ID": 145,
+        "Btag": "WOOG007#2317",
+        "Nickname": "WOOG007",
+        "twitch": "WOOG007"
+    },
+    {
+        "ID": 145,
+        "Btag": "etonesmurf#2224",
+        "Nickname": "etonesmurf",
+        "twitch": "WOOG007"
+    },
+    {
+        "ID": 145,
+        "Btag": "NICOgda#2403",
+        "Nickname": "NICOgda",
+        "twitch": "WOOG007"
+    },
+    {
+        "ID": 146,
+        "Btag": "meOwO#2736",
+        "Nickname": "meOwO",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 146,
+        "Btag": "Nika#21943",
+        "Nickname": "Nika",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 147,
+        "Btag": "nazol#2614",
+        "Nickname": "nazol",
+        "twitch": "nazol"
+    },
+    {
+        "ID": 148,
+        "Btag": "qwerty#2509",
+        "Nickname": "qwerty",
+        "twitch": "Qwertyomsk"
+    },
+    {
+        "ID": 149,
+        "Btag": "Odium#21771",
+        "Nickname": "Odium",
+        "twitch": "konditioner192"
+    },
+    {
+        "ID": 149,
+        "Btag": "BloodCat#21692",
+        "Nickname": "BloodCat",
+        "twitch": "konditioner192"
+    },
+    {
+        "ID": 150,
+        "Btag": "AndreySh04#2723",
+        "Nickname": "AndreySh04",
+        "twitch": "AndreySh04"
+    },
+    {
+        "ID": 151,
+        "Btag": "Lik#2736",
+        "Nickname": "Lik",
+        "twitch": "mrLIK"
+    },
+    {
+        "ID": 151,
+        "Btag": "DONTCRYBABY#21464",
+        "Nickname": "DONTCRYBABY",
+        "twitch": "mrLIK"
+    },
+    {
+        "ID": 152,
+        "Btag": "Starosta#2154",
+        "Nickname": "Starosta",
+        "twitch": "starosta_games"
+    },
+    {
+        "ID": 153,
+        "Btag": "Misteras3#2893",
+        "Nickname": "Misteras3",
+        "twitch": "Misteras3"
+    },
+    {
+        "ID": 153,
+        "Btag": "SilentSword#24252",
+        "Nickname": "SilentSword",
+        "twitch": "Misteras3"
+    },
+    {
+        "ID": 154,
+        "Btag": "BobDoSmth#2971",
+        "Nickname": "BobDoSmth",
+        "twitch": "poohMeeDoor"
+    },
+    {
+        "ID": 154,
+        "Btag": "ShrimpChimp#21696,",
+        "Nickname": "ShrimpChimp",
+        "twitch": "poohMeeDoor"
+    },
+    {
+        "ID": 154,
+        "Btag": "Ньярлатотеп#21953,",
+        "Nickname": "Ньярлатотеп",
+        "twitch": "poohMeeDoor"
+    },
+    {
+        "ID": 154,
+        "Btag": "LeroyJenkins#21972,",
+        "Nickname": "LeroyJenkins",
+        "twitch": "poohMeeDoor"
+    },
+    {
+        "ID": 155,
+        "Btag": "Ǩõŋđëŗǃ#2507",
+        "Nickname": "Ǩõŋđëŗǃ",
+        "twitch": "KonderLip"
+    },
+    {
+        "ID": 155,
+        "Btag": "Nagibator#23591,",
+        "Nickname": "Nagibator",
+        "twitch": "KonderLip"
+    },
+    {
+        "ID": 155,
+        "Btag": "РобоЭлерк#2420",
+        "Nickname": "РобоЭлерк",
+        "twitch": "KonderLip"
+    },
+    {
+        "ID": 156,
+        "Btag": "Matroskin#21436",
+        "Nickname": "Matroskin",
+        "twitch": "atomiclepr0"
+    },
+    {
+        "ID": 157,
+        "Btag": "Aenyeweddien#21419",
+        "Nickname": "Aenyeweddien",
+        "twitch": "muramnesia"
+    },
+    {
+        "ID": 158,
+        "Btag": "msFiBi#2970",
+        "Nickname": "msFiBi",
+        "twitch": "msFiBi"
+    },
+    {
+        "ID": 158,
+        "Btag": "DirtyDiana#21674,",
+        "Nickname": "DirtyDiana",
+        "twitch": "msFiBi"
+    },
+    {
+        "ID": 158,
+        "Btag": "Bladerunner#22152",
+        "Nickname": "Bladerunner",
+        "twitch": "msFiBi"
+    },
+    {
+        "ID": 159,
+        "Btag": "Милада#21386",
+        "Nickname": "Милада",
+        "twitch": "eugen100001"
+    },
+    {
+        "ID": 160,
+        "Btag": "Паныч#2776",
+        "Nickname": "Паныч",
+        "twitch": "Panblch"
+    },
+    {
+        "ID": 161,
+        "Btag": "lLatinoSs#2776",
+        "Nickname": "lLatinoSs",
+        "twitch": "lLatinoSs"
+    },
+    {
+        "ID": 162,
+        "Btag": "QBoost#21658",
+        "Nickname": "QBoost",
+        "twitch": "nakitsuu"
+    },
+    {
+        "ID": 163,
+        "Btag": "Oikawa#21531",
+        "Nickname": "Oikawa",
+        "twitch": "T_Oikawa"
+    },
+    {
+        "ID": 163,
+        "Btag": "Vanitas#21300",
+        "Nickname": "Vanitas",
+        "twitch": "T_Oikawa"
+    },
+    {
+        "ID": 164,
+        "Btag": "Terrenkur#2574",
+        "Nickname": "Terrenkur",
+        "twitch": "terrenkur"
+    },
+    {
+        "ID": 165,
+        "Btag": "Agent#2924",
+        "Nickname": "Agent",
+        "twitch": "agnt89"
+    },
+    {
+        "ID": 166,
+        "Btag": "Yoite#2602",
+        "Nickname": "Yoite",
+        "twitch": "Yoite_42"
+    },
+    {
+        "ID": 167,
+        "Btag": "Ryry#21282",
+        "Nickname": "Ryry",
+        "twitch": "Ryryr0"
+    },
+    {
+        "ID": 167,
+        "Btag": "Rozvitchik#2789",
+        "Nickname": "Rozvitchik",
+        "twitch": "Ryryr0"
+    },
+    {
+        "ID": 168,
+        "Btag": "Fairness#2888",
+        "Nickname": "Fairness",
+        "twitch": "Faerness"
+    },
+    {
+        "ID": 169,
+        "Btag": "Delifas#2245",
+        "Nickname": "Delifas",
+        "twitch": "Avolber"
+    },
+    {
+        "ID": 169,
+        "Btag": "Avolber#2648",
+        "Nickname": "Avolber",
+        "twitch": "Avolber"
+    },
+    {
+        "ID": 170,
+        "Btag": "Karin#21315",
+        "Nickname": "Karin",
+        "twitch": "KarinPride"
+    },
+    {
+        "ID": 171,
+        "Btag": "tia#22266",
+        "Nickname": "tia",
+        "twitch": "tia_ti"
+    },
+    {
+        "ID": 171,
+        "Btag": "syberia#21716",
+        "Nickname": "syberia",
+        "twitch": "tia_ti"
+    },
+    {
+        "ID": 172,
+        "Btag": "SacredSine#2442",
+        "Nickname": "SacredSine",
+        "twitch": "sacredsine"
+    },
+    {
+        "ID": 173,
+        "Btag": "TyopliyStan#2210",
+        "Nickname": "TyopliyStan",
+        "twitch": "Tyopliy_Stan"
+    },
+    {
+        "ID": 174,
+        "Btag": "ChB#21715",
+        "Nickname": "ChB",
+        "twitch": "CHBIII"
+    },
+    {
+        "ID": 175,
+        "Btag": "HEYD#21717",
+        "Nickname": "HEYD",
+        "twitch": "heydthis"
+    },
+    {
+        "ID": 220,
+        "Btag": "Sunohara#2759",
+        "Nickname": "Sunohara",
+        "twitch": "ataringa"
+    },
+    {
+        "ID": 177,
+        "Btag": "Игорь#25603",
+        "Nickname": "Игорь",
+        "twitch": "igortonet"
+    },
+    {
+        "ID": 177,
+        "Btag": "Agent46#21300",
+        "Nickname": "Agent46",
+        "twitch": "igortonet"
+    },
+    {
+        "ID": 178,
+        "Btag": "Tohinsky#2889",
+        "Nickname": "Tohinsky",
+        "twitch": "Tohinskyy"
+    },
+    {
+        "ID": 179,
+        "Btag": "silentfly#2480",
+        "Nickname": "silentfly",
+        "twitch": "silentflyart"
+    },
+    {
+        "ID": 180,
+        "Btag": "VasyaNyasha#2338",
+        "Nickname": "VasyaNyasha",
+        "twitch": "vasya_nyasha"
+    },
+    {
+        "ID": 181,
+        "Btag": "Ronik#21669",
+        "Nickname": "Ronik",
+        "twitch": "old_ronik"
+    },
+    {
+        "ID": 182,
+        "Btag": "Ttan#21893",
+        "Nickname": "Ttan",
+        "twitch": "ttan69"
+    },
+    {
+        "ID": 183,
+        "Btag": "True#21266",
+        "Nickname": true,
+        "twitch": "SunrisenN"
+    },
+    {
+        "ID": 184,
+        "Btag": "Dreamer#23280",
+        "Nickname": "Dreamer",
+        "twitch": "Dreamer_support"
+    },
+    {
+        "ID": 185,
+        "Btag": "HugsyHog#2210",
+        "Nickname": "HugsyHog",
+        "twitch": "HugsyHog"
+    },
+    {
+        "ID": 186,
+        "Btag": "Djentleman#21217",
+        "Nickname": "Djentleman",
+        "twitch": "Chebuhtarych"
+    },
+    {
+        "ID": 187,
+        "Btag": "Koneko#22561",
+        "Nickname": "Koneko",
+        "twitch": "Koneko_koneko"
+    },
+    {
+        "ID": 188,
+        "Btag": "ДЕДЇНСАЙД666#2137",
+        "Nickname": "ДЕДЇНСАЙД666",
+        "twitch": "larem1n"
+    },
+    {
+        "ID": 188,
+        "Btag": "larem1n#",
+        "Nickname": "larem1n",
+        "twitch": "larem1n"
+    },
+    {
+        "ID": 189,
+        "Btag": "Rorzak#21960",
+        "Nickname": "Rorzak",
+        "twitch": "rorzakk"
+    },
+    {
+        "ID": 190,
+        "Btag": "Кекснавечер#2670",
+        "Nickname": "Кекснавечер",
+        "twitch": "keks_na_vecher"
+    },
+    {
+        "ID": 191,
+        "Btag": "Kilot17#2855",
+        "Nickname": "Kilot17",
+        "twitch": "Kilot1703"
+    },
+    {
+        "ID": 192,
+        "Btag": "BlackFenek#2186",
+        "Nickname": "BlackFenek",
+        "twitch": "BlackFenek"
+    },
+    {
+        "ID": 193,
+        "Btag": "Ego2nd#2357",
+        "Nickname": "Ego2nd",
+        "twitch": "alexeynibo"
+    },
+    {
+        "ID": 193,
+        "Btag": "Ego1st#2207",
+        "Nickname": "Ego1st",
+        "twitch": "alexeynibo"
+    },
+    {
+        "ID": 194,
+        "Btag": "nbslab#2598",
+        "Nickname": "nbslab",
+        "twitch": "nbslab138"
+    },
+    {
+        "ID": 194,
+        "Btag": "NERFME#21145",
+        "Nickname": "NERFME",
+        "twitch": "nbslab138"
+    },
+    {
+        "ID": 195,
+        "Btag": "MoonBunny#21237",
+        "Nickname": "MoonBunny",
+        "twitch": "MoonBunnyZ"
+    },
+    {
+        "ID": 195,
+        "Btag": "Daddy#22434",
+        "Nickname": "Daddy",
+        "twitch": "MoonBunnyZ"
+    },
+    {
+        "ID": 196,
+        "Btag": "KuckaMyrka#2279",
+        "Nickname": "KuckaMyrka",
+        "twitch": "69JessicaRabbit"
+    },
+    {
+        "ID": 197,
+        "Btag": "betelgeuse#21560",
+        "Nickname": "betelgeuse",
+        "twitch": "6nein9"
+    },
+    {
+        "ID": 198,
+        "Btag": "ParaMuerte#2509",
+        "Nickname": "ParaMuerte",
+        "twitch": "para_muerte"
+    },
+    {
+        "ID": 199,
+        "Btag": "St1nGeR#2341",
+        "Nickname": "St1nGeR",
+        "twitch": "St111nGeR"
+    },
+    {
+        "ID": 200,
+        "Btag": "исуся#21443",
+        "Nickname": "исуся",
+        "twitch": "sysl9k"
+    },
+    {
+        "ID": 201,
+        "Btag": "Chicha#21166",
+        "Nickname": "Chicha",
+        "twitch": "M1shaa_"
+    },
+    {
+        "ID": 202,
+        "Btag": "AnnaDit#2617",
+        "Nickname": "AnnaDit",
+        "twitch": "Anna_dit"
+    },
+    {
+        "ID": 203,
+        "Btag": "KuriGohaN#2535",
+        "Nickname": "KuriGohaN",
+        "twitch": "KuriGohaNow"
+    },
+    {
+        "ID": 204,
+        "Btag": "Attic#21248",
+        "Nickname": "Attic",
+        "twitch": "co6aka_py"
+    },
+    {
+        "ID": 204,
+        "Btag": "Zolder#21821",
+        "Nickname": "Zolder",
+        "twitch": "co6aka_py"
+    },
+    {
+        "ID": 205,
+        "Btag": "Bergar#21350",
+        "Nickname": "Bergar",
+        "twitch": "Regar__"
+    },
+    {
+        "ID": 205,
+        "Btag": "Regar#21571",
+        "Nickname": "Regar",
+        "twitch": "Regar__"
+    },
+    {
+        "ID": 206,
+        "Btag": "RECTOR#21219",
+        "Nickname": "RECTOR",
+        "twitch": "professorforu"
+    },
+    {
+        "ID": 207,
+        "Btag": "Dreamcatcher#22653",
+        "Nickname": "Dreamcatcher",
+        "twitch": "Daria_Shadow"
+    },
+    {
+        "ID": 208,
+        "Btag": "Kovy#21866",
+        "Nickname": "Kovy",
+        "twitch": "imkovy16"
+    },
+    {
+        "ID": 209,
+        "Btag": "NOOIR#21303",
+        "Nickname": "NOOIR",
+        "twitch": "N00IR"
+    },
+    {
+        "ID": 210,
+        "Btag": "СуперОлег#21465",
+        "Nickname": "СуперОлег",
+        "twitch": "SuperOlegPlay"
+    },
+    {
+        "ID": 211,
+        "Btag": "indemori#2293",
+        "Nickname": "indemori",
+        "twitch": "indemori"
+    },
+    {
+        "ID": 212,
+        "Btag": "Toha#21831",
+        "Nickname": "Toha",
+        "twitch": "Tohinskyy"
+    },
+    {
+        "ID": 213,
+        "Btag": "BULLY#21194",
+        "Nickname": "BULLY",
+        "twitch": "bully_ow"
+    },
+    {
+        "ID": 213,
+        "Btag": "TORBMASTER69#2890",
+        "Nickname": "TORBMASTER69",
+        "twitch": "bully_ow"
+    },
+    {
+        "ID": 214,
+        "Btag": "Herdoctor#2981",
+        "Nickname": "Herdoctor",
+        "twitch": "Rjoctor"
+    },
+    {
+        "ID": 215,
+        "Btag": "wintero#2409",
+        "Nickname": "wintero",
+        "twitch": "kkg2005"
+    },
+    {
+        "ID": 216,
+        "Btag": "eatmeplzzz#1751",
+        "Nickname": "eatmeplzzz",
+        "twitch": "eatmewhilesocold"
+    },
+    {
+        "ID": 217,
+        "Btag": "Legacy#21673",
+        "Nickname": "Legacy",
+        "twitch": "legacy1322"
+    },
+    {
+        "ID": 218,
+        "Btag": "Wartim#21404",
+        "Nickname": "Wartim",
+        "twitch": "CAH4E3_3"
+    },
+    {
+        "ID": 219,
+        "Btag": "Zafkiel#21174",
+        "Nickname": "Zafkiel",
+        "twitch": "The_DocToRo_"
+    },
+    {
+        "ID": 220,
+        "Btag": "ataringa#21441",
+        "Nickname": "ataringa",
+        "twitch": "ataringa"
+    },
+    {
+        "ID": 221,
+        "Btag": "Magnus#2695",
+        "Nickname": "Magnus",
+        "twitch": "immortaall"
+    },
+    {
+        "ID": 222,
+        "Btag": "Naofumi#21626",
+        "Nickname": "Naofumi",
+        "twitch": "NakonOW"
+    },
+    {
+        "ID": 223,
+        "Btag": "IsMyLovE#2724",
+        "Nickname": "IsMyLovE",
+        "twitch": "Kromus22"
+    },
+    {
+        "ID": 224,
+        "Btag": "Diodor#21993",
+        "Nickname": "Diodor",
+        "twitch": "otec_diodor"
+    },
+    {
+        "ID": 225,
+        "Btag": "Xeqyz#2779",
+        "Nickname": "Xeqyz",
+        "twitch": "Chlor_Witch"
+    },
+    {
+        "ID": 226,
+        "Btag": "MRG#21609",
+        "Nickname": "MRG",
+        "twitch": "Vonudog"
+    },
+    {
+        "ID": 227,
+        "Btag": "tEm#21199",
+        "Nickname": "tEm",
+        "twitch": "Stupidu"
+    },
+    {
+        "ID": 228,
+        "Btag": "Qyryalien#2574",
+        "Nickname": "Qyryalien",
+        "twitch": "qyryalien"
+    },
+    {
+        "ID": 229,
+        "Btag": "MilkDaddy#2906",
+        "Nickname": "MilkDaddy",
+        "twitch": "nektar_or_neki"
+    },
+    {
+        "ID": 230,
+        "Btag": "crash#23867",
+        "Nickname": "crash",
+        "twitch": "crash_yopta"
+    },
+    {
+        "ID": 231,
+        "Btag": "fyh#21892",
+        "Nickname": "fyh",
+        "twitch": "fyh_tac"
+    },
+    {
+        "ID": 231,
+        "Btag": "julienk53#2286",
+        "Nickname": "julienk53",
+        "twitch": "fyh_tac"
+    },
+    {
+        "ID": 232,
+        "Btag": "Mishkau#2719",
+        "Nickname": "Mishkau",
+        "twitch": "Mishkau"
+    },
+    {
+        "ID": 233,
+        "Btag": "MrLanzo#2963",
+        "Nickname": "MrLanzo",
+        "twitch": "MrLanzo"
+    },
+    {
+        "ID": 234,
+        "Btag": "WildestMan#2404",
+        "Nickname": "WildestMan",
+        "twitch": "tilt_s_Kalugi"
+    },
+    {
+        "ID": 235,
+        "Btag": "ShaMan#2747",
+        "Nickname": "ShaMan",
+        "twitch": "LambdaShaman"
+    },
+    {
+        "ID": 236,
+        "Btag": "Chio#21265",
+        "Nickname": "Chio",
+        "twitch": "ChioTV"
+    },
+    {
+        "ID": 237,
+        "Btag": "Jueblack#2814",
+        "Nickname": "Jueblack",
+        "twitch": "MrJoeblack47"
+    },
+    {
+        "ID": 238,
+        "Btag": "Demis#2138",
+        "Nickname": "Demis",
+        "twitch": "dm_angel"
+    },
+    {
+        "ID": 239,
+        "Btag": "alicelynx#21445",
+        "Nickname": "alicelynx",
+        "twitch": "alicelynx"
+    },
+    {
+        "ID": 240,
+        "Btag": "ichiru#21839",
+        "Nickname": "ichiru",
+        "twitch": "conserva98"
+    },
+    {
+        "ID": 241,
+        "Btag": "GefGanty#2458",
+        "Nickname": "GefGanty",
+        "twitch": "gefganty"
+    },
+    {
+        "ID": 242,
+        "Btag": "LostSanity#2661",
+        "Nickname": "LostSanity",
+        "twitch": "TheLostSaneness"
+    },
+    {
+        "ID": 243,
+        "Btag": "Anhelson#2172",
+        "Nickname": "Anhelson",
+        "twitch": "Anhelson"
+    },
+    {
+        "ID": 244,
+        "Btag": "Lideda#2709",
+        "Nickname": "Lideda",
+        "twitch": "lideda"
+    },
+    {
+        "ID": 245,
+        "Btag": "Lotti#21779",
+        "Nickname": "Lotti",
+        "twitch": "lotti1743"
+    },
+    {
+        "ID": 246,
+        "Btag": "NikaNet#2283",
+        "Nickname": "NikaNet",
+        "twitch": "Nika_Net"
+    },
+    {
+        "ID": 247,
+        "Btag": "Dwalinul#2416",
+        "Nickname": "Dwalinul",
+        "twitch": "dwalinull"
+    },
+    {
+        "ID": 248,
+        "Btag": "Smile#22108",
+        "Nickname": "Smile",
+        "twitch": "smile_2359"
+    },
+    {
+        "ID": 249,
+        "Btag": "Мороженко#229548",
+        "Nickname": "Мороженко",
+        "twitch": "pardon_36"
+    },
+    {
+        "ID": 250,
+        "Btag": "ultimatum#21248",
+        "Nickname": "ultimatum",
+        "twitch": "ult_96"
+    },
+    {
+        "ID": 251,
+        "Btag": "Annoyance#21533",
+        "Nickname": "Annoyance",
+        "twitch": "B0lt0r3z"
+    },
+    {
+        "ID": 252,
+        "Btag": "madvenal#2976",
+        "Nickname": "madvenal",
+        "twitch": "madvenal_william"
+    },
+    {
+        "ID": 253,
+        "Btag": "Yurcheg#21694",
+        "Nickname": "Yurcheg",
+        "twitch": "yurcheg_c0dy"
+    },
+    {
+        "ID": 254,
+        "Btag": "PeaceDeath#21132",
+        "Nickname": "PeaceDeath",
+        "twitch": "DrugsounD"
+    },
+    {
+        "ID": 255,
+        "Btag": "NoF1XeD#2541",
+        "Nickname": "NoF1XeD",
+        "twitch": "nof1xed"
+    },
+    {
+        "ID": 255,
+        "Btag": "smorty#21858",
+        "Nickname": "smorty",
+        "twitch": "nof1xed"
+    },
+    {
+        "ID": 255,
+        "Btag": "PeaPooG#2381",
+        "Nickname": "PeaPooG",
+        "twitch": "nof1xed"
+    },
+    {
+        "ID": 256,
+        "Btag": "Deathemptor#2673",
+        "Nickname": "Deathemptor",
+        "twitch": "Espada_55"
+    },
+    {
+        "ID": 257,
+        "Btag": "Saturn#21869",
+        "Nickname": "Saturn",
+        "twitch": "saqqura"
+    },
+    {
+        "ID": 257,
+        "Btag": "Pachimari#2653",
+        "Nickname": "Pachimari",
+        "twitch": "saqqura"
+    },
+    {
+        "ID": 257,
+        "Btag": "daddy#23441",
+        "Nickname": "daddy",
+        "twitch": "saqqura"
+    },
+    {
+        "ID": 258,
+        "Btag": "Mehelborn#2984",
+        "Nickname": "Mehelborn",
+        "twitch": "Mehelborn"
+    },
+    {
+        "ID": 259,
+        "Btag": "fatik#2729",
+        "Nickname": "fatik",
+        "twitch": "fatik2"
+    },
+    {
+        "ID": 259,
+        "Btag": "kitaf#2621",
+        "Nickname": "kitaf",
+        "twitch": "fatik2"
+    },
+    {
+        "ID": 260,
+        "Btag": "ONLYDPS#2976",
+        "Nickname": "ONLYDPS",
+        "twitch": "KOPOJIb_AHCABOV"
+    },
+    {
+        "ID": 261,
+        "Btag": "PsychoMantis#21700",
+        "Nickname": "PsychoMantis",
+        "twitch": "Farsh_ow"
+    },
+    {
+        "ID": 262,
+        "Btag": "ManOfTheYear#21555",
+        "Nickname": "ManOfTheYear",
+        "twitch": "mesmart0"
+    },
+    {
+        "ID": 263,
+        "Btag": "Prometheus#23633",
+        "Nickname": "Prometheus",
+        "twitch": "loco855"
+    },
+    {
+        "ID": 264,
+        "Btag": "Napoleon7#2895",
+        "Nickname": "Napoleon7",
+        "twitch": "Ri_rrir"
+    },
+    {
+        "ID": 265,
+        "Btag": "Lucister#2754",
+        "Nickname": "Lucister",
+        "twitch": "Lucisterr"
+    },
+    {
+        "ID": 266,
+        "Btag": "Reed#21954",
+        "Nickname": "Reed",
+        "twitch": "BigLittleChe"
+    },
+    {
+        "ID": 267,
+        "Btag": "Rexxxi#2284",
+        "Nickname": "Rexxxi",
+        "twitch": "Remixrty"
+    },
+    {
+        "ID": 268,
+        "Btag": "STARATEL#2603",
+        "Nickname": "STARATEL",
+        "twitch": "starandray"
+    },
+    {
+        "ID": 269,
+        "Btag": "Stargazer#21146",
+        "Nickname": "Stargazer",
+        "twitch": "Stargazer21146"
+    },
+    {
+        "ID": 270,
+        "Btag": "Гюльчатай#21723",
+        "Nickname": "Гюльчатай",
+        "twitch": "Harliona"
+    },
+    {
+        "ID": 271,
+        "Btag": "FeeL#21329",
+        "Nickname": "FeeL",
+        "twitch": "FiL_GaD"
+    },
+    {
+        "ID": 272,
+        "Btag": "Grouziz#2110",
+        "Nickname": "Grouziz",
+        "twitch": "Grouziz"
+    },
+    {
+        "ID": 273,
+        "Btag": "Ternovnik#21623",
+        "Nickname": "Ternovnik",
+        "twitch": "Ternovn1k"
+    },
+    {
+        "ID": 274,
+        "Btag": "MotyRue#2353",
+        "Nickname": "MotyRue",
+        "twitch": "moty_rue"
+    },
+    {
+        "ID": 275,
+        "Btag": "hetakuso#2532",
+        "Nickname": "hetakuso",
+        "twitch": "alexis_white"
+    },
+    {
+        "ID": 276,
+        "Btag": "Medic#21553",
+        "Nickname": "Medic",
+        "twitch": "PsixozLife"
+    },
+    {
+        "ID": 277,
+        "Btag": "Eri#21918",
+        "Nickname": "Eri",
+        "twitch": "Eri_Aquari"
+    },
+    {
+        "ID": 277,
+        "Btag": "Косатка#21873",
+        "Nickname": "Косатка",
+        "twitch": "Eri_Aquari"
+    },
+    {
+        "ID": 278,
+        "Btag": "Bulochka#21519",
+        "Nickname": "Bulochka",
+        "twitch": "Bulochka2280"
+    },
+    {
+        "ID": 279,
+        "Btag": "Kraun#21105",
+        "Nickname": "Kraun",
+        "twitch": "Fertum"
+    },
+    {
+        "ID": 280,
+        "Btag": "Zaziel#21179",
+        "Nickname": "Zaziel",
+        "twitch": "nika_troksiiana"
+    },
+    {
+        "ID": 280,
+        "Btag": "Jorogumo#21184",
+        "Nickname": "Jorogumo",
+        "twitch": "nika_troksiiana"
+    },
+    {
+        "ID": 281,
+        "Btag": "JUSTJ#21122",
+        "Nickname": "JUSTJ",
+        "twitch": "Tyopliy_Stan"
+    },
+    {
+        "ID": 281,
+        "Btag": "Tamanegi#21807",
+        "Nickname": "Tamanegi",
+        "twitch": "Tyopliy_Stan"
+    },
+    {
+        "ID": 282,
+        "Btag": "Alex#231639",
+        "Nickname": "Alex",
+        "twitch": "rainharl"
+    },
+    {
+        "ID": 283,
+        "Btag": "Asmoday#22824",
+        "Nickname": "Asmoday",
+        "twitch": "Asmoday_LE"
+    },
+    {
+        "ID": 284,
+        "Btag": "Byakko#21298",
+        "Nickname": "Byakko",
+        "twitch": "ByakkoOw"
+    },
+    {
+        "ID": 285,
+        "Btag": "Dante2#29742",
+        "Nickname": "Dante2"
+    },
+    {
+        "ID": 286,
+        "Btag": "Fillzo#",
+        "Nickname": "Fillzo"
+    },
+    {
+        "ID": 287,
+        "Btag": "FlamingCrows#2436",
+        "Nickname": "FlamingCrows",
+        "twitch": "Flam1ngCrows"
+    },
+    {
+        "ID": 288,
+        "Btag": "laziest#2679",
+        "Nickname": "laziest",
+        "twitch": "laziest1"
+    },
+    {
+        "ID": 289,
+        "Btag": "pyrolisa#2223",
+        "Nickname": "pyrolisa",
+        "twitch": "horny_as_duck"
+    },
+    {
+        "ID": 290,
+        "Btag": "Lenex#2638",
+        "Nickname": "Lenex",
+        "twitch": "Lenex63"
+    },
+    {
+        "ID": 291,
+        "Btag": "Audio#21345",
+        "Nickname": "Audio",
+        "twitch": "audio____"
+    },
+    {
+        "ID": 292,
+        "Btag": "Roma#23895",
+        "Nickname": "Roma",
+        "twitch": "RomaOverwatch"
+    },
+    {
+        "ID": 293,
+        "Btag": "vijen228#2960",
+        "Nickname": "vijen228",
+        "twitch": "vijen228"
+    },
+    {
+        "ID": 294,
+        "Btag": "NightGuard#21726",
+        "Nickname": "NightGuard",
+        "twitch": "N1gh1Guard"
+    },
+    {
+        "ID": 295,
+        "Btag": "cre#2692",
+        "Nickname": "cre",
+        "twitch": "top6mcree"
+    },
+    {
+        "ID": 296,
+        "Btag": "Nescafé#21582",
+        "Nickname": "Nescafé",
+        "twitch": "baelzar89"
+    },
+    {
+        "ID": 296,
+        "Btag": "Mofos#21974",
+        "Nickname": "Mofos",
+        "twitch": "baelzar89"
+    },
+    {
+        "ID": 297,
+        "Btag": "Feychek#2943",
+        "Nickname": "Feychek",
+        "twitch": "Feychek"
+    },
+    {
+        "ID": 298,
+        "Btag": "Banzai#2270",
+        "Nickname": "Banzai",
+        "twitch": "Banzai6666"
+    },
+    {
+        "ID": 298,
+        "Btag": "Banzai#22943",
+        "Nickname": "Banzai",
+        "twitch": "Banzai6666"
+    },
+    {
+        "ID": 299,
+        "Btag": "Midzu#21770",
+        "Nickname": "Midzu",
+        "twitch": "Ukraine_live"
+    },
+    {
+        "ID": 299,
+        "Btag": "Sunron#2903",
+        "Nickname": "Sunron",
+        "twitch": "Ukraine_live"
+    },
+    {
+        "ID": 300,
+        "Btag": "Furimdar#21302",
+        "Nickname": "Furimdar",
+        "twitch": "Furimdar"
+    },
+    {
+        "ID": 301,
+        "Btag": "Gorloder#21624",
+        "Nickname": "Gorloder",
+        "twitch": "gorloderrr"
+    },
+    {
+        "ID": 302,
+        "Btag": "IronCarra#2725",
+        "Nickname": "IronCarra",
+        "twitch": "IronCarra"
+    },
+    {
+        "ID": 303,
+        "Btag": "Kay#22324",
+        "Nickname": "Kay",
+        "twitch": "sample__man"
+    },
+    {
+        "ID": 304,
+        "Btag": "Lakers#2688",
+        "Nickname": "Lakers",
+        "twitch": "me_lakers"
+    },
+    {
+        "ID": 305,
+        "Btag": "SerJLast#2703",
+        "Nickname": "SerJLast",
+        "twitch": "SergLast"
+    },
+    {
+        "ID": 306,
+        "Btag": "SoSad#21300",
+        "Nickname": "SoSad",
+        "twitch": "sosed__"
+    },
+    {
+        "ID": 307,
+        "Btag": "Dinaxy#2583",
+        "Nickname": "Dinaxy",
+        "twitch": "Dinaxy"
+    },
+    {
+        "ID": 308,
+        "Btag": "CragHack#2406",
+        "Nickname": "CragHack",
+        "twitch": "CragHack_"
+    },
+    {
+        "ID": 309,
+        "Btag": "jstex#2852",
+        "Nickname": "jstex",
+        "twitch": "j_stex"
+    },
+    {
+        "ID": 310,
+        "Btag": "badtomato#21596",
+        "Nickname": "badtomato",
+        "twitch": "barashekluk"
+    },
+    {
+        "ID": 311,
+        "Btag": "XpycTee#2476",
+        "Nickname": "XpycTee",
+        "twitch": "XpycTee"
+    },
+    {
+        "ID": 312,
+        "Btag": "novice#21297",
+        "Nickname": "novice",
+        "twitch": "nikola555"
+    },
+    {
+        "ID": 313,
+        "Btag": "Anak#2894",
+        "Nickname": "Anak",
+        "twitch": "anakq"
+    },
+    {
+        "ID": 314,
+        "Btag": "Artail#21562",
+        "Nickname": "Artail",
+        "twitch": "fairartail"
+    },
+    {
+        "ID": 315,
+        "Btag": "Dexterinio#2401",
+        "Nickname": "Dexterinio",
+        "twitch": "Dexxxxt"
+    },
+    {
+        "ID": 316,
+        "Btag": "Skkorpio#2873",
+        "Nickname": "Skkorpio",
+        "twitch": "skkorpio"
+    },
+    {
+        "ID": 317,
+        "Btag": "Solution#21533",
+        "Nickname": "Solution",
+        "twitch": "s0luti0n_"
+    },
+    {
+        "ID": 318,
+        "Btag": "Toster#1759",
+        "Nickname": "Toster",
+        "twitch": "eviltosterrr"
+    },
+    {
+        "ID": 319,
+        "Btag": "Стригой#21334",
+        "Nickname": "Стригой",
+        "twitch": "CTpurOU"
+    },
+    {
+        "ID": 320,
+        "Btag": "DES7R#21689",
+        "Nickname": "DES7R 🐱‍👤",
+        "twitch": "desterinho"
+    },
+    {
+        "ID": 320,
+        "Btag": "UKNOWNOTHING#21153",
+        "Nickname": "UKNOWNOTHING",
+        "twitch": "desterinho"
+    },
+    {
+        "ID": 321,
+        "Btag": "Froksimo#2125",
+        "Nickname": "Froksimo",
+        "twitch": "Froksimo"
+    },
+    {
+        "ID": 322,
+        "Btag": "Keyhey#2427",
+        "Nickname": "Keyhey",
+        "twitch": "bercuttt"
+    },
+    {
+        "ID": 323,
+        "Btag": "SHadoWBlade#22974",
+        "Nickname": "SHadoWBlade",
+        "twitch": "ilyalike777"
+    },
+    {
+        "ID": 324,
+        "Btag": "XQV0#2617",
+        "Nickname": "XQV0",
+        "twitch": "xcv000"
+    },
+    {
+        "ID": 325,
+        "Btag": "BonhommeG#2962",
+        "Nickname": "BonhommeG",
+        "twitch": "BonhommeG"
+    },
+    {
+        "ID": 326,
+        "Btag": "intaaaa#2285",
+        "Nickname": "intaaaa",
+        "twitch": "zuckerbomba"
+    },
+    {
+        "ID": 327,
+        "Btag": "MrArtemis#21747",
+        "Nickname": "MrArtemis",
+        "twitch": "archibaldvip"
+    },
+    {
+        "ID": 328,
+        "Btag": "Nirvana#2936",
+        "Nickname": "Nirvana",
+        "twitch": "Monamonami"
+    },
+    {
+        "ID": 329,
+        "Btag": "walkyrie#21825",
+        "Nickname": "walkyrie",
+        "twitch": "walkyrie_warrior"
+    },
+    {
+        "ID": 330,
+        "Btag": "MoxnatyMonax#2587",
+        "Nickname": "MoxnatyMonax",
+        "twitch": "moxnatymonax"
+    },
+    {
+        "ID": 331,
+        "Btag": "Sakura#23388",
+        "Nickname": "Sakura",
+        "twitch": "VladislavMayakovski"
+    },
+    {
+        "ID": 332,
+        "Btag": "FlutiShu#2964",
+        "Nickname": "FlutiShu",
+        "twitch": "FlutiiShu"
+    },
+    {
+        "ID": 333,
+        "Btag": "DREBS#2614",
+        "Nickname": "DREBS",
+        "twitch": "drebs__"
+    },
+    {
+        "ID": 334,
+        "Btag": "Kavandakra#21871",
+        "Nickname": "Kavandakra",
+        "twitch": "OttoFonVzhuhSmork"
+    },
+    {
+        "ID": 335,
+        "Btag": "Tapapax#2722",
+        "Nickname": "Tapapax",
+        "twitch": "tapapax"
+    },
+    {
+        "ID": 336,
+        "Btag": "Argos#2704",
+        "Nickname": "Argos",
+        "twitch": "Arg_OS_"
+    },
+    {
+        "ID": 337,
+        "Btag": "bewreks#2521",
+        "Nickname": "bewreks",
+        "twitch": "bewreks"
+    },
+    {
+        "ID": 337,
+        "Btag": "cockymoth#2517,",
+        "Nickname": "cockymoth",
+        "twitch": "bewreks"
+    },
+    {
+        "ID": 337,
+        "Btag": "crazycat#290322",
+        "Nickname": "crazycat",
+        "twitch": "bewreks"
+    },
+    {
+        "ID": 338,
+        "Btag": "Nazgul#2364",
+        "Nickname": "Nazgul",
+        "twitch": "TrailblazZzer"
+    },
+    {
+        "ID": 339,
+        "Btag": "Amonett#2784",
+        "Nickname": "Amonett",
+        "twitch": "Amonett"
+    },
+    {
+        "ID": 340,
+        "Btag": "Justy#21844",
+        "Nickname": "Justy",
+        "twitch": "justy_xd"
+    },
+    {
+        "ID": 341,
+        "Btag": "L33tM3at#2977",
+        "Nickname": "L33tM3at",
+        "twitch": "l33t_m3at"
+    },
+    {
+        "ID": 342,
+        "Btag": "Morfey#2880",
+        "Nickname": "Morfey",
+        "twitch": "Morfey_de_Korellon"
+    },
+    {
+        "ID": 343,
+        "Btag": "Neytan#2843",
+        "Nickname": "Neytan",
+        "twitch": "neytan_grey"
+    },
+    {
+        "ID": 344,
+        "Btag": "RezvyyMishka#2963",
+        "Nickname": "RezvyyMishka",
+        "twitch": "forever_asd"
+    },
+    {
+        "ID": 345,
+        "Btag": "t0sHiSoAm#1309",
+        "Nickname": "t0sHiSoAm",
+        "twitch": "toshi_im"
+    },
+    {
+        "ID": 346,
+        "Btag": "Levanssnack#2207",
+        "Nickname": "Levanssnack",
+        "twitch": "lizzard_1337"
+    },
+    {
+        "ID": 347,
+        "Btag": "Nachalnick#21713",
+        "Nickname": "Nachalnick",
+        "twitch": "anny_nachalnick"
+    },
+    {
+        "ID": 347,
+        "Btag": "Winter#21947",
+        "Nickname": "Winter",
+        "twitch": "anny_nachalnick"
+    },
+    {
+        "ID": 348,
+        "Btag": "Хакериня#2468",
+        "Nickname": "Хакериня",
+        "twitch": "KateScene"
+    },
+    {
+        "ID": 349,
+        "Btag": "Aplomb#2152",
+        "Nickname": "Aplomb",
+        "twitch": "aplombir"
+    },
+    {
+        "ID": 350,
+        "Btag": "Balada#2351",
+        "Nickname": "Balada",
+        "twitch": "4aikar"
+    },
+    {
+        "ID": 351,
+        "Btag": "BUREMIG#2987",
+        "Nickname": "BUREMIG",
+        "twitch": "buremig"
+    },
+    {
+        "ID": 352,
+        "Btag": "Dumkan#2179",
+        "Nickname": "Dumkan",
+        "twitch": "Dumkan91"
+    },
+    {
+        "ID": 353,
+        "Btag": "egaegaeg#2630",
+        "Nickname": "egaegaeg",
+        "twitch": "mcegaegaeg"
+    },
+    {
+        "ID": 354,
+        "Btag": "ElDiabolo#2133",
+        "Nickname": "ElDiabolo",
+        "twitch": "elerebos"
+    },
+    {
+        "ID": 355,
+        "Btag": "Flower#2493",
+        "Nickname": "Flower",
+        "twitch": "deadlytangotv"
+    },
+    {
+        "ID": 356,
+        "Btag": "GaiJiN#22662",
+        "Nickname": "GaiJiN",
+        "twitch": "Ga1JiN_"
+    },
+    {
+        "ID": 357,
+        "Btag": "korgotDH#2268",
+        "Nickname": "korgotDH",
+        "twitch": "korgot"
+    },
+    {
+        "ID": 358,
+        "Btag": "Ninja#1608",
+        "Nickname": "Ninja",
+        "twitch": "PutinUmer"
+    },
+    {
+        "ID": 359,
+        "Btag": "Pastafrolla#2942",
+        "Nickname": "Pastafrolla",
+        "twitch": "pastafrolla1"
+    },
+    {
+        "ID": 360,
+        "Btag": "Penumbra#21297",
+        "Nickname": "Penumbra",
+        "twitch": "sanya00"
+    },
+    {
+        "ID": 361,
+        "Btag": "Tachibana#21517",
+        "Nickname": "Tachibana",
+        "twitch": "ayana_l_"
+    },
+    {
+        "ID": 362,
+        "Btag": "Voiceless#21398",
+        "Nickname": "Voiceless",
+        "twitch": "Voicelesss"
+    },
+    {
+        "ID": 363,
+        "Btag": "willsmeet#2626",
+        "Nickname": "willsmeet",
+        "twitch": "willsmeet"
+    },
+    {
+        "ID": 364,
+        "Btag": "LadyFox#21670",
+        "Nickname": "LadyFox",
+        "twitch": "FoxlTime"
+    },
+    {
+        "ID": 365,
+        "Btag": "xenkok#2373",
+        "Nickname": "xenkok",
+        "twitch": "xenkok1"
+    },
+    {
+        "ID": 366,
+        "Btag": "Арес#1979",
+        "Nickname": "Арес",
+        "twitch": "goodmotorfinger"
+    },
+    {
+        "ID": 367,
+        "Btag": "ShadowSahar#2484",
+        "Nickname": "ShadowSahar",
+        "twitch": "ShadowSahar"
+    },
+    {
+        "ID": 368,
+        "Btag": "TheCre1n#2286",
+        "Nickname": "TheCre1n",
+        "twitch": "thecre1n"
+    },
+    {
+        "ID": 369,
+        "Btag": "freed#21958",
+        "Nickname": "freed",
+        "twitch": "sladkiy_sosok"
+    },
+    {
+        "ID": 370,
+        "Btag": "nanase#21732",
+        "Nickname": "nanase",
+        "twitch": "kkimlazy"
+    },
+    {
+        "ID": 371,
+        "Btag": "Ana#23110",
+        "Nickname": "Ana",
+        "twitch": "solnyfko_meow"
+    },
+    {
+        "ID": 372,
+        "Btag": "sndrd#2465",
+        "Nickname": "sndrd",
+        "twitch": "lifr3y"
+    },
+    {
+        "ID": 373,
+        "Btag": "MetalSky#21561",
+        "Nickname": "MetalSky",
+        "twitch": "metalsky_ms"
+    },
+    {
+        "ID": 374,
+        "Btag": "YourExploit#2782",
+        "Nickname": "YourExploit",
+        "twitch": "iExploitYourHeart"
+    },
+    {
+        "ID": 375,
+        "Btag": "ArTMaN#21556",
+        "Nickname": "ArTMaN",
+        "twitch": "Nekto_MuLt"
+    },
+    {
+        "ID": 376,
+        "Btag": "Hinalina#21660",
+        "Nickname": "Hinalina",
+        "twitch": "hinaalina"
+    },
+    {
+        "ID": 377,
+        "Btag": "Naya#21216",
+        "Nickname": "Naya",
+        "twitch": "MoyGo"
+    },
+    {
+        "ID": 378,
+        "Btag": "NikP#21716",
+        "Nickname": "NikP",
+        "twitch": "nikp1337"
+    },
+    {
+        "ID": 379,
+        "Btag": "Prost#21823",
+        "Nickname": "Prost",
+        "twitch": "Prost_OW"
+    },
+    {
+        "ID": 380,
+        "Btag": "southstanly#2574",
+        "Nickname": "southstanly",
+        "twitch": "southstanly_"
+    },
+    {
+        "ID": 381,
+        "Btag": "АННАБАНАНА#2323",
+        "Nickname": "АННАБАНАНА",
+        "twitch": "anna_banannna"
+    },
+    {
+        "ID": 381,
+        "Btag": "AnnaBanana#",
+        "Nickname": "AnnaBanana",
+        "twitch": "anna_banannna"
+    },
+    {
+        "ID": 382,
+        "Btag": "yorundigo#2700",
+        "Nickname": "yorundigo",
+        "twitch": "yourundigo"
+    },
+    {
+        "ID": 382,
+        "Btag": "mrBelotsky#2706",
+        "Nickname": "mrBelotsky",
+        "twitch": "yourundigo"
+    },
+    {
+        "ID": 383,
+        "Btag": "L1na#21688",
+        "Nickname": "L1na",
+        "twitch": "Enjoylika"
+    },
+    {
+        "ID": 383,
+        "Btag": "StarPlatinum#21799",
+        "Nickname": "StarPlatinum",
+        "twitch": "Enjoylika"
+    },
+    {
+        "ID": 384,
+        "Btag": "DPSMoira#2236",
+        "Nickname": "DPSMoira",
+        "twitch": "Versailles55"
+    },
+    {
+        "ID": 384,
+        "Btag": "Versailles#2980",
+        "Nickname": "Versailles",
+        "twitch": "Versailles55"
+    },
+    {
+        "ID": 385,
+        "Btag": "Simona#21229",
+        "Nickname": "Simona",
+        "twitch": "5imka"
+    },
+    {
+        "ID": 385,
+        "Btag": "Vorobka#21614",
+        "Nickname": "Vorobka",
+        "twitch": "5imka"
+    },
+    {
+        "ID": 385,
+        "Btag": "Kakun#2407",
+        "Nickname": "Kakun",
+        "twitch": "5imka"
+    },
+    {
+        "ID": 385,
+        "Btag": "Dosya#21195",
+        "Nickname": "Dosya",
+        "twitch": "5imka"
+    },
+    {
+        "ID": 386,
+        "Btag": "Баклажан#232166",
+        "Nickname": "Баклажан",
+        "twitch": "mercy_julia"
+    },
+    {
+        "ID": 387,
+        "Btag": "сурчаль#2304",
+        "Nickname": "сурчаль",
+        "twitch": "sysl9k"
+    },
+    {
+        "ID": 388,
+        "Btag": "Юлька#21512",
+        "Nickname": "Юлька",
+        "twitch": "tomaccoooooooo"
+    },
+    {
+        "ID": 389,
+        "Btag": "Atlis#2972",
+        "Nickname": "Atlis",
+        "twitch": "Atlis_T"
+    },
+    {
+        "ID": 390,
+        "Btag": "Barmanboss#2221",
+        "Nickname": "Barmanboss",
+        "twitch": "misharnb2"
+    },
+    {
+        "ID": 391,
+        "Btag": "ChooppaTIGR#2346",
+        "Nickname": "ChooppaTIGR",
+        "twitch": "ChooppaaTIGR"
+    },
+    {
+        "ID": 392,
+        "Btag": "Djuna#21927",
+        "Nickname": "Djuna",
+        "twitch": "DjunaShin"
+    },
+    {
+        "ID": 393,
+        "Btag": "Elimes#2595",
+        "Nickname": "Elimes",
+        "twitch": "arystan_elimes8"
+    },
+    {
+        "ID": 394,
+        "Btag": "ItzHera#2629",
+        "Nickname": "ItzHera",
+        "twitch": "HenixOn"
+    },
+    {
+        "ID": 395,
+        "Btag": "Kain#23410",
+        "Nickname": "Kain",
+        "twitch": "mr_Ka1n"
+    },
+    {
+        "ID": 396,
+        "Btag": "Katsup#21352",
+        "Nickname": "Katsup",
+        "twitch": "luftweg"
+    },
+    {
+        "ID": 397,
+        "Btag": "Lisa#24544",
+        "Nickname": "Lisa",
+        "twitch": "laafinkelstein"
+    },
+    {
+        "ID": 398,
+        "Btag": "Rishard#2500",
+        "Nickname": "Rishard",
+        "twitch": "rishard_ow"
+    },
+    {
+        "ID": 399,
+        "Btag": "Saitama#21866",
+        "Nickname": "Saitama",
+        "twitch": "tom_hardy"
+    },
+    {
+        "ID": 400,
+        "Btag": "Shank#2390",
+        "Nickname": "Shank",
+        "twitch": "AngryVanyok"
+    },
+    {
+        "ID": 401,
+        "Btag": "SlashAir#2276",
+        "Nickname": "SlashAir",
+        "twitch": "SlashAir"
+    },
+    {
+        "ID": 402,
+        "Btag": "Sombrero#21544",
+        "Nickname": "Sombrero",
+        "twitch": "aimofdeath"
+    },
+    {
+        "ID": 403,
+        "Btag": "Strike#2163",
+        "Nickname": "Strike",
+        "twitch": "RomaX8X"
+    },
+    {
+        "ID": 404,
+        "Btag": "WarriorUgand#2449",
+        "Nickname": "WarriorUgand",
+        "twitch": "WarriorOFFUganda"
+    },
+    {
+        "ID": 405,
+        "Btag": "DeaMoris#2520",
+        "Nickname": "DeaMoris",
+        "twitch": "LittlePrincessHesTe"
+    },
+    {
+        "ID": 406,
+        "Btag": "TRIX#21237",
+        "Nickname": "TRIX",
+        "twitch": "TrixQQ"
+    },
+    {
+        "ID": 407,
+        "Btag": "TSHOOT#2579",
+        "Nickname": "TSHOOT",
+        "twitch": "TSHOOTem"
+    },
+    {
+        "ID": 408,
+        "Btag": "magilammc#2870",
+        "Nickname": "magilammc",
+        "twitch": "magilammc"
+    },
+    {
+        "ID": 409,
+        "Btag": "Khant#2411",
+        "Nickname": "Khant",
+        "twitch": "khant_ru"
+    },
+    {
+        "ID": 410,
+        "Btag": "Guardian#22261",
+        "Nickname": "Guardian",
+        "twitch": "xxxguardian"
+    },
+    {
+        "ID": 411,
+        "Btag": "Rapier#2748",
+        "Nickname": "Rapier",
+        "twitch": "Rapier_ShGV"
+    },
+    {
+        "ID": 411,
+        "Btag": "ShGV#21712",
+        "Nickname": "ShGV",
+        "twitch": "Rapier_ShGV"
+    },
+    {
+        "ID": 413,
+        "Btag": "Gizka#21917",
+        "Nickname": "Gizka",
+        "twitch": "Vinnaka"
+    },
+    {
+        "ID": 414,
+        "Btag": "JeneR#21548",
+        "Nickname": "JeneR",
+        "twitch": "AnkaHleb"
+    },
+    {
+        "ID": 415,
+        "Btag": "miel#21973",
+        "Nickname": "miel",
+        "twitch": "meeow_mei"
+    },
+    {
+        "ID": 416,
+        "Btag": "PuSHkiN99#21614",
+        "Nickname": "PuSHkiN99",
+        "twitch": "9PuSHKiN9"
+    },
+    {
+        "ID": 417,
+        "Btag": "BadPlayer#21258",
+        "Nickname": "BadPlayer",
+        "twitch": "mimokrokodi1"
+    },
+    {
+        "ID": 417,
+        "Btag": "mimokrokodil#21611",
+        "Nickname": "mimokrokodil",
+        "twitch": "mimokrokodi1"
+    },
+    {
+        "ID": 417,
+        "Btag": "Sa5aiKudasai#2599",
+        "Nickname": "Sa5aiKudasai",
+        "twitch": "mimokrokodi1"
+    },
+    {
+        "ID": 418,
+        "Btag": "Ангел#21625",
+        "Nickname": "Ангел",
+        "twitch": "AngelCorparation"
+    },
+    {
+        "ID": 419,
+        "Btag": "Архангел#21992",
+        "Nickname": "Архангел",
+        "twitch": "vladiclav00"
+    },
+    {
+        "ID": 420,
+        "Btag": "Ванчёус#2257",
+        "Nickname": "Ванчёус",
+        "twitch": "Kawaii_Vancheys"
+    },
+    {
+        "ID": 421,
+        "Btag": "AlexDrank#2608",
+        "Nickname": "AlexDrank",
+        "twitch": "alexdrankk"
+    },
+    {
+        "ID": 422,
+        "Btag": "almasmukh#21181",
+        "Nickname": "almasmukh",
+        "twitch": "almasmukh"
+    },
+    {
+        "ID": 423,
+        "Btag": "Alries#21536",
+        "Nickname": "Alries",
+        "twitch": "LexArt"
+    },
+    {
+        "ID": 424,
+        "Btag": "anameija#2402",
+        "Nickname": "anameija",
+        "twitch": "anameija"
+    },
+    {
+        "ID": 425,
+        "Btag": "assab67#2381",
+        "Nickname": "assab67",
+        "twitch": "minetontwitch"
+    },
+    {
+        "ID": 426,
+        "Btag": "BatmanRedSon#2406",
+        "Nickname": "BatmanRedSon",
+        "twitch": "batmanredson"
+    },
+    {
+        "ID": 427,
+        "Btag": "berG#21401",
+        "Nickname": "berG",
+        "twitch": "berG742"
+    },
+    {
+        "ID": 428,
+        "Btag": "BriD#21423",
+        "Nickname": "BriD",
+        "twitch": "bad_brid"
+    },
+    {
+        "ID": 429,
+        "Btag": "Chydya#21904",
+        "Nickname": "Chydya",
+        "twitch": "chydya"
+    },
+    {
+        "ID": 430,
+        "Btag": "Deckard#21704",
+        "Nickname": "Deckard",
+        "twitch": "TigrA_NeKotik"
+    },
+    {
+        "ID": 431,
+        "Btag": "Demon#27670",
+        "Nickname": "Demon",
+        "twitch": "demon_________"
+    },
+    {
+        "ID": 432,
+        "Btag": "Enjoylika#2962",
+        "Nickname": "Enjoylika",
+        "twitch": "Enjoylika"
+    },
+    {
+        "ID": 433,
+        "Btag": "Kitsosh#2576",
+        "Nickname": "Kitsosh",
+        "twitch": "kitsoshrytp"
+    },
+    {
+        "ID": 434,
+        "Btag": "Leydex#1360",
+        "Nickname": "Leydex",
+        "twitch": "leydex"
+    },
+    {
+        "ID": 435,
+        "Btag": "Lians#2835",
+        "Nickname": "Lians",
+        "twitch": "lliians"
+    },
+    {
+        "ID": 436,
+        "Btag": "MouShindeIru#2770",
+        "Nickname": "MouShindeIru",
+        "twitch": "himukkee"
+    },
+    {
+        "ID": 437,
+        "Btag": "Myrki#21806",
+        "Nickname": "Myrki",
+        "twitch": "Myrki3"
+    },
+    {
+        "ID": 438,
+        "Btag": "Necrosis#21430",
+        "Nickname": "Necrosis",
+        "twitch": "paha141"
+    },
+    {
+        "ID": 439,
+        "Btag": "NekoEmperor#2391",
+        "Nickname": "NekoEmperor",
+        "twitch": "Okedman"
+    },
+    {
+        "ID": 440,
+        "Btag": "NoSkill#22479",
+        "Nickname": "NoSkill",
+        "twitch": "ThisUsernameIsOccupied"
+    },
+    {
+        "ID": 157,
+        "Btag": "nyaadash#2479",
+        "Nickname": "nyaadash",
+        "twitch": "muramnesia"
+    },
+    {
+        "ID": 442,
+        "Btag": "Nyaken#21106",
+        "Nickname": "Nyaken",
+        "twitch": "DukeNyaken"
+    },
+    {
+        "ID": 443,
+        "Btag": "pavbox#2502",
+        "Nickname": "pavbox",
+        "twitch": "pavbox"
+    },
+    {
+        "ID": 444,
+        "Btag": "PizzaLover#21985",
+        "Nickname": "PizzaLover",
+        "twitch": "PizzaLoverOW"
+    },
+    {
+        "ID": 445,
+        "Btag": "ShaDowBurn#21117",
+        "Nickname": "ShaDowBurn",
+        "twitch": "InFlamedBurn"
+    },
+    {
+        "ID": 446,
+        "Btag": "SPADES#21975",
+        "Nickname": "SPADES",
+        "twitch": "RosemaryKiller"
+    },
+    {
+        "ID": 447,
+        "Btag": "Toono#2441",
+        "Nickname": "Toono",
+        "twitch": "SetsunaNoAi"
+    },
+    {
+        "ID": 448,
+        "Btag": "vedont#1896",
+        "Nickname": "vedont",
+        "twitch": "vedont"
+    },
+    {
+        "ID": 449,
+        "Btag": "Voldnaor#2325",
+        "Nickname": "Voldnaor",
+        "twitch": "Voldnaor"
+    },
+    {
+        "ID": 450,
+        "Btag": "War#22945",
+        "Nickname": "War",
+        "twitch": "yagamillght"
+    },
+    {
+        "ID": 451,
+        "Btag": "WonderWaffle#21113",
+        "Nickname": "WonderWaffle",
+        "twitch": "Wonderwaffleful"
+    },
+    {
+        "ID": 452,
+        "Btag": "SeryoJkeee#2438",
+        "Nickname": "SeryoJkeee",
+        "twitch": "SeryoJkeee"
+    },
+    {
+        "ID": 453,
+        "Btag": "Сусанин#21979",
+        "Nickname": "Сусанин",
+        "twitch": "ArctuR21"
+    },
+    {
+        "ID": 454,
+        "Btag": "ArthurAmber#2483",
+        "Nickname": "ArthurAmber",
+        "twitch": "arthuramber15"
+    },
+    {
+        "ID": 455,
+        "Btag": "Inquisitor#2738",
+        "Nickname": "Inquisitor",
+        "twitch": "JensenRuno"
+    },
+    {
+        "ID": 455,
+        "Btag": "Normalno#23653",
+        "Nickname": "Normalno",
+        "twitch": "JensenRuno"
+    },
+    {
+        "ID": 456,
+        "Btag": "Cougar#21302",
+        "Nickname": "Cougar",
+        "twitch": "Setteragic"
+    },
+    {
+        "ID": 457,
+        "Btag": "leopan73#2967",
+        "Nickname": "leopan73",
+        "twitch": "Leopan"
+    },
+    {
+        "ID": 458,
+        "Btag": "MARVIN#22250",
+        "Nickname": "MARVIN",
+        "twitch": "Pavel_Marvin"
+    },
+    {
+        "ID": 459,
+        "Btag": "Агуша#21462",
+        "Nickname": "Агуша",
+        "twitch": "AquaticaSirenix"
+    },
+    {
+        "ID": 460,
+        "Btag": "DemolisheR#2179",
+        "Nickname": "DemolisheR",
+        "twitch": "KlaiZeD"
+    },
+    {
+        "ID": 461,
+        "Btag": "DimaGerrard#2964",
+        "Nickname": "DimaGerrard",
+        "twitch": "rip_war"
+    },
+    {
+        "ID": 462,
+        "Btag": "endurance#21173",
+        "Nickname": "endurance",
+        "twitch": "eripvi"
+    },
+    {
+        "ID": 463,
+        "Btag": "Garfello#2565",
+        "Nickname": "Garfello",
+        "twitch": "Garfello"
+    },
+    {
+        "ID": 464,
+        "Btag": "ilytyu#2412",
+        "Nickname": "ilytyu",
+        "twitch": "fur_ball_"
+    },
+    {
+        "ID": 465,
+        "Btag": "KaterineLil#2718",
+        "Nickname": "KaterineLil",
+        "twitch": "mihaaahim"
+    },
+    {
+        "ID": 466,
+        "Btag": "LeFaks#2916",
+        "Nickname": "LeFaks",
+        "twitch": "LeFakx"
+    },
+    {
+        "ID": 467,
+        "Btag": "Necron#2580",
+        "Nickname": "Necron",
+        "twitch": "The_Necron"
+    },
+    {
+        "ID": 468,
+        "Btag": "Oligarh#21443",
+        "Nickname": "Oligarh",
+        "twitch": "oligarhovich"
+    },
+    {
+        "ID": 469,
+        "Btag": "QUINN#21408",
+        "Nickname": "QUINN",
+        "twitch": "quinn_light"
+    },
+    {
+        "ID": 470,
+        "Btag": "Reflection#21320",
+        "Nickname": "Reflection",
+        "twitch": "Reflect1on"
+    },
+    {
+        "ID": 471,
+        "Btag": "Roric#2150",
+        "Nickname": "Roric",
+        "twitch": "Sasha13_69"
+    },
+    {
+        "ID": 472,
+        "Btag": "rox#21496",
+        "Nickname": "rox",
+        "twitch": "roxxxxxx"
+    },
+    {
+        "ID": 473,
+        "Btag": "saloed99ua#2402",
+        "Nickname": "saloed99ua",
+        "twitch": "saloed99"
+    },
+    {
+        "ID": 474,
+        "Btag": "Sancho#21670",
+        "Nickname": "Sancho",
+        "twitch": "sancho_88"
+    },
+    {
+        "ID": 475,
+        "Btag": "Scroller#2770",
+        "Nickname": "Scroller",
+        "twitch": "scroller0099"
+    },
+    {
+        "ID": 476,
+        "Btag": "Seemann#2968",
+        "Nickname": "Seemann",
+        "twitch": "Simann4eg"
+    },
+    {
+        "ID": 477,
+        "Btag": "SHKET#21470",
+        "Nickname": "SHKET",
+        "twitch": "shket21470"
+    },
+    {
+        "ID": 478,
+        "Btag": "TheWriter#2857",
+        "Nickname": "TheWriter",
+        "twitch": "TheWriterPlays"
+    },
+    {
+        "ID": 479,
+        "Btag": "ZigmunD#21887",
+        "Nickname": "ZigmunD",
+        "twitch": "psilomay"
+    },
+    {
+        "ID": 480,
+        "Btag": "Woody#23519",
+        "Nickname": "Woody",
+        "twitch": "woodyalpha"
+    },
+    {
+        "ID": 481,
+        "Btag": "Настасья#21179",
+        "Nickname": "Настасья",
+        "twitch": "shiva_ana"
+    },
+    {
+        "ID": 482,
+        "Btag": "dronabot#2260",
+        "Nickname": "dronabot",
+        "twitch": "dronabot_"
+    },
+    {
+        "ID": 483,
+        "Btag": "r00ry#2299",
+        "Nickname": "r00ry",
+        "twitch": "vpy366"
+    },
+    {
+        "ID": 484,
+        "Btag": "Kiani#21811",
+        "Nickname": "Kiani",
+        "twitch": "Kiani_ow"
+    },
+    {
+        "ID": 485,
+        "Btag": "Shiyoku#2662",
+        "Nickname": "Shiyoku",
+        "twitch": "N_eeo"
+    },
+    {
+        "ID": 485,
+        "Btag": "Angerinrin#2662",
+        "Nickname": "Angerinrin",
+        "twitch": "N_eeo"
+    },
+    {
+        "ID": 486,
+        "Btag": "ONLYONE#2913",
+        "Nickname": "ONLYONE",
+        "twitch": "ONLYONE63"
+    },
+    {
+        "ID": 487,
+        "Btag": "reddoggad#2605",
+        "Nickname": "reddoggad",
+        "twitch": "reddoggad"
+    },
+    {
+        "ID": 488,
+        "Btag": "Softiron#21993",
+        "Nickname": "Softiron",
+        "twitch": "t4gr1m"
+    },
+    {
+        "ID": 489,
+        "Btag": "såkallad#2105",
+        "Nickname": "såkallad",
+        "twitch": "금고양이(tatabi_)"
+    },
+    {
+        "ID": 489,
+        "Btag": "agassi#21799",
+        "Nickname": "agassi",
+        "twitch": "금고양이(tatabi_)"
+    },
+    {
+        "ID": 489,
+        "Btag": "killua#22302",
+        "Nickname": "killua",
+        "twitch": "금고양이(tatabi_)"
+    },
+    {
+        "ID": 490,
+        "Btag": "RAQNOO#2648",
+        "Nickname": "RAQNOO",
+        "twitch": "February19th"
+    },
+    {
+        "ID": 490,
+        "Btag": "ǶHonokaFan01#2634,",
+        "Nickname": "ǶHonokaFan01",
+        "twitch": "February19th"
+    },
+    {
+        "ID": 490,
+        "Btag": "MiddlE#22513",
+        "Nickname": "MiddlE",
+        "twitch": "February19th"
+    },
+    {
+        "ID": 491,
+        "Btag": "himukkee#2315",
+        "Nickname": "himukkee",
+        "twitch": "himukkee"
+    },
+    {
+        "ID": 491,
+        "Btag": "nesmeyan#2853",
+        "Nickname": "nesmeyan",
+        "twitch": "himukkee"
+    },
+    {
+        "ID": 491,
+        "Btag": "Hikage#21115",
+        "Nickname": "Hikage",
+        "twitch": "himukkee"
+    },
+    {
+        "ID": 492,
+        "Btag": "ChopSuey#21917",
+        "Nickname": "ChopSuey",
+        "twitch": "Rud0lf_Br0tovski"
+    },
+    {
+        "ID": 492,
+        "Btag": "SayOnarA#21478",
+        "Nickname": "SayOnarA",
+        "twitch": "Rud0lf_Br0tovski"
+    },
+    {
+        "ID": 493,
+        "Btag": "ХИКИКОМОРИ#21474",
+        "Nickname": "ХИКИКОМОРИ",
+        "twitch": "lapshichnaya_lisa"
+    },
+    {
+        "ID": 494,
+        "Btag": "aiz#",
+        "Nickname": "aiz",
+        "twitch": "#Н/Д"
+    },
+    {
+        "ID": 495,
+        "Btag": "ALexanDR#23649",
+        "Nickname": "ALexanDR",
+        "twitch": "AlexAspirantes"
+    },
+    {
+        "ID": 496,
+        "Btag": "Alexbatya#21983",
+        "Nickname": "Alexbatya",
+        "twitch": "Alexbatya2604"
+    },
+    {
+        "ID": 497,
+        "Btag": "AllikarDD#2562",
+        "Nickname": "AllikarDD",
+        "twitch": "AllikarDD_Good"
+    },
+    {
+        "ID": 498,
+        "Btag": "AndreyFable#2535",
+        "Nickname": "AndreyFable",
+        "twitch": "Andrey_fable"
+    },
+    {
+        "ID": 499,
+        "Btag": "ANDRU200017#2362",
+        "Nickname": "ANDRU200017",
+        "twitch": "ANDRU200017"
+    },
+    {
+        "ID": 500,
+        "Btag": "Aneekie#2426",
+        "Nickname": "Aneekie",
+        "twitch": "Aneekie"
+    },
+    {
+        "ID": 501,
+        "Btag": "Arahiri#2618",
+        "Nickname": "Arahiri",
+        "twitch": "Arahiri"
+    },
+    {
+        "ID": 502,
+        "Btag": "ARTI#22749",
+        "Nickname": "ARTI",
+        "twitch": "artiman7"
+    },
+    {
+        "ID": 504,
+        "Btag": "BigLeroi#2365",
+        "Nickname": "BigLeroi",
+        "twitch": "BigLeroi"
+    },
+    {
+        "ID": 505,
+        "Btag": "CherryBrick#2106",
+        "Nickname": "CherryBrick",
+        "twitch": "CherryBrick"
+    },
+    {
+        "ID": 506,
+        "Btag": "CraftFighter#2719",
+        "Nickname": "CraftFighter",
+        "twitch": "Nagibattor9000"
+    },
+    {
+        "ID": 507,
+        "Btag": "DDSgar#2419",
+        "Nickname": "DDSgar",
+        "twitch": "ddzgar"
+    },
+    {
+        "ID": 508,
+        "Btag": "DrivE#1547",
+        "Nickname": "DrivE",
+        "twitch": "sergiobalbone"
+    },
+    {
+        "ID": 509,
+        "Btag": "ELVEN#21774",
+        "Nickname": "ELVEN",
+        "twitch": "melven"
+    },
+    {
+        "ID": 510,
+        "Btag": "FireGhost#2255",
+        "Nickname": "FireGhost",
+        "twitch": "ph0enix_lamas"
+    },
+    {
+        "ID": 511,
+        "Btag": "Fluffypaws#21393",
+        "Nickname": "Fluffypaws",
+        "twitch": "fluffypaws89"
+    },
+    {
+        "ID": 512,
+        "Btag": "FriendlyFire#21167",
+        "Nickname": "FriendlyFire",
+        "twitch": "secretasianmen"
+    },
+    {
+        "ID": 513,
+        "Btag": "GANgi#21996",
+        "Nickname": "GANgi",
+        "twitch": "GANgig"
+    },
+    {
+        "ID": 514,
+        "Btag": "getHakt#2510",
+        "Nickname": "getHakt",
+        "twitch": "just___unlucky"
+    },
+    {
+        "ID": 515,
+        "Btag": "IL711#2295",
+        "Nickname": "IL711",
+        "twitch": "Item711"
+    },
+    {
+        "ID": 516,
+        "Btag": "Irezar#2342",
+        "Nickname": "Irezar",
+        "twitch": "Irezzar"
+    },
+    {
+        "ID": 517,
+        "Btag": "ivvi#2909",
+        "Nickname": "ivvi",
+        "twitch": "ivvi_slash"
+    },
+    {
+        "ID": 518,
+        "Btag": "johnnypiston#2113",
+        "Nickname": "johnnypiston",
+        "twitch": "JohnnyPiston"
+    },
+    {
+        "ID": 519,
+        "Btag": "JoyAngeim#2821",
+        "Nickname": "JoyAngeim",
+        "twitch": "angeim"
+    },
+    {
+        "ID": 520,
+        "Btag": "Kawainyaka#2976",
+        "Nickname": "Kawainyaka",
+        "twitch": "Monamonami"
+    },
+    {
+        "ID": 521,
+        "Btag": "Kertyo#2142",
+        "Nickname": "Kertyo",
+        "twitch": "Kertyo"
+    },
+    {
+        "ID": 522,
+        "Btag": "Kilrqn#2755",
+        "Nickname": "Kilrqn",
+        "twitch": "dodlq"
+    },
+    {
+        "ID": 523,
+        "Btag": "LinkOFF#2976",
+        "Nickname": "LinkOFF",
+        "twitch": "linkoff_ow"
+    },
+    {
+        "ID": 524,
+        "Btag": "lootbox#2315",
+        "Nickname": "lootbox",
+        "twitch": "julypluto"
+    },
+    {
+        "ID": 525,
+        "Btag": "LuHan#21605",
+        "Nickname": "LuHan",
+        "twitch": "Angalt_Kris"
+    },
+    {
+        "ID": 526,
+        "Btag": "MADLION#21257",
+        "Nickname": "MADLION",
+        "twitch": "Mad_Limon"
+    },
+    {
+        "ID": 527,
+        "Btag": "madskillz#21974",
+        "Nickname": "madskillz",
+        "twitch": "MADSKILLZ_x"
+    },
+    {
+        "ID": 528,
+        "Btag": "MeResti#21920",
+        "Nickname": "MeResti",
+        "twitch": "Me_Resti"
+    },
+    {
+        "ID": 529,
+        "Btag": "Milexandria#2504",
+        "Nickname": "Milexandria",
+        "twitch": "milexandria"
+    },
+    {
+        "ID": 530,
+        "Btag": "Mirych#21281",
+        "Nickname": "Mirych",
+        "twitch": "Мирыч"
+    },
+    {
+        "ID": 531,
+        "Btag": "Necrosh#21695",
+        "Nickname": "Necrosh",
+        "twitch": "suicidalkukkye"
+    },
+    {
+        "ID": 532,
+        "Btag": "Ningi#21955",
+        "Nickname": "Ningi",
+        "twitch": "n1ngi"
+    },
+    {
+        "ID": 533,
+        "Btag": "NoRemorse#21759",
+        "Nickname": "NoRemorse",
+        "twitch": "No_Remorse"
+    },
+    {
+        "ID": 534,
+        "Btag": "oseco#2943",
+        "Nickname": "oseco",
+        "twitch": "gigimonn"
+    },
+    {
+        "ID": 535,
+        "Btag": "RAPTORIA#21218",
+        "Nickname": "RAPTORIA",
+        "twitch": "RAPTORIA"
+    },
+    {
+        "ID": 536,
+        "Btag": "RussoVolante#2621",
+        "Nickname": "RussoVolante",
+        "twitch": "RussoVolante"
+    },
+    {
+        "ID": 537,
+        "Btag": "Sasha1369#2273",
+        "Nickname": "Sasha1369",
+        "twitch": "Sasha13_69"
+    },
+    {
+        "ID": 538,
+        "Btag": "Shaundakul#21689",
+        "Nickname": "Shaundakul",
+        "twitch": "darkyboom"
+    },
+    {
+        "ID": 539,
+        "Btag": "ShimaRin#2964",
+        "Nickname": "ShimaRin",
+        "twitch": "uralrus196"
+    },
+    {
+        "ID": 540,
+        "Btag": "silvermane#21254",
+        "Nickname": "silvermane",
+        "twitch": "skkorpio"
+    },
+    {
+        "ID": 541,
+        "Btag": "SkillzZzOn#2278",
+        "Nickname": "SkillzZzOn",
+        "twitch": "skillzzzon"
+    },
+    {
+        "ID": 542,
+        "Btag": "SoftCorgi#2616",
+        "Nickname": "SoftCorgi",
+        "twitch": "softcorgi"
+    },
+    {
+        "ID": 543,
+        "Btag": "Stiffler#21475",
+        "Nickname": "Stiffler",
+        "twitch": "trubala"
+    },
+    {
+        "ID": 544,
+        "Btag": "Tokkebi#21232",
+        "Nickname": "Tokkebi",
+        "twitch": "Tokkebii"
+    },
+    {
+        "ID": 545,
+        "Btag": "UTYA#21740",
+        "Nickname": "UTYA",
+        "twitch": "utya65"
+    },
+    {
+        "ID": 546,
+        "Btag": "Vita#22713",
+        "Nickname": "Vita",
+        "twitch": "l1ngu15t"
+    },
+    {
+        "ID": 547,
+        "Btag": "womp1k#2919",
+        "Nickname": "womp1k",
+        "twitch": "womp1k"
+    },
+    {
+        "ID": 548,
+        "Btag": "xtenzQ#2654",
+        "Nickname": "xtenzQ",
+        "twitch": "xtenzQ"
+    },
+    {
+        "ID": 549,
+        "Btag": "Yaicik#2152",
+        "Nickname": "Yaicik",
+        "twitch": "yaicik"
+    },
+    {
+        "ID": 550,
+        "Btag": "zunto#21169",
+        "Nickname": "zunto",
+        "twitch": "zuricu"
+    },
+    {
+        "ID": 551,
+        "Btag": "Феза#2784",
+        "Nickname": "Феза",
+        "twitch": "Fezamy"
+    },
+    {
+        "ID": 552,
+        "Btag": "Яичко#2767",
+        "Nickname": "Яичко",
+        "twitch": "goodmotorfinger"
+    },
+    {
+        "ID": 553,
+        "Btag": "Alice#23459",
+        "Nickname": "Alice",
+        "twitch": "alice_wonder"
+    },
+    {
+        "ID": 554,
+        "Btag": "pickle#22574",
+        "Nickname": "pickle",
+        "twitch": "NastyaKopatych"
+    },
+    {
+        "ID": 555,
+        "Btag": "IceCream#21619",
+        "Nickname": "IceCream",
+        "twitch": "pardon_36"
+    },
+    {
+        "ID": 556,
+        "Btag": "Fdu4#21222",
+        "Nickname": "Fdu4",
+        "twitch": "NestoNeon"
+    },
+    {
+        "ID": 557,
+        "Btag": "Rango#21721",
+        "Nickname": "Rango",
+        "twitch": "rang0_o"
+    },
+    {
+        "ID": 558,
+        "Btag": "Artmagic#21269",
+        "Nickname": "Artmagic",
+        "twitch": "Artmagic92"
+    },
+    {
+        "ID": 558,
+        "Btag": "Artmagic#21141",
+        "Nickname": "Artmagic",
+        "twitch": "Artmagic92"
+    },
+    {
+        "ID": 558,
+        "Btag": "Demogorgon#21254",
+        "Nickname": "Artmagic",
+        "twitch": "Artmagic92"
+    },
+    {
+        "ID": 559,
+        "Btag": "Melissa#22989",
+        "Nickname": "Melissa",
+        "twitch": "nika_troksiana"
+    },
+    {
+        "ID": 559,
+        "Btag": "Krankenwagen#21273",
+        "Nickname": "Melissa",
+        "twitch": "nika_troksiana"
+    },
+    {
+        "ID": 559,
+        "Btag": "Jorogumo#21184",
+        "Nickname": "Melissa",
+        "twitch": "nika_troksiana"
+    },
+    {
+        "ID": 560,
+        "Btag": "Martishka#21620",
+        "Nickname": "Martishka",
+        "twitch": "martishk"
+    },
+    {
+        "ID": 560,
+        "Btag": "Martishka#21620",
+        "Nickname": "Martishka",
+        "twitch": "martishk"
+    },
+    {
+        "ID": 561,
+        "Btag": "Scaut#21875",
+        "Nickname": "Scaut",
+        "twitch": "earlllgray"
+    },
+    {
+        "ID": 562,
+        "Btag": "Samrisel#2641",
+        "Nickname": "Samrisel",
+        "twitch": "Samrisel"
+    },
+    {
+        "ID": 563,
+        "Btag": "BogZevS#2200",
+        "Nickname": "BogZevS",
+        "twitch": "Freazr"
+    },
+    {
+        "ID": 563,
+        "Btag": "łłł#21728",
+        "Nickname": "BogZevS",
+        "twitch": "Freazr"
+    },
+    {
+        "ID": 564,
+        "Btag": "Akella#21390",
+        "Nickname": "Akella",
+        "twitch": "akella2281337228"
+    },
+    {
+        "ID": 564,
+        "Btag": "Akella#21409",
+        "Nickname": "Akella",
+        "twitch": "akella2281337228"
+    },
+    {
+        "ID": 564,
+        "Btag": "Истребитель#21395",
+        "Nickname": "Akella",
+        "twitch": "akella2281337228"
+    },
+    {
+        "ID": 565,
+        "Btag": "Madbox#21350",
+        "Nickname": "Madbox",
+        "twitch": "madbox2213"
+    },
+    {
+        "ID": 566,
+        "Btag": "harashow#2154",
+        "Nickname": "harashow",
+        "twitch": "harashow_j"
+    },
+    {
+        "ID": 567,
+        "Btag": "Glebabase#2900",
+        "Nickname": "Glebabase",
+        "twitch": "Glebabase_"
+    },
+    {
+        "ID": 568,
+        "Btag": "JohnQ#21377",
+        "Nickname": "JohnQ",
+        "twitch": "john__qp"
+    },
+    {
+        "ID": 569,
+        "Btag": "rizi#21666",
+        "Nickname": "rizi",
+        "twitch": "rizi_1"
+    },
+    {
+        "ID": 569,
+        "Btag": "SRizi#2659",
+        "Nickname": "rizi",
+        "twitch": "rizi_1"
+    },
+    {
+        "ID": 570,
+        "Btag": "Amir#23646",
+        "Nickname": "Amir",
+        "twitch": "amir200997"
+    },
+    {
+        "ID": 571,
+        "Btag": "Ivarys#2565",
+        "Nickname": "Ivarys",
+        "twitch": "1varys"
+    },
+    {
+        "ID": 571,
+        "Btag": "Ksenob1te#21288",
+        "Nickname": "Ivarys",
+        "twitch": "1varys"
+    },
+    {
+        "ID": 571,
+        "Btag": "TANKDiff#2777",
+        "Nickname": "Ivarys",
+        "twitch": "1varys"
+    },
+    {
+        "ID": 572,
+        "Btag": "LoveAce#2706",
+        "Nickname": "LoveAce",
+        "twitch": "Love_Ace"
+    },
+    {
+        "ID": 572,
+        "Btag": "DexterMorgan#21379",
+        "Nickname": "LoveAce",
+        "twitch": "Love_Ace"
+    },
+    {
+        "ID": 573,
+        "Btag": "RussianDoom#2178",
+        "Nickname": "RussianDoom",
+        "twitch": "underbalt1ka"
+    },
+    {
+        "ID": 573,
+        "Btag": "UnderBalt1ka#2982",
+        "Nickname": "RussianDoom",
+        "twitch": "underbalt1ka"
+    },
+    {
+        "ID": 574,
+        "Btag": "Boomerang76#21873",
+        "Nickname": "Boomerang76",
+        "twitch": "boomerang1976"
+    },
+    {
+        "ID": 575,
+        "Btag": "Dante#212305",
+        "Nickname": "Dante",
+        "twitch": "crazy___russian"
+    },
+    {
+        "ID": 241,
+        "Btag": "T3M57#2842",
+        "Nickname": "T3M57",
+        "twitch": "gefganty"
+    },
+    {
+        "ID": 21,
+        "Btag": "dbreeze#2181",
+        "Nickname": "dbreeze",
+        "twitch": "dashabreeze"
+    },
+    {
+        "ID": 373,
+        "Btag": "Castor#22926",
+        "Nickname": "Castor",
+        "twitch": "metalsky_ms"
+    },
+    {
+        "ID": 134,
+        "Btag": "dimas228s",
+        "Nickname": "dimas228s",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 186,
+        "Btag": "Djenteman#21217",
+        "Nickname": "Djenteman",
+        "twitch": "Chebuhtarych"
+    },
+    {
+        "ID": 131,
+        "Btag": "Dicsor#2933",
+        "Nickname": "Dicsor",
+        "twitch": "Green_Valet"
+    },
+    {
+        "ID": 52,
+        "Btag": "Gigabdidd#2788",
+        "Nickname": "Gigabdidd",
+        "twitch": "Gigabidq"
+    },
+    {
+        "ID": 98,
+        "Btag": "VicExtreme#2402",
+        "Nickname": "VicExtreme",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 98,
+        "Btag": "ヴィク極端#2230",
+        "Nickname": "ヴィク極端",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 115,
+        "Btag": "First_sin#21384",
+        "Nickname": "First_sin",
+        "twitch": "first_sin"
+    },
+    {
+        "ID": 31,
+        "Btag": "ВвечномБане",
+        "Nickname": "ВвечномБане",
+        "twitch": "sensei_g44"
+    },
+    {
+        "ID": 225,
+        "Btag": "Хлороформ#21713",
+        "Nickname": "Хлороформ",
+        "twitch": "Chlor_Witch"
+    },
+    {
+        "ID": 31,
+        "Btag": "ŞĘŊŠĚĨ44#2756",
+        "Nickname": "ŞĘŊŠĚĨ44",
+        "twitch": "sensei_g44"
+    },
+    {
+        "ID": 146,
+        "Btag": "nmie#21549",
+        "Nickname": "nmie",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 222,
+        "Btag": "Nakon#21362",
+        "Nickname": "Nakon",
+        "twitch": "NakonOW"
+    },
+    {
+        "ID": 93,
+        "Btag": "EXPANSE#21249",
+        "Nickname": "EXPANSE",
+        "twitch": "onarhl"
+    },
+    {
+        "ID": 315,
+        "Btag": "SoEasy#21159",
+        "Nickname": "SoEasy",
+        "twitch": "Dexxxxt"
+    },
+    {
+        "ID": 233,
+        "Btag": "LickMyArrow#2832",
+        "Nickname": "LickMyArrow",
+        "twitch": "MrLanzo"
+    },
+    {
+        "ID": 59,
+        "Btag": "FlynFall21850",
+        "Nickname": "FlynFall21850",
+        "twitch": "f1ynfall"
+    },
+    {
+        "ID": 88,
+        "Btag": "Screamy#21288",
+        "Nickname": "Screamy",
+        "twitch": "dvoretzkiysebas"
+    },
+    {
+        "ID": 486,
+        "Btag": "GreenArrow#22462",
+        "Nickname": "GreenArrow",
+        "twitch": "ONLYONE63"
+    },
+    {
+        "ID": 67,
+        "Btag": "Канэки#2365",
+        "Nickname": "Канэки",
+        "twitch": "mittzki"
+    },
+    {
+        "ID": 229,
+        "Btag": "DareDevil#22524",
+        "Nickname": "DareDevil",
+        "twitch": "nektar_or_neki"
+    },
+    {
+        "ID": 236,
+        "Btag": "LollyBomb#2434",
+        "Nickname": "LollyBomb",
+        "twitch": "ChioTV"
+    },
+    {
+        "ID": 249,
+        "Btag": "Ликёр#2837",
+        "Nickname": "Ликёр",
+        "twitch": "pardon_36"
+    },
+    {
+        "ID": 183,
+        "Btag": "Hammond#21929",
+        "Nickname": "Hammond",
+        "twitch": "SunrisenN"
+    },
+    {
+        "ID": 72,
+        "Btag": "ГВОЗДИНОЧКА#2842",
+        "Nickname": "ГВОЗДИНОЧКА",
+        "twitch": "honokawitch"
+    },
+    {
+        "ID": 439,
+        "Btag": "Okedman#21894",
+        "Nickname": "Okedman",
+        "twitch": "Okedman"
+    },
+    {
+        "ID": 71,
+        "Btag": "Pasternak#21225",
+        "Nickname": "Pasternak",
+        "twitch": "DrBrunsong; NewSleipnir"
+    },
+    {
+        "ID": 188,
+        "Btag": "ВЕСЁЛЫЙ#21944",
+        "Nickname": "ВЕСЁЛЫЙ",
+        "twitch": "larem1n"
+    },
+    {
+        "ID": 164,
+        "Btag": "Haze#23860",
+        "Nickname": "Haze",
+        "twitch": "terrenkur"
+    },
+    {
+        "ID": 367,
+        "Btag": "Sorcen#21241",
+        "Nickname": "Sorcen",
+        "twitch": "ShadowSahar"
+    },
+    {
+        "ID": 424,
+        "Btag": "Sephera#21898",
+        "Nickname": "Sephera",
+        "twitch": "anameija"
+    },
+    {
+        "ID": 387,
+        "Btag": "суся#21883",
+        "Nickname": "суся",
+        "twitch": "sysl9k"
+    },
+    {
+        "ID": 270,
+        "Btag": "amBRObene#2284",
+        "Nickname": "amBRObene",
+        "twitch": "Harliona"
+    },
+    {
+        "ID": 113,
+        "Btag": "chaika#21477",
+        "Nickname": "chaika",
+        "twitch": "mota_po"
+    },
+    {
+        "ID": 11,
+        "Btag": "unroq#2489",
+        "Nickname": "unroq",
+        "twitch": "unroq_ToR"
+    },
+    {
+        "ID": 114,
+        "Btag": "плюшка#21569",
+        "Nickname": "плюшка",
+        "twitch": "DelaQure"
+    },
+    {
+        "ID": 56,
+        "Btag": "FeelsTasty#2820",
+        "Nickname": "FeelsTasty",
+        "twitch": "Sugoi_as_fck"
+    },
+    {
+        "ID": 12,
+        "Btag": "IloveSugoi#2148",
+        "Nickname": "IloveSugoi",
+        "twitch": "redbox1424"
+    },
+    {
+        "ID": 98,
+        "Btag": "Alukard#2838",
+        "Nickname": "Alukard",
+        "twitch": "Victorgorbachev2010"
+    },
+    {
+        "ID": 26,
+        "Btag": "Bottom500#2842",
+        "Nickname": "Bottom500",
+        "twitch": "CandyCandyOW"
+    },
+    {
+        "ID": 131,
+        "Btag": "KhazadAiMenu#21914",
+        "Nickname": "KhazadAiMenu",
+        "twitch": "Green_Valet"
+    },
+    {
+        "ID": 330,
+        "Btag": "BlaBlaBla#21531",
+        "Nickname": "BlaBlaBla",
+        "twitch": "moxnatymonax"
+    },
+    {
+        "ID": 206,
+        "Btag": "Professor#22802",
+        "Nickname": "Professor",
+        "twitch": "professorforu"
+    },
+    {
+        "ID": 88,
+        "Btag": "Franxx#21671",
+        "Nickname": "Franxx",
+        "twitch": "dvoretzkiysebas"
+    },
+    {
+        "ID": 235,
+        "Btag": "template#21876",
+        "Nickname": "template",
+        "twitch": "LambdaShaman"
+    },
+    {
+        "ID": 30,
+        "Btag": "ПушистаяХулиганка#2208",
+        "Nickname": "ПушистаяХулиганка",
+        "twitch": "morSevit"
+    },
+    {
+        "ID": 309,
+        "Btag": "ǑneƁrknĦeart#1713",
+        "Nickname": "ǑneƁrknĦeart",
+        "twitch": "j_stex"
+    },
+    {
+        "ID": 71,
+        "Btag": "Sleipnir#21837",
+        "Nickname": "Sleipnir",
+        "twitch": "DrBrunsong; NewSleipnir"
+    },
+    {
+        "ID": 236,
+        "Btag": "Waifu#21382",
+        "Nickname": "Waifu",
+        "twitch": "ChioTV"
+    },
+    {
+        "ID": 310,
+        "Btag": "Barashek#21847",
+        "Nickname": "Barashek",
+        "twitch": "barashekluk"
+    },
+    {
+        "ID": 307,
+        "Btag": "Декабрь#21863",
+        "Nickname": "Декабрь",
+        "twitch": "Dinaxy"
+    },
+    {
+        "ID": 232,
+        "Btag": "Тучка#21504",
+        "Nickname": "Тучка",
+        "twitch": "Mishkau"
+    },
+    {
+        "ID": 266,
+        "Btag": "Nordström#21857",
+        "Nickname": "Nordström",
+        "twitch": "BigLittleChe"
+    },
+    {
+        "ID": 207,
+        "Btag": "F0kU#21655;",
+        "Nickname": "F0kU",
+        "twitch": "Daria_Shadow"
+    },
+    {
+        "ID": 233,
+        "Btag": "DeWrecker#2736",
+        "Nickname": "DeWrecker",
+        "twitch": "MrLanzo"
+    },
+    {
+        "ID": 156,
+        "Btag": "noname#210669",
+        "Nickname": "noname",
+        "twitch": "atomiclepr0"
+    },
+    {
+        "ID": 308,
+        "Btag": "CheersLove#21879",
+        "Nickname": "CheersLove",
+        "twitch": "CragHack_"
+    },
+    {
+        "ID": 104,
+        "Btag": "sleepwalker#21175",
+        "Nickname": "sleepwalker",
+        "twitch": "Waizyz"
+    },
+    {
+        "ID": 366,
+        "Btag": "Наберешь#2694",
+        "Nickname": "Наберешь",
+        "twitch": "goodmotorfinger"
+    },
+    {
+        "ID": 47,
+        "Btag": "DeadInside#22222",
+        "Nickname": "DeadInside",
+        "twitch": "Klafuti_"
+    },
+    {
+        "ID": 368,
+        "Btag": "Cre1n#2181",
+        "Nickname": "Cre1n",
+        "twitch": "thecre1n"
+    },
+    {
+        "ID": 203,
+        "Btag": "Disgrace#21607",
+        "Nickname": "Disgrace",
+        "twitch": "KuriGohaNow"
+    },
+    {
+        "ID": 99,
+        "Btag": "Прицепик#2277",
+        "Nickname": "Прицепик",
+        "twitch": "PsyVers"
+    },
+    {
+        "ID": 334,
+        "Btag": "Foeth#21529",
+        "Nickname": "Foeth",
+        "twitch": "OttoFonVzhuhSmork"
+    },
+    {
+        "ID": 318,
+        "Btag": "EvilToster#21829",
+        "Nickname": "EvilToster",
+        "twitch": "eviltosterrr"
+    },
+    {
+        "ID": 317,
+        "Btag": "FiftyMinutes#2697",
+        "Nickname": "FiftyMinutes",
+        "twitch": "s0luti0n_"
+    },
+    {
+        "ID": 365,
+        "Btag": "Viz1er#2377",
+        "Nickname": "Viz1er",
+        "twitch": "xenkok1"
+    },
+    {
+        "ID": 196,
+        "Btag": "69Jessica#21135",
+        "Nickname": "69Jessica",
+        "twitch": "69JessicaRabbit"
+    },
+    {
+        "ID": 153,
+        "Btag": "Kekega#2790",
+        "Nickname": "Kekega",
+        "twitch": "Misteras3"
+    },
+    {
+        "ID": 30,
+        "Btag": "ПушистаяХу#2208",
+        "Nickname": "ПушистаяХу",
+        "twitch": "morSevit"
+    },
+    {
+        "ID": 201,
+        "Btag": "trAshe#21573",
+        "Nickname": "trAshe",
+        "twitch": "M1shaa_"
+    },
+    {
+        "ID": 371,
+        "Btag": "RabbitWitch#2202",
+        "Nickname": "RabbitWitch",
+        "twitch": "solnyfko_meow"
+    },
+    {
+        "ID": 168,
+        "Btag": "TheUgly#21585",
+        "Nickname": "TheUgly",
+        "twitch": "Faerness"
+    },
+    {
+        "ID": 484,
+        "Btag": "Rong#21565",
+        "Nickname": "Rong",
+        "twitch": "Kiani_ow"
+    },
+    {
+        "ID": 292,
+        "Btag": "Blood#22854",
+        "Nickname": "Blood",
+        "twitch": "RomaOverwatch"
+    },
+    {
+        "ID": 241,
+        "Btag": "ĆǾMƁȌŦĨŁŦ#2625;",
+        "Nickname": "ĆǾMƁȌŦĨŁŦ",
+        "twitch": "gefganty"
+    },
+    {
+        "ID": 165,
+        "Btag": "agnt#21392",
+        "Nickname": "agnt",
+        "twitch": "agnt89"
+    },
+    {
+        "ID": 409,
+        "Btag": "Aerozolka#2272",
+        "Nickname": "Aerozolka",
+        "twitch": "khant_ru"
+    },
+    {
+        "ID": 370,
+        "Btag": "kkimlazy#2576",
+        "Nickname": "kkimlazy",
+        "twitch": "kkimlazy"
+    },
+    {
+        "ID": 133,
+        "Btag": "ImCarry#21394",
+        "Nickname": "ImCarry",
+        "twitch": "Larchq"
+    },
+    {
+        "ID": 209,
+        "Btag": "Tasher#21649",
+        "Nickname": "Tasher",
+        "twitch": "N00IR"
+    },
+    {
+        "ID": 132,
+        "Btag": "МёрзлыйПёс#21258",
+        "Nickname": "МёрзлыйПёс",
+        "twitch": "libretei"
+    },
+    {
+        "ID": 313,
+        "Btag": "DoomFist#3880",
+        "Nickname": "DoomFist",
+        "twitch": "anakq"
+    },
+    {
+        "ID": 210,
+        "Btag": "Y3ti#21812",
+        "Nickname": "Y3ti",
+        "twitch": "SuperOlegPlay"
+    },
+    {
+        "ID": 105,
+        "Btag": "charlotte#22763",
+        "Nickname": "charlotte",
+        "twitch": "skryaga_"
+    },
+    {
+        "ID": 162,
+        "Btag": "КринжСанитар#2667",
+        "Nickname": "КринжСанитар",
+        "twitch": "nakitsuu"
+    },
+    {
+        "ID": 93,
+        "Btag": "HealYourself#21656",
+        "Nickname": "HealYourself",
+        "twitch": "onarhl"
+    },
+    {
+        "ID": 224,
+        "Btag": "Manus#21604",
+        "Nickname": "Manus",
+        "twitch": "otec_diodor"
+    },
+    {
+        "ID": 249,
+        "Btag": "Ликер#2837",
+        "Nickname": "Ликер",
+        "twitch": "pardon_36"
+    },
+    {
+        "ID": 134,
+        "Btag": "ǂŜǙǝŦǺǂ#2657",
+        "Nickname": "ǂŜǙǝŦǺǂ",
+        "twitch": "dimas228s"
+    },
+    {
+        "ID": 133,
+        "Btag": "ImCarry21394",
+        "Nickname": "ImCarry21394",
+        "twitch": "Larchq"
+    },
+    {
+        "ID": 118,
+        "Btag": "КтоЯ#21585",
+        "Nickname": "КтоЯ",
+        "twitch": "svevoloch"
+    },
+    {
+        "ID": 563,
+        "Btag": "łłł#21728",
+        "Nickname": "łłł",
+        "twitch": "Freazr"
+    },
+    {
+        "ID": 572,
+        "Btag": "DexterMorgan#21379",
+        "Nickname": "DexterMorgan",
+        "twitch": "Love_Ace"
+    },
+    {
+        "ID": 181,
+        "Btag": "MDK#21420",
+        "Nickname": "MDK",
+        "twitch": "old_ronik"
+    },
+    {
+        "ID": 571,
+        "Btag": "Ksenob1te#21288",
+        "Nickname": "Ksenob1te",
+        "twitch": "1varys"
+    },
+    {
+        "ID": 143,
+        "Btag": "БичПакет№21807",
+        "Nickname": "БичПакет№21807",
+        "twitch": "pupsik__ow"
+    },
+    {
+        "ID": 559,
+        "Btag": "Krankenwagen#21273",
+        "Nickname": "Krankenwagen",
+        "twitch": "nika_troksiana"
+    },
+    {
+        "ID": 146,
+        "Btag": "кусь#21126",
+        "Nickname": "кусь",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 60,
+        "Btag": "Анжела#1302",
+        "Nickname": "Анжела",
+        "twitch": "Frieza666"
+    },
+    {
+        "ID": 188,
+        "Btag": "cloudbreaker#21180",
+        "Nickname": "cloudbreaker",
+        "twitch": "larem1n"
+    },
+    {
+        "ID": 573,
+        "Btag": "UnderBalt1ka#2982",
+        "Nickname": "UnderBalt1ka",
+        "twitch": "underbalt1ka"
+    },
+    {
+        "ID": 700,
+        "Btag": "Sesnau#2901",
+        "Nickname": "Sesnau",
+        "twitch": "Sesnay"
+    },
+    {
+        "ID": 569,
+        "Btag": "SRizi#2659",
+        "Nickname": "SRizi",
+        "twitch": "rizi_1"
+    },
+    {
+        "ID": 146,
+        "Btag": "peepoGamer#2991",
+        "Nickname": "peepoGamer",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 93,
+        "Btag": "Lenarh#21926",
+        "Nickname": "Lenarh",
+        "twitch": "onarhl"
+    },
+    {
+        "ID": 229,
+        "Btag": "NorrisChuck#21340",
+        "Nickname": "NorrisChuck",
+        "twitch": "nektar_or_neki"
+    },
+    {
+        "ID": 236,
+        "Btag": "ДебустЗа5Руб#2132",
+        "Nickname": "ДебустЗа5Руб",
+        "twitch": "ChioTV"
+    },
+    {
+        "ID": 183,
+        "Btag": "HumanBean#21688",
+        "Nickname": "HumanBean",
+        "twitch": "SunrisenN"
+    },
+    {
+        "ID": 233,
+        "Btag": "DeWreker#2736",
+        "Nickname": "DeWreker",
+        "twitch": "MrLanzo"
+    },
+    {
+        "ID": 270,
+        "Btag": "harleyONAIR#21892",
+        "Nickname": "harleyONAIR",
+        "twitch": "Harliona"
+    },
+    {
+        "ID": 12,
+        "Btag": "Володя#21937",
+        "Nickname": "Володя",
+        "twitch": "redbox1424"
+    },
+    {
+        "ID": 105,
+        "Btag": "strudel#21122",
+        "Nickname": "strudel",
+        "twitch": "skryaga_"
+    },
+    {
+        "ID": 207,
+        "Btag": "Witch#21587;",
+        "Nickname": "Witch",
+        "twitch": "Daria_Shadow"
+    },
+    {
+        "ID": 308,
+        "Btag": "CavalrysHere#21836",
+        "Nickname": "CavalrysHere",
+        "twitch": "CragHack_"
+    },
+    {
+        "ID": 142,
+        "Btag": "melting3y3#1925",
+        "Nickname": "melting3y3",
+        "twitch": "megamurlaw"
+    },
+    {
+        "ID": 270,
+        "Btag": "Harliona#2782",
+        "Nickname": "Harliona",
+        "twitch": "Harliona"
+    },
+    {
+        "ID": 222,
+        "Btag": "Nekochort#1384",
+        "Nickname": "Nekochort",
+        "twitch": "NakonOW"
+    },
+    {
+        "ID": 241,
+        "Btag": "BladeJi#2961;",
+        "Nickname": "BladeJi",
+        "twitch": "gefganty"
+    },
+    {
+        "ID": 165,
+        "Btag": "ДЕРЕВОЛАЗ#21261",
+        "Nickname": "ДЕРЕВОЛАЗ",
+        "twitch": "agnt89"
+    },
+    {
+        "ID": 313,
+        "Btag": "Rein#3750",
+        "Nickname": "Rein",
+        "twitch": "anakq"
+    },
+    {
+        "ID": 133,
+        "Btag": "MoonDog#21703",
+        "Nickname": "MoonDog",
+        "twitch": "Larchq"
+    },
+    {
+        "ID": 558,
+        "Btag": "Demogorgon#21254",
+        "Nickname": "Demogorgon",
+        "twitch": "Artmagic92"
+    },
+    {
+        "ID": 564,
+        "Btag": "Истребитель#21395",
+        "Nickname": "Истребитель",
+        "twitch": "akella2281337228"
+    },
+    {
+        "ID": 571,
+        "Btag": "TANKDiff#2777",
+        "Nickname": "TANKDiff",
+        "twitch": "1varys"
+    },
+    {
+        "ID": 146,
+        "Btag": "Катышка#21866",
+        "Nickname": "Катышка",
+        "twitch": "nmie"
+    },
+    {
+        "ID": 569,
+        "Btag": "гачиМерси#2674",
+        "Nickname": "гачиМерси",
+        "twitch": "rizi_1"
+    },
+    {
+        "ID": 12,
+        "Btag": "KEKWAIT#2103",
+        "Nickname": "KEKWAIT",
+        "twitch": "redbox1424"
+    },
+    {
+        "ID": 207,
+        "Btag": "Dreamy#21478",
+        "Nickname": "Dreamy",
+        "twitch": "Daria_Shadow"
+    },
+    {
+        "ID": 241,
+        "Btag": "K3V37fan#2583",
+        "Nickname": "K3V37fan",
+        "twitch": "gefganty"
+    },
+    {
+        "ID": 270,
+        "Btag": "xQtie#2345",
+        "Nickname": "xQtie",
+        "twitch": "Harliona"
+    },
+    {
+        "ID": 588,
+        "Btag": "Лисичка#21521",
+        "Nickname": "Лисичка",
+        "twitch": "neferetty"
+    },
+    {
+        "ID": 588,
+        "Btag": "anameija#2402",
+        "Nickname": "anameija",
+        "twitch": "neferetty"
+    },
+    {
+        "ID": 586,
+        "Btag": "l0ng#21873",
+        "Nickname": "l0ng",
+        "twitch": "l0ngje"
+    },
+    {
+        "ID": 586,
+        "Btag": "l0ngje#1737",
+        "Nickname": "l0ngje",
+        "twitch": "l0ngje"
+    },
+    {
+        "ID": 604,
+        "Btag": "OwerEgorka#2102",
+        "Nickname": "OwerEgorka",
+        "twitch": "TheMirior"
+    },
+    {
+        "ID": 590,
+        "Btag": "kirasofrik#2561",
+        "Nickname": "kirasofrik",
+        "twitch": "kirasofrik"
+    },
+    {
+        "ID": 595,
+        "Btag": "jasu#21425",
+        "Nickname": "jasu",
+        "twitch": "ponnoon"
+    },
+    {
+        "ID": 595,
+        "Btag": "animegirl#21157",
+        "Nickname": "animegirl",
+        "twitch": "ponnoon"
+    },
+    {
+        "ID": 598,
+        "Btag": "Rayze#21206",
+        "Nickname": "Rayze",
+        "twitch": "rayzeqt"
+    },
+    {
+        "ID": 585,
+        "Btag": "PNDshnik#2884",
+        "Nickname": "PNDshnik",
+        "twitch": "PNDshnik"
+    },
+    {
+        "ID": 577,
+        "Btag": "Petro#2537",
+        "Nickname": "Petro",
+        "twitch": "pablo_tut"
+    },
+    {
+        "ID": 593,
+        "Btag": "Jelly#22454",
+        "Nickname": "Jelly",
+        "twitch": "InfinityJelly"
+    },
+    {
+        "ID": 592,
+        "Btag": "zTrap#21662",
+        "Nickname": "zTrap",
+        "twitch": "zTrap_one"
+    },
+    {
+        "ID": 592,
+        "Btag": "engineer#21290",
+        "Nickname": "engineer",
+        "twitch": "zTrap_one"
+    },
+    {
+        "ID": 603,
+        "Btag": "Nemesis#25820",
+        "Nickname": "Nemesis",
+        "twitch": "MariaNoToxic"
+    },
+    {
+        "ID": 599,
+        "Btag": "FitMedusa8#2648",
+        "Nickname": "FitMedusa8",
+        "twitch": "FitMedusa8"
+    },
+    {
+        "ID": 584,
+        "Btag": "rEazeN#21484",
+        "Nickname": "rEazeN",
+        "twitch": "rEazeN_official"
+    },
+    {
+        "ID": 580,
+        "Btag": "Alenka#21338",
+        "Nickname": "Alenka",
+        "twitch": "AJlenKa_"
+    },
+    {
+        "ID": 607,
+        "Btag": "АнгельскПыль#2822",
+        "Nickname": "АнгельскПыль",
+        "twitch": "angelskaia_pyl"
+    },
+    {
+        "ID": 147,
+        "Btag": "Дафран#2742",
+        "Nickname": "Дафран",
+        "twitch": "nazol"
+    },
+    {
+        "ID": 582,
+        "Btag": "ЕдкийЕж#216878",
+        "Nickname": "ЕдкийЕж",
+        "twitch": "KelPerX7"
+    },
+    {
+        "ID": 578,
+        "Btag": "FoxCrush#2674",
+        "Nickname": "FoxCrush",
+        "twitch": "foxteryr"
+    },
+    {
+        "ID": 579,
+        "Btag": "Joie#21497",
+        "Nickname": "Joie",
+        "twitch": "lesnoy_olen"
+    },
+    {
+        "ID": 587,
+        "Btag": "Lothrax#21421",
+        "Nickname": "Lothrax",
+        "twitch": "winload"
+    },
+    {
+        "ID": 587,
+        "Btag": "DEAODA#2600",
+        "Nickname": "DEAODA",
+        "twitch": "winload"
+    },
+    {
+        "ID": 596,
+        "Btag": "Gholdi#2485",
+        "Nickname": "Gholdi",
+        "twitch": "Etozhesmetanka"
+    },
+    {
+        "ID": 600,
+        "Btag": "Иной#21847",
+        "Nickname": "Иной",
+        "twitch": "Inoy_Bobr"
+    },
+    {
+        "ID": 576,
+        "Btag": "Ermine#2211",
+        "Nickname": "Ermine",
+        "twitch": "erm1nee"
+    },
+    {
+        "ID": 576,
+        "Btag": "Жесткий#21198",
+        "Nickname": "Жесткий",
+        "twitch": "erm1nee"
+    },
+    {
+        "ID": 605,
+        "Btag": "Mioto#21199",
+        "Nickname": "Mioto",
+        "twitch": "Mioto"
+    },
+    {
+        "ID": 605,
+        "Btag": "Mayo#21191",
+        "Nickname": "Mayo",
+        "twitch": "Mioto"
+    },
+    {
+        "ID": 605,
+        "Btag": "Miriko#21655",
+        "Nickname": "Miriko",
+        "twitch": "Mioto"
+    },
+    {
+        "ID": 605,
+        "Btag": "Ashley#22636",
+        "Nickname": "Ashley",
+        "twitch": "Mioto"
+    },
+    {
+        "ID": 605,
+        "Btag": "Mercy#24792",
+        "Nickname": "Mercy",
+        "twitch": "Mioto"
+    },
+    {
+        "ID": 606,
+        "Btag": "FireBird#21307",
+        "Nickname": "FireBird",
+        "twitch": "bluebirdfps"
+    },
+    {
+        "ID": 601,
+        "Btag": "MeowThTØP#2310",
+        "Nickname": "MeowThTØP",
+        "twitch": "MeowthOwl"
+    },
+    {
+        "ID": 601,
+        "Btag": "JOCHENRINDT#2864",
+        "Nickname": "JOCHENRINDT",
+        "twitch": "MeowthOwl"
+    },
+    {
+        "ID": 597,
+        "Btag": "IRONeggs#21554",
+        "Nickname": "IRONeggs",
+        "twitch": "iron_eggs_ow"
+    },
+    {
+        "ID": 597,
+        "Btag": "Пиджак#21140",
+        "Nickname": "Пиджак",
+        "twitch": "iron_eggs_ow"
+    },
+    {
+        "ID": 602,
+        "Btag": "РОСНАНО#2956",
+        "Nickname": "РОСНАНО",
+        "twitch": "opossition"
+    },
+    {
+        "ID": 602,
+        "Btag": "Keanu#21124",
+        "Nickname": "Keanu",
+        "twitch": "opossition"
+    },
+    {
+        "ID": 589,
+        "Btag": "BillyButcher#21386",
+        "Nickname": "BillyButcher",
+        "twitch": "FunnyEnemy"
+    },
+    {
+        "ID": 594,
+        "Btag": "Ervald#2930",
+        "Nickname": "Ervald",
+        "twitch": "Barbarees"
+    },
+    {
+        "ID": 591,
+        "Btag": "Disappeared#21688",
+        "Nickname": "Disappeared",
+        "twitch": "DisappearedSanya"
+    },
+    {
+        "ID": 591,
+        "Btag": "Disappeared#4870",
+        "Nickname": "Disappeared",
+        "twitch": "DisappearedSanya"
+    },
+    {
+        "ID": 583,
+        "Btag": "Drigy#2299",
+        "Nickname": "Drigy",
+        "twitch": "Drigy"
+    },
+    {
+        "ID": 608,
+        "Btag": "gr1ZZly#2412",
+        "Nickname": "gr1ZZly",
+        "twitch": "GR1ZZLYje"
+    },
+    {
+        "ID": 609,
+        "Btag": "dandelion#21615",
+        "Nickname": "dandelion",
+        "twitch": "Delllik_"
+    },
+    {
+        "ID": 609,
+        "Btag": "squawk#21581",
+        "Nickname": "squawk",
+        "twitch": "Delllik_"
+    },
+    {
+        "ID": 610,
+        "Btag": "vviishnya#2787",
+        "Nickname": "vviishnya",
+        "twitch": "vviishnya"
+    },
+    {
+        "ID": 611,
+        "Btag": "Duro4ok#21570",
+        "Nickname": "Duro4ok",
+        "twitch": "duro4okk"
+    },
+    {
+        "ID": 612,
+        "Btag": "DemonDimon#2279",
+        "Nickname": "DemonDimon",
+        "twitch": "demon_dimon777"
+    },
+    {
+        "ID": 613,
+        "Btag": "Lisenok#21326",
+        "Nickname": "Lisenok",
+        "twitch": "Lisomani9"
+    },
+    {
+        "ID": 613,
+        "Btag": "SweetDreams#21590",
+        "Nickname": "SweetDreams",
+        "twitch": "Lisomani9"
+    },
+    {
+        "ID": 613,
+        "Btag": "Mafist#1565",
+        "Nickname": "Mafist",
+        "twitch": "Lisomani9"
+    },
+    {
+        "ID": 613,
+        "Btag": "ŎŎŎĤƗƇƕǺŊ#2414",
+        "Nickname": "ŎŎŎĤƗƇƕǺŊ",
+        "twitch": "Lisomani9"
+    },
+    {
+        "ID": 614,
+        "Btag": "Khortitsa#2155",
+        "Nickname": "Khortitsa",
+        "twitch": "khortitsaa"
+    },
+    {
+        "ID": 615,
+        "Btag": "SilentAshley#2233",
+        "Nickname": "SilentAshley",
+        "twitch": "SilentAshley_OW"
+    },
+    {
+        "ID": 615,
+        "Btag": "Wolfikys#2979",
+        "Nickname": "Wolfikys",
+        "twitch": "SilentAshley_OW"
+    },
+    {
+        "ID": 615,
+        "Btag": "VIORA#21183",
+        "Nickname": "VIORA",
+        "twitch": "SilentAshley_OW"
+    },
+    {
+        "ID": 616,
+        "Btag": "ARTS#21464",
+        "Nickname": "ARTS",
+        "twitch": "arts_ll"
+    },
+    {
+        "ID": 617,
+        "Btag": "Hidan#21959",
+        "Nickname": "Hidan",
+        "twitch": "Hidan_MLG"
+    },
+    {
+        "ID": 320,
+        "Btag": "desterinho#21617",
+        "Nickname": "desterinho",
+        "twitch": "desterinho"
+    },
+    {
+        "ID": 320,
+        "Btag": "shibainu#21391",
+        "Nickname": "shibainu",
+        "twitch": "desterinho"
+    },
+    {
+        "ID": 618,
+        "Btag": "CblP#21698",
+        "Nickname": "CblP",
+        "twitch": "CblP_6E3_DblP"
+    },
+    {
+        "ID": 619,
+        "Btag": "KnightPrime#21186",
+        "Nickname": "KnightPrime",
+        "twitch": "mishadarknessgod"
+    },
+    {
+        "ID": 416,
+        "Btag": "Lermontov#21886",
+        "Nickname": "Lermontov",
+        "twitch": "9PuSHKiN9"
+    },
+    {
+        "ID": 45,
+        "Btag": "sixtynine#21456",
+        "Nickname": "sixtynine",
+        "twitch": "cookiemiyuuki"
+    },
+    {
+        "ID": 620,
+        "Btag": "SERGEANT#21426",
+        "Nickname": "SERGEANT",
+        "twitch": "yaguar00"
+    },
+    {
+        "ID": 438,
+        "Btag": "paha141#2243",
+        "Nickname": "paha141",
+        "twitch": "paha141"
+    },
+    {
+        "ID": 621,
+        "Btag": "kondor12#2815",
+        "Nickname": "kondor12",
+        "twitch": "1mDante"
+    },
+    {
+        "ID": 293,
+        "Btag": "vijen#21613",
+        "Nickname": "vijen",
+        "twitch": "vijen228"
+    },
+    {
+        "ID": 622,
+        "Btag": "Darius#24393",
+        "Nickname": "Darius",
+        "twitch": "dashshka"
+    },
+    {
+        "ID": 623,
+        "Btag": "DeLakrua#21841",
+        "Nickname": "DeLakrua",
+        "twitch": "1byff"
+    },
+    {
+        "ID": 624,
+        "Btag": "Kirieshka#21757",
+        "Nickname": "Kirieshka",
+        "twitch": "kirieshkaoao"
+    },
+    {
+        "ID": 625,
+        "Btag": "Milord#21158",
+        "Nickname": "Milord",
+        "twitch": "M1lordQ"
+    },
+    {
+        "ID": 626,
+        "Btag": "ǂǂǂ#21112",
+        "Nickname": "ǂǂǂ",
+        "twitch": "sdw_tkn1ght"
+    },
+    {
+        "ID": 627,
+        "Btag": "ArtemDarKDtL#2133",
+        "Nickname": "ArtemDarKDtL",
+        "twitch": "ArtemDarKDtL"
+    },
+    {
+        "ID": 628,
+        "Btag": "CTpaHHuK#2654",
+        "Nickname": "CTpaHHuK",
+        "twitch": "CTpaHHuK"
+    },
+    {
+        "ID": 101,
+        "Btag": "Pachimuri#2350",
+        "Nickname": "Pachimuri",
+        "twitch": "Pachiimuri"
+    },
+    {
+        "ID": 629,
+        "Btag": "Babushka#21898",
+        "Nickname": "Babushka",
+        "twitch": "luche_luche"
+    },
+    {
+        "ID": 630,
+        "Btag": "Sora#22485",
+        "Nickname": "Sora",
+        "twitch": "Azat_07"
+    },
+    {
+        "ID": 606,
+        "Btag": "ZEVC#21277",
+        "Nickname": "ZEVC",
+        "twitch": "ZEVC_return"
+    },
+    {
+        "ID": 573,
+        "Btag": "HIGHTEKK#21297",
+        "Nickname": "HIGHTEKK",
+        "twitch": "underbalt1ka"
+    },
+    {
+        "ID": 121,
+        "Btag": "Giena#21814",
+        "Nickname": "Giena",
+        "twitch": "ResFlowMaster"
+    },
+    {
+        "ID": 564,
+        "Btag": "SQU1RRE1#2366",
+        "Nickname": "SQU1RRE1",
+        "twitch": "akella2281337228"
+    },
+    {
+        "ID": 128,
+        "Btag": "Elsa#21950",
+        "Nickname": "Elsa",
+        "twitch": "Ibela_dimitrescu"
+    },
+    {
+        "ID": 227,
+        "Btag": "tEm#21190",
+        "Nickname": "tEm",
+        "twitch": "Stupidu"
+    },
+    {
+        "ID": 273,
+        "Btag": "Ternovn1k#2906",
+        "Nickname": "Ternovnik",
+        "twitch": "Ternovn1k"
+    },
+    {
+        "ID": 777,
+        "Btag": "МикроЧелик#2705",
+        "Nickname": "МикроЧелик",
+        "twitch": "dikkerr"
+    },
+    {
+        "ID": 700,
+        "Btag": "Sesnau#2901",
+        "Nickname": "Sesnau",
+        "twitch": "Sesnay"
+    },
+    {
+        "ID": 631,
+        "Btag": "Barbarees#2357",
+        "Nickname": "Barbarees",
+        "twitch": "Barbarees"
+    },
+    {
+        "ID": 273,
+        "Btag": "Ternovn1k",
+        "Nickname": "Ternovnik",
+        "twitch": "Ternovn1k"
+    },
+    {
+        "ID": 109,
+        "Btag": "zMze",
+        "Nickname": "zMize",
+        "twitch": "zMize"
+    },
+    {
+        "ID": 195,
+        "Btag": "MoonBunny#21273",
+        "Nickname": "MoonBunny"
+    },
+    {
+        "ID": 12,
+        "Btag": "Redbox#1424",
+        "Nickname": "ReDBoX"
+    },
+    {
+        "ID": 163,
+        "Btag": "Oikawa#21544",
+        "Nickname": "Oikawa"
+    },
+    {
+        "ID": 203,
+        "Btag": "KuriGohaN#2407",
+        "Nickname": "KuriGohaN"
+    },
+    {
+        "ID": 462,
+        "Btag": "eripvi#2694",
+        "Nickname": "eripvi",
+        "twitch": "eripvi"
+    },
+    {
+        "ID": 355,
+        "Btag": "deadlytango#2688",
+        "Nickname": "deadlytango",
+        "twitch": "dtango"
+    },
+    {
+        "ID": 632,
+        "Btag": "warcrafy#2849",
+        "Nickname": "warcrafy",
+        "twitch": "PinkYoooo"
+    },
+    {
+        "ID": 633,
+        "Btag": "TheFF#21525",
+        "Nickname": "TheFF",
+        "twitch": "govard_l"
+    },
+    {
+        "ID": 634,
+        "Btag": "CramBoos#2592",
+        "Nickname": "CramBoos",
+        "twitch": "cramboos_"
+    },
+    {
+        "ID": 635,
+        "Btag": "Ledo#21117",
+        "Nickname": "Ledo",
+        "twitch": "QuietLedo"
+    },
+    {
+        "ID": 636,
+        "Btag": "GasterVoice#2834",
+        "Nickname": "GasterVoice",
+        "twitch": "gastervoice"
+    },
+    {
+        "ID": 637,
+        "Btag": "Calyx#21464",
+        "Nickname": "Calyx",
+        "twitch": "calyx______"
+    },
+    {
+        "ID": 638,
+        "Btag": "Happy#27691",
+        "Nickname": "Happy",
+        "twitch": "Happy_____p_p"
+    },
+    {
+        "ID": 639,
+        "Btag": "TODD#21598",
+        "Nickname": "TODD",
+        "twitch": "masterTodd"
+    },
+    {
+        "ID": 640,
+        "Btag": "Manqa#21796",
+        "Nickname": "Manqa",
+        "twitch": "manqa"
+    },
+    {
+        "ID": 640,
+        "Btag": "Killua#24952",
+        "Nickname": "Killua",
+        "twitch": "manqa"
+    },
+    {
+        "ID": 641,
+        "Btag": "NanoMain#21963",
+        "Nickname": "NanoMain",
+        "twitch": "anem0__"
+    },
+    {
+        "ID": 641,
+        "Btag": "pollyy#2742",
+        "Nickname": "pollyy",
+        "twitch": "anem0__"
+    },
+    {
+        "ID": 641,
+        "Btag": "ƘȂŦȂŊȂ#2126",
+        "Nickname": "ƘȂŦȂŊȂ",
+        "twitch": "anem0__"
+    },
+    {
+        "ID": 642,
+        "Btag": "Ahega#2500",
+        "Nickname": "Ahega",
+        "twitch": "ahega_chan"
+    },
+    {
+        "ID": 643,
+        "Btag": "Вованыч#21503",
+        "Nickname": "Вованыч",
+        "twitch": "kaifurra"
+    },
+    {
+        "ID": 643,
+        "Btag": "Курсединка#2256",
+        "Nickname": "Курсединка",
+        "twitch": "kaifurra"
+    },
+    {
+        "ID": 643,
+        "Btag": "yungless#2741",
+        "Nickname": "yungless",
+        "twitch": "kaifurra"
+    },
+    {
+        "ID": 643,
+        "Btag": "Python#21372",
+        "Nickname": "Python",
+        "twitch": "kaifurra"
+    },
+    {
+        "ID": 644,
+        "Btag": "Flash#24645",
+        "Nickname": "Flash",
+        "twitch": "fIashnik"
+    },
+    {
+        "ID": 644,
+        "Btag": "VitaYer#2898",
+        "Nickname": "VitaYer",
+        "twitch": "fIashnik"
+    },
+    {
+        "ID": 645,
+        "Btag": "diabállein#2345",
+        "Nickname": "diabállein",
+        "twitch": "wuyi__"
+    },
+    {
+        "ID": 645,
+        "Btag": "ZeYang#2216",
+        "Nickname": "ZeYang",
+        "twitch": "wuyi__"
+    },
+    {
+        "ID": 645,
+        "Btag": "StrongDwarf#21930",
+        "Nickname": "StrongDwarf",
+        "twitch": "wuyi__"
+    },
+    {
+        "ID": 646,
+        "Btag": "INDIGO#2938",
+        "Nickname": "INDIGO",
+        "twitch": "indigo_for_you"
+    },
+    {
+        "ID": 646,
+        "Btag": "CrossGuard#21543",
+        "Nickname": "CrossGuard",
+        "twitch": "indigo_for_you"
+    },
+    {
+        "ID": 646,
+        "Btag": "Quaternion#21802",
+        "Nickname": "Quaternion",
+        "twitch": "indigo_for_you"
+    },
+    {
+        "ID": 646,
+        "Btag": "SeroMashurik#2600",
+        "Nickname": "SeroMashurik",
+        "twitch": "indigo_for_you"
+    },
+    {
+        "ID": 647,
+        "Btag": "Andrulet#2427",
+        "Nickname": "Andrulet",
+        "twitch": "andrey_pavlovuch"
+    },
+    {
+        "ID": 648,
+        "Btag": "Meowcy#2189",
+        "Nickname": "Meowcy",
+        "twitch": "ngc6572"
+    },
+    {
+        "ID": 648,
+        "Btag": "Albireo#21348",
+        "Nickname": "Albireo",
+        "twitch": "ngc6572"
+    },
+    {
+        "ID": 649,
+        "Btag": "GhostDog#252568",
+        "Nickname": "GhostDog",
+        "twitch": "ghost_dogow"
+    },
+    {
+        "ID": 650,
+        "Btag": "eError#21659",
+        "Nickname": "eError",
+        "twitch": "eErorrr"
+    },
+    {
+        "ID": 651,
+        "Btag": "MrGrid#21368",
+        "Nickname": "MrGrid",
+        "twitch": "Mr__Grid"
+    },
+    {
+        "ID": 652,
+        "Btag": "Eve#31507",
+        "Nickname": "Eve",
+        "twitch": "yum1kaaa"
+    },
+    {
+        "ID": 652,
+        "Btag": "enola#21884",
+        "Nickname": "enola",
+        "twitch": "yum1kaaa"
+    },
+    {
+        "ID": 652,
+        "Btag": "Darwin#21174",
+        "Nickname": "Darwin",
+        "twitch": "yum1kaaa"
+    },
+    {
+        "ID": 652,
+        "Btag": "Nekochan#21177",
+        "Nickname": "Nekochan",
+        "twitch": "yum1kaaa"
+    },
+    {
+        "ID": 652,
+        "Btag": "Hamakadze#2313",
+        "Nickname": "Hamakadze",
+        "twitch": "yum1kaaa"
+    },
+    {
+        "ID": 653,
+        "Btag": "OliviaSombra#2670",
+        "Nickname": "OliviaSombra",
+        "twitch": "AliceJay77"
+    },
+    {
+        "ID": 654,
+        "Btag": "marmeladka#21557",
+        "Nickname": "marmeladka",
+        "twitch": "marmeladka_pubg"
+    },
+    {
+        "ID": 654,
+        "Btag": "NERESHKA#2779",
+        "Nickname": "NERESHKA",
+        "twitch": "marmeladka_pubg"
+    },
+    {
+        "ID": 655,
+        "Btag": "SiSilver#2920",
+        "Nickname": "SiSilver",
+        "twitch": "tayaflek"
+    },
+    {
+        "ID": 656,
+        "Btag": "CheGuevara#21350",
+        "Nickname": "CheGuevara",
+        "twitch": "ComandanteChe"
+    },
+    {
+        "ID": 656,
+        "Btag": "grumpy#22909",
+        "Nickname": "grumpy",
+        "twitch": "ComandanteChe"
+    },
+    {
+        "ID": 657,
+        "Btag": "Equa4ka#2344",
+        "Nickname": "Equa4ka",
+        "twitch": "Equa4ka"
+    },
+    {
+        "ID": 658,
+        "Btag": "jimouse#2300",
+        "Nickname": "jimouse",
+        "twitch": "jemsplex"
+    },
+    {
+        "ID": 659,
+        "Btag": "Jackson#2180",
+        "Nickname": "Jackson",
+        "twitch": "Tiger_Jackson"
+    },
+    {
+        "ID": 659,
+        "Btag": "Kagami#21362",
+        "Nickname": "Kagami",
+        "twitch": "Tiger_Jackson"
+    },
+    {
+        "ID": 660,
+        "Btag": "icravesleep#2345",
+        "Nickname": "icravesleep",
+        "twitch": "I_CRAVESLEEP"
+    },
+    {
+        "ID": 660,
+        "Btag": "hiro#22917",
+        "Nickname": "hiro",
+        "twitch": "I_CRAVESLEEP"
+    },
+    {
+        "ID": 661,
+        "Btag": "finnik#21176",
+        "Nickname": "finnik",
+        "twitch": "4finnik"
+    },
+    {
+        "ID": 662,
+        "Btag": "ACME#21192",
+        "Nickname": "ACME",
+        "twitch": "Me_zz_o"
+    },
+    {
+        "ID": 662,
+        "Btag": "Silver#27294",
+        "Nickname": "Silver",
+        "twitch": "Me_zz_o"
+    },
+    {
+        "ID": 662,
+        "Btag": "ARMATA#21129",
+        "Nickname": "ARMATA",
+        "twitch": "Me_zz_o"
+    },
+    {
+        "ID": 663,
+        "Btag": "Dennie#21168",
+        "Nickname": "Dennie",
+        "twitch": "Dennie835"
+    },
+    {
+        "ID": 664,
+        "Btag": "MuzzelTech#2119",
+        "Nickname": "MuzzelTech",
+        "twitch": "MuzzelTech"
+    },
+    {
+        "ID": 664,
+        "Btag": "ПОНЧИК#3899",
+        "Nickname": "ПОНЧИК",
+        "twitch": "MuzzelTech"
+    },
+    {
+        "ID": 665,
+        "Btag": "sunblc#2543",
+        "Nickname": "sunblc",
+        "twitch": "sunblc"
+    },
+    {
+        "ID": 666,
+        "Btag": "Implantator#2575",
+        "Nickname": "Implantator",
+        "twitch": "vimplantator"
+    },
+    {
+        "ID": 666,
+        "Btag": "Vimplantator#2905",
+        "Nickname": "Vimplantator",
+        "twitch": "vimplantator"
+    },
+    {
+        "ID": 667,
+        "Btag": "PororoPVL#2551",
+        "Nickname": "PororoPVL",
+        "twitch": "Egocir"
+    },
+    {
+        "ID": 668,
+        "Btag": "TeddyBearOF#2133",
+        "Nickname": "TeddyBearOF",
+        "twitch": "legion_teddybearof"
+    },
+    {
+        "ID": 560,
+        "Btag": "Rowdy#21998",
+        "Nickname": "Rowdy"
+    },
+    {
+        "ID": 700,
+        "Btag": "overfun#2439",
+        "Nickname": "overfun"
+    },
+    {
+        "ID": 320,
+        "Btag": "shibainu#21777",
+        "Nickname": "shibainu"
+    },
+    {
+        "ID": 67,
+        "Btag": "kaneki#25318",
+        "Nickname": "kaneki"
+    },
+    {
+        "ID": 113,
+        "Btag": "CHAIKA#21351",
+        "Nickname": "chaika"
+    },
+    {
+        "ID": 59,
+        "Btag": "FlynFall#21336",
+        "Nickname": "flynfall"
+    },
+    {
+        "ID": 589,
+        "Btag": "BillyButcher#21261",
+        "Nickname": "BillyButcher"
+    },
+    {
+        "ID": 528,
+        "Btag": "MeResti#21277",
+        "Nickname": "MeResti"
+    },
+    {
+        "ID": 627,
+        "Btag": "AWAKE#21807",
+        "Nickname": "AWAKE"
+    },
+    {
+        "ID": 669,
+        "Btag": "NioFly#21501",
+        "Nickname": "NioFly",
+        "twitch": "NioFly"
+    },
+    {
+        "ID": 670,
+        "Btag": "EKGorECG#1450",
+        "Nickname": "EKGorECG",
+        "twitch": "Don_Nebanderas"
+    },
+    {
+        "ID": 670,
+        "Btag": "MERCYLUV#2254",
+        "Nickname": "MERCYLUV",
+        "twitch": "Don_Nebanderas"
+    },
+    {
+        "ID": 670,
+        "Btag": "Nebanderas#2448",
+        "Nickname": "Nebanderas",
+        "twitch": "Don_Nebanderas"
+    },
+    {
+        "ID": 671,
+        "Btag": "LudumGamer#2975",
+        "Nickname": "LudumGamer",
+        "twitch": "ludum_puma_"
+    },
+    {
+        "ID": 672,
+        "Btag": "Grouver#21931",
+        "Nickname": "Grouver",
+        "twitch": "gr0uv3r"
+    },
+    {
+        "ID": 672,
+        "Btag": "SLenGer#2386",
+        "Nickname": "SLenGer",
+        "twitch": "gr0uv3r"
+    },
+    {
+        "ID": 672,
+        "Btag": "NiksRevol#2775",
+        "Nickname": "NiksRevol",
+        "twitch": "gr0uv3r"
+    },
+    {
+        "ID": 672,
+        "Btag": "Лосяш#21171",
+        "Nickname": "Лосяш",
+        "twitch": "gr0uv3r"
+    },
+    {
+        "ID": 673,
+        "Btag": "WoLLiX#21552",
+        "Nickname": "WoLLiX",
+        "twitch": "w0llix"
+    },
+    {
+        "ID": 673,
+        "Btag": "Charlie#24635",
+        "Nickname": "Charlie",
+        "twitch": "w0llix"
+    },
+    {
+        "ID": 673,
+        "Btag": "ШугаҏШмӹга#2177",
+        "Nickname": "ШугаҏШмӹга",
+        "twitch": "w0llix"
+    },
+    {
+        "ID": 674,
+        "Btag": "JesterBad#2218",
+        "Nickname": "JesterBad",
+        "twitch": "JesterBad1"
+    },
+    {
+        "ID": 675,
+        "Btag": "D4NUVHA0#2718",
+        "Nickname": "D4NUVHA0",
+        "twitch": "D4NUVHA0"
+    },
+    {
+        "ID": 676,
+        "Btag": "Paganka#21202",
+        "Nickname": "Paganka",
+        "twitch": "paganka_s"
+    },
+    {
+        "ID": 677,
+        "Btag": "Mentos#22879",
+        "Nickname": "Mentos",
+        "twitch": "mentos_x_mentos"
+    },
+    {
+        "ID": 677,
+        "Btag": "Xentos#2112",
+        "Nickname": "Xentos",
+        "twitch": "mentos_x_mentos"
+    },
+    {
+        "ID": 678,
+        "Btag": "sparrowhite#2920",
+        "Nickname": "sparrowhite",
+        "twitch": "VaniLin_white"
+    },
+    {
+        "ID": 678,
+        "Btag": "meowforme#2189",
+        "Nickname": "meowforme",
+        "twitch": "VaniLin_white"
+    },
+    {
+        "ID": 679,
+        "Btag": "Averet#21358",
+        "Nickname": "Averet",
+        "twitch": "arevet"
+    },
+    {
+        "ID": 680,
+        "Btag": "Diaval#21813",
+        "Nickname": "Diaval",
+        "twitch": "xxdiavalxx"
+    },
+    {
+        "ID": 681,
+        "Btag": "ADmeral#21505",
+        "Nickname": "ADmeral",
+        "twitch": "A_D_M_E_R_A_L"
+    },
+    {
+        "ID": 682,
+        "Btag": "Letos#21505",
+        "Nickname": "Letos",
+        "twitch": "letosmaks"
+    },
+    {
+        "ID": 683,
+        "Btag": "CraazzzyyFox#2130",
+        "Nickname": "CraazzzyyFox",
+        "twitch": "craazzzyyfoxx"
+    },
+    {
+        "ID": 684,
+        "Btag": "юзлес#2237",
+        "Nickname": "юзлес",
+        "twitch": "Voiodiy"
+    },
+    {
+        "ID": 685,
+        "Btag": "Nova#28747",
+        "Nickname": "Nova",
+        "twitch": "NooooovaRU"
+    },
+    {
+        "ID": 686,
+        "Btag": "fireslipper#2517",
+        "Nickname": "fireslipper",
+        "twitch": "catchtapok"
+    },
+    {
+        "ID": 686,
+        "Btag": "sloysew#2576",
+        "Nickname": "sloysew",
+        "twitch": "catchtapok"
+    },
+    {
+        "ID": 687,
+        "Btag": "IluaMuromec#2338",
+        "Nickname": "IluaMuromec",
+        "twitch": "ilua_muromec"
+    },
+    {
+        "ID": 688,
+        "Btag": "БойцоваяЖаба#25940",
+        "Nickname": "БойцоваяЖаба",
+        "twitch": "SaltyDoritoss"
+    },
+    {
+        "ID": 689,
+        "Btag": "RIPCree#2740",
+        "Nickname": "RIPCree",
+        "twitch": "tonsandium"
+    },
+    {
+        "ID": 690,
+        "Btag": "Cookie22#21614",
+        "Nickname": "Cookie22",
+        "twitch": "coookie22"
+    },
+    {
+        "ID": 691,
+        "Btag": "MaxineTr#1143",
+        "Nickname": "MaxineTr",
+        "twitch": "Tihedge"
+    },
+    {
+        "ID": 692,
+        "Btag": "Агент47#21977",
+        "Nickname": "Агент47",
+        "twitch": "Artempas"
+    },
+    {
+        "ID": 693,
+        "Btag": "iZntGoD#2158",
+        "Nickname": "iZntGoD",
+        "twitch": "iZntGoD"
+    },
+    {
+        "ID": 589,
+        "Btag": "wantto#21116",
+        "Nickname": "wantto"
+    },
+    {
+        "ID": 615,
+        "Btag": "ХочуЛюбить#2466",
+        "Nickname": "ХочуЛюбить",
+        "twitch": "SiIentAshley"
+    },
+    {
+        "ID": 615,
+        "Btag": "TyTyX#21366",
+        "Nickname": "TyTyX",
+        "twitch": "SiIentAshley"
+    },
+    {
+        "ID": 372,
+        "Btag": "lifr3y#2965",
+        "Nickname": "lifr3y",
+        "twitch": "lifr3y"
+    },
+    {
+        "ID": 694,
+        "Btag": "Qk2160#21134",
+        "Nickname": "Qk2160",
+        "twitch": "qk2160"
+    },
+    {
+        "ID": 695,
+        "Btag": "AnyCost#2261",
+        "Nickname": "AnyCost",
+        "twitch": "Hoklin"
+    },
+    {
+        "ID": 696,
+        "Btag": "OnlyMercy#2697",
+        "Nickname": "OnlyMercy",
+        "twitch": "dytka_"
+    },
+    {
+        "ID": 697,
+        "Btag": "GUNTER#22683",
+        "Nickname": "GUNTER",
+        "twitch": "ali2385"
+    },
+    {
+        "ID": 698,
+        "Btag": "Mishara#21230",
+        "Nickname": "Mishara",
+        "twitch": "Mishara17"
+    },
+    {
+        "ID": 699,
+        "Btag": "ProTerr#2296",
+        "Nickname": "ProTerr",
+        "twitch": "proterr1k"
+    },
+    {
+        "ID": 701,
+        "Btag": "Xomyachok#21400",
+        "Nickname": "Xomyachok",
+        "twitch": "xomyachok_ow"
+    },
+    {
+        "ID": 702,
+        "Btag": "Tanker#21355",
+        "Nickname": "Tanker",
+        "twitch": "yearen"
+    },
+    {
+        "ID": 703,
+        "Btag": "Flank#21295",
+        "Nickname": "Flank",
+        "twitch": "Flank311"
+    },
+    {
+        "ID": 704,
+        "Btag": "Paradocs#11121",
+        "Nickname": "Paradocs",
+        "twitch": "Paradocs220"
+    },
+    {
+        "ID": 705,
+        "Btag": "Demiurge#21886",
+        "Nickname": "Demiurge",
+        "twitch": "demiurgewidow"
+    },
+    {
+        "ID": 706,
+        "Btag": "Deitly#2915",
+        "Nickname": "Deitly",
+        "twitch": "alianna_sm"
+    },
+    {
+        "ID": 707,
+        "Btag": "ESPLTDM1000#2294",
+        "Nickname": "ESPLTDM1000",
+        "twitch": "AlexESPLTDOW"
+    },
+    {
+        "ID": 708,
+        "Btag": "Azrael#25219",
+        "Nickname": "Azrael",
+        "twitch": "GrachEZzz"
+    },
+    {
+        "ID": 709,
+        "Btag": "Terminator#24247",
+        "Nickname": "Terminator",
+        "twitch": "mamont2929"
+    },
+    {
+        "ID": 710,
+        "Btag": "baraondaa#2189",
+        "Nickname": "baraondaa",
+        "twitch": "vovamneploho"
+    },
+    {
+        "ID": 640,
+        "Btag": "manqa#21668",
+        "Nickname": "Manqa"
+    },
+    {
+        "ID": 257,
+        "Btag": "What#21716",
+        "Nickname": "What"
+    },
+    {
+        "ID": 257,
+        "Btag": "DADDY#23441",
+        "Nickname": "DADDY"
+    },
+    {
+        "ID": 595,
+        "Btag": "exterminate#21788",
+        "Nickname": "exterminate"
+    },
+    {
+        "ID": 595,
+        "Btag": "ЧинамоПокечи#2487",
+        "Nickname": "ЧинамоПокечи"
+    },
+    {
+        "ID": 595,
+        "Btag": "toki#21871",
+        "Nickname": "toki"
+    },
+    {
+        "ID": 312,
+        "Btag": "Player#2105691",
+        "Nickname": "Player"
+    },
+    {
+        "ID": 51,
+        "Btag": "Freestylersx#2618",
+        "Nickname": "Freestylersx"
+    },
+    {
+        "ID": 51,
+        "Btag": "Freesty#21964",
+        "Nickname": "Freesty"
+    },
+    {
+        "ID": 596,
+        "Btag": "Smetanka#21747",
+        "Nickname": "Smetanka"
+    },
+    {
+        "ID": 596,
+        "Btag": "Smetanka#21345",
+        "Nickname": "Smetanka"
+    },
+    {
+        "ID": 146,
+        "Btag": "nmie#21935",
+        "Nickname": "nmie"
+    },
+    {
+        "ID": 146,
+        "Btag": "кусь#21126",
+        "Nickname": "кусь"
+    },
+    {
+        "ID": 146,
+        "Btag": "Катышка#21866",
+        "Nickname": "Катышка"
+    },
+    {
+        "ID": 696,
+        "Btag": "Boop#21814",
+        "Nickname": "Boop"
+    },
+    {
+        "ID": 91,
+        "Btag": "Atym#21961",
+        "Nickname": "Atym",
+        "twitch": "chuvachela_"
+    },
+    {
+        "ID": 711,
+        "Btag": "BadKrol#2855",
+        "Nickname": "BadKrol",
+        "twitch": "veronilinaa"
+    },
+    {
+        "ID": 712,
+        "Btag": "FCB#21187",
+        "Nickname": "FCB",
+        "twitch": "fcb_ow"
+    },
+    {
+        "ID": 713,
+        "Btag": "Lunette#21256",
+        "Nickname": "Lunette",
+        "twitch": "murrvalkyrie"
+    },
+    {
+        "ID": 714,
+        "Btag": "epileptikk1d#2742",
+        "Nickname": "epileptikk1d",
+        "twitch": "badtripwithurlxve"
+    },
+    {
+        "ID": 715,
+        "Btag": "JamStrat#2858",
+        "Nickname": "JamStrat",
+        "twitch": "nirvana000000000"
+    },
+    {
+        "ID": 716,
+        "Btag": "MistressD#2232",
+        "Nickname": "MistressD",
+        "twitch": "DoranboltRI"
+    },
+    {
+        "ID": 711,
+        "Btag": "ƘàŴàÍÍ#2834",
+        "Nickname": "ƘàŴàÍÍ",
+        "twitch": "veronilinaa"
+    },
+    {
+        "ID": 712,
+        "Btag": "RIDANTA#2781",
+        "Nickname": "RIDANTA",
+        "twitch": "fcb_ow"
+    },
+    {
+        "ID": 355,
+        "Btag": "dtango#2405",
+        "Nickname": "dtango"
+    },
+    {
+        "ID": 69,
+        "Btag": "Vsemploho#2871",
+        "Nickname": "Vsemploho"
+    },
+    {
+        "ID": 88,
+        "Btag": "AlexAnderson#21961",
+        "Nickname": "AlexAnderson"
+    },
+    {
+        "ID": 692,
+        "Btag": "извининдзя#2637",
+        "Nickname": "извининдзя"
+    },
+    {
+        "ID": 716,
+        "Btag": "MistressD#21582",
+        "Nickname": "MistressD"
+    },
+    {
+        "ID": 271,
+        "Btag": "McDelatCrya#2345",
+        "Nickname": "McDelatCrya"
+    },
+    {
+        "ID": 615,
+        "Btag": "Want2LØVE#2387",
+        "Nickname": "Want2LØVE"
+    },
+    {
+        "ID": 115,
+        "Btag": "FirstsinTTV#1384",
+        "Nickname": "FirstsinTTV"
+    },
+    {
+        "ID": 717,
+        "Btag": "rez#22568",
+        "Nickname": "rez"
+    },
+    {
+        "ID": 717,
+        "Btag": "prisoner1900#1205",
+        "Nickname": "prisoner1900"
+    },
+    {
+        "ID": 718,
+        "Btag": "CAHTEXHIK#21486",
+        "Nickname": "CAHTEXHIK"
+    },
+    {
+        "ID": 719,
+        "Btag": "Stilet#21772",
+        "Nickname": "Stilet"
+    },
+    {
+        "ID": 719,
+        "Btag": "Satyas#1982",
+        "Nickname": "Satyas"
+    },
+    {
+        "ID": 719,
+        "Btag": "stilet#21138",
+        "Nickname": "stilet"
+    },
+    {
+        "ID": 720,
+        "Btag": "DOORSTUCK#21759",
+        "Nickname": "DOORSTUCK"
+    },
+    {
+        "ID": 720,
+        "Btag": "ЗОЛОТОЙГЭР#2316",
+        "Nickname": "ЗОЛОТОЙГЭР"
+    },
+    {
+        "ID": 720,
+        "Btag": "HPLaserJet#2371",
+        "Nickname": "HPLaserJet"
+    },
+    {
+        "ID": 720,
+        "Btag": "Sobachka#21257",
+        "Nickname": "Sobachka"
+    },
+    {
+        "ID": 720,
+        "Btag": "КИДФРОМОГАЙО#3235",
+        "Nickname": "КИДФРОМОГАЙО"
+    },
+    {
+        "ID": 721,
+        "Btag": "Grafonya#2128",
+        "Nickname": "Grafonya"
+    },
+    {
+        "ID": 721,
+        "Btag": "HanaSong#2948",
+        "Nickname": "HanaSong"
+    },
+    {
+        "ID": 721,
+        "Btag": "ShikiRyougi#21880",
+        "Nickname": "ShikiRyougi"
+    },
+    {
+        "ID": 721,
+        "Btag": "WetWily#2518",
+        "Nickname": "WetWily"
+    },
+    {
+        "ID": 722,
+        "Btag": "vac3x#2315",
+        "Nickname": "vac3x"
+    },
+    {
+        "ID": 722,
+        "Btag": "KANYEEAST#21653",
+        "Nickname": "KANYEEAST"
+    },
+    {
+        "ID": 723,
+        "Btag": "Chrona#21415",
+        "Nickname": "Chrona"
+    },
+    {
+        "ID": 724,
+        "Btag": "WTFvirgiu#2883",
+        "Nickname": "WTFvirgiu"
+    },
+    {
+        "ID": 725,
+        "Btag": "Maksking#21220",
+        "Nickname": "Maksking"
+    },
+    {
+        "ID": 726,
+        "Btag": "MadOs#21397",
+        "Nickname": "MadOs"
+    },
+    {
+        "ID": 727,
+        "Btag": "Shadow#23694",
+        "Nickname": "Shadow"
+    },
+    {
+        "ID": 727,
+        "Btag": "Gideon#22422",
+        "Nickname": "Gideon"
+    },
+    {
+        "ID": 728,
+        "Btag": "Phoenix#27386",
+        "Nickname": "Phoenix"
+    },
+    {
+        "ID": 729,
+        "Btag": "SHISUI#22666",
+        "Nickname": "SHISUI"
+    },
+    {
+        "ID": 730,
+        "Btag": "Chise#21604",
+        "Nickname": "Chise"
+    },
+    {
+        "ID": 730,
+        "Btag": "Dolores#21637",
+        "Nickname": "Dolores"
+    },
+    {
+        "ID": 730,
+        "Btag": "лизавебкам#2714",
+        "Nickname": "лизавебкам"
+    },
+    {
+        "ID": 731,
+        "Btag": "distribution#21877",
+        "Nickname": "distribution"
+    },
+    {
+        "ID": 732,
+        "Btag": "TUZ#21518",
+        "Nickname": "TUZ"
+    },
+    {
+        "ID": 733,
+        "Btag": "landragopa#2213",
+        "Nickname": "landragopa"
+    },
+    {
+        "ID": 734,
+        "Btag": "Swas#21533",
+        "Nickname": "Swas"
+    },
+    {
+        "ID": 735,
+        "Btag": "ФанатРэпа#2563",
+        "Nickname": "ФанатРэпа",
+        "twitch": "fanatrepa123"
+    },
+    {
+        "ID": 735,
+        "Btag": "exlnt#21226",
+        "Nickname": "exlnt",
+        "twitch": "fanatrepa123"
+    },
+    {
+        "ID": 736,
+        "Btag": "Mirajje#2807",
+        "Nickname": "Mirajje",
+        "twitch": "mirajje_"
+    },
+    {
+        "ID": 737,
+        "Btag": "cmball#2275",
+        "Nickname": "cmball",
+        "twitch": "flammableeeeeeeee"
+    },
+    {
+        "ID": 738,
+        "Btag": "Abuser#21996",
+        "Nickname": "Abuser",
+        "twitch": "RNBWdashAgressive"
+    },
+    {
+        "ID": 739,
+        "Btag": "ZombieDe#21900",
+        "Nickname": "ZombieDe",
+        "twitch": "ZombieDe_"
+    },
+    {
+        "ID": 739,
+        "Btag": "YourDeath#21557",
+        "Nickname": "YourDeath",
+        "twitch": "ZombieDe_"
+    },
+    {
+        "ID": 740,
+        "Btag": "AmericanC4sh#2610",
+        "Nickname": "AmericanC4sh",
+        "twitch": "americanc4sh"
+    },
+    {
+        "ID": 741,
+        "Btag": "BarinJoe#2817",
+        "Nickname": "BarinJoe",
+        "twitch": "BarinJoe"
+    },
+    {
+        "ID": 31,
+        "Btag": "DiscoMan#21101",
+        "Nickname": "DiscoMan",
+        "twitch": "Sensei_G44"
+    },
+    {
+        "ID": 742,
+        "Btag": "Dadknows#2375",
+        "Nickname": "Dadknows",
+        "twitch": "Dadknowss"
+    },
+    {
+        "ID": 743,
+        "Btag": "barkforme#2605",
+        "Nickname": "barkforme",
+        "twitch": "barkformee"
+    },
+    {
+        "ID": 744,
+        "Btag": "kamixaze#2770",
+        "Nickname": "kamixaze",
+        "twitch": "kamixaze"
+    },
+    {
+        "ID": 744,
+        "Btag": "kmx#21480",
+        "Nickname": "kmx",
+        "twitch": "kamixaze"
+    },
+    {
+        "ID": 745,
+        "Btag": "Qurare#2763",
+        "Nickname": "Qurare",
+        "twitch": "Qurare"
+    },
+    {
+        "ID": 746,
+        "Btag": "Lapo4ka#21758",
+        "Nickname": "Lapo4ka",
+        "twitch": "hryapa_shlyapa"
+    },
+    {
+        "ID": 746,
+        "Btag": "ZaKusi#2867",
+        "Nickname": "ZaKusi",
+        "twitch": "hryapa_shlyapa"
+    },
+    {
+        "ID": 747,
+        "Btag": "Jebaited#2469",
+        "Nickname": "Jebaited",
+        "twitch": "jebaitedow"
+    },
+    {
+        "ID": 747,
+        "Btag": "FgDog#2881",
+        "Nickname": "FgDog",
+        "twitch": "jebaitedow"
+    },
+    {
+        "ID": 748,
+        "Btag": "Miracle#22353",
+        "Nickname": "Miracle",
+        "twitch": "miracji"
+    },
+    {
+        "ID": 749,
+        "Btag": "КоШаРиК#21505",
+        "Nickname": "КоШаРиК",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 749,
+        "Btag": "Jenia#21974",
+        "Nickname": "Jenia",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 749,
+        "Btag": "MIELINN#2323",
+        "Nickname": "MIELINN",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 749,
+        "Btag": "Widow#21159",
+        "Nickname": "Widow",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 749,
+        "Btag": "ТЫКТО#2264",
+        "Nickname": "ТЫКТО",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 749,
+        "Btag": "ЯРУССКИЙ#21906",
+        "Nickname": "ЯРУССКИЙ",
+        "twitch": "KoIIIaPiK"
+    },
+    {
+        "ID": 750,
+        "Btag": "morphia#2996",
+        "Nickname": "morphia",
+        "twitch": "morphia"
+    },
+    {
+        "ID": 751,
+        "Btag": "TIMOXA#21861",
+        "Nickname": "TIMOXA",
+        "twitch": "TimoxaOW"
+    },
+    {
+        "ID": 751,
+        "Btag": "ILUVMCHANZO#2874",
+        "Nickname": "ILUVMCHANZO",
+        "twitch": "TimoxaOW"
+    },
+    {
+        "ID": 751,
+        "Btag": "TyanMercy#2114",
+        "Nickname": "TyanMercy",
+        "twitch": "TimoxaOW"
+    },
+    {
+        "ID": 752,
+        "Btag": "Monegon#2713",
+        "Nickname": "Monegon",
+        "twitch": "Monekok"
+    },
+    {
+        "ID": 752,
+        "Btag": "Lappland#2221",
+        "Nickname": "Lappland",
+        "twitch": "Monekok"
+    },
+    {
+        "ID": 753,
+        "Btag": "Саша#25209",
+        "Nickname": "Саша",
+        "twitch": "merozaria"
+    },
+    {
+        "ID": 754,
+        "Btag": "Ŋanashi#2274",
+        "Nickname": "Ŋanashi",
+        "twitch": "ZerotsuXD"
+    },
+    {
+        "ID": 754,
+        "Btag": "ǞMDŖYZȄN#2986",
+        "Nickname": "ǞMDŖYZȄN",
+        "twitch": "ZerotsuXD"
+    },
+    {
+        "ID": 754,
+        "Btag": "zerotsu#2477",
+        "Nickname": "zerotsu",
+        "twitch": "ZerotsuXD"
+    },
+    {
+        "ID": 754,
+        "Btag": "понятненько#2731",
+        "Nickname": "понятненько",
+        "twitch": "ZerotsuXD"
+    },
+    {
+        "ID": 755,
+        "Btag": "TumblersToy#2482",
+        "Nickname": "TumblersToy",
+        "twitch": "Boyarsky_Hat"
+    },
+    {
+        "ID": 756,
+        "Btag": "StarTuna#2815",
+        "Nickname": "StarTuna",
+        "twitch": "StarTuna_"
+    },
+    {
+        "ID": 757,
+        "Btag": "Anathema#21166",
+        "Nickname": "Anathema",
+        "twitch": "anxiee__"
+    },
+    {
+        "ID": 757,
+        "Btag": "KovaaKDebil#2609",
+        "Nickname": "KovaaKDebil",
+        "twitch": "anxiee__"
+    },
+    {
+        "ID": 757,
+        "Btag": "anxiee#21809",
+        "Nickname": "anxiee",
+        "twitch": "anxiee__"
+    },
+    {
+        "ID": 758,
+        "Btag": "Толюша#2313",
+        "Nickname": "Толюша",
+        "twitch": "Tolusha_"
+    },
+    {
+        "ID": 758,
+        "Btag": "ГиперБабка#2128",
+        "Nickname": "ГиперБабка",
+        "twitch": "Tolusha_"
+    },
+    {
+        "ID": 759,
+        "Btag": "kikoooiemama#2700",
+        "Nickname": "kikoooiemama",
+        "twitch": "kikoooiemama"
+    },
+    {
+        "ID": 760,
+        "Btag": "Bratan#21168",
+        "Nickname": "Bratan",
+        "twitch": "BratanWithoutLove"
+    },
+    {
+        "ID": 760,
+        "Btag": "Kyosuke#21689",
+        "Nickname": "Kyosuke",
+        "twitch": "BratanWithoutLove"
+    },
+    {
+        "ID": 761,
+        "Btag": "wxhudxwhy#2374",
+        "Nickname": "wxhudxwhy",
+        "twitch": "SorrySova"
+    },
+    {
+        "ID": 762,
+        "Btag": "S0S0CHKA#1184",
+        "Nickname": "S0S0CHKA",
+        "twitch": "S0SOCHKA"
+    },
+    {
+        "ID": 762,
+        "Btag": "РабНаМерси#2586",
+        "Nickname": "РабНаМерси",
+        "twitch": "S0SOCHKA"
+    },
+    {
+        "ID": 763,
+        "Btag": "SoSory#21615",
+        "Nickname": "SoSory",
+        "twitch": "soosoory"
+    },
+    {
+        "ID": 764,
+        "Btag": "solowaved#2548",
+        "Nickname": "solowaved",
+        "twitch": "solowaved"
+    },
+    {
+        "ID": 764,
+        "Btag": "dinklage#21496",
+        "Nickname": "dinklage",
+        "twitch": "solowaved"
+    },
+    {
+        "ID": 765,
+        "Btag": "HzHz#2274",
+        "Nickname": "HzHz",
+        "twitch": "hzhz_"
+    },
+    {
+        "ID": 766,
+        "Btag": "Juthes#2778",
+        "Nickname": "Juthes",
+        "twitch": "BlessedHand"
+    },
+    {
+        "ID": 766,
+        "Btag": "Jack#29290",
+        "Nickname": "Jack",
+        "twitch": "BlessedHand"
+    },
+    {
+        "ID": 767,
+        "Btag": "Konoko#21898",
+        "Nickname": "Konoko",
+        "twitch": "konoko_oni"
+    },
+    {
+        "ID": 767,
+        "Btag": "RaidenShogun#2776",
+        "Nickname": "RaidenShogun",
+        "twitch": "konoko_oni"
+    },
+    {
+        "ID": 767,
+        "Btag": "Mai#22397",
+        "Nickname": "Mai",
+        "twitch": "konoko_oni"
+    },
+    {
+        "ID": 768,
+        "Btag": "Kweady#2971",
+        "Nickname": "Kweady",
+        "twitch": "kweady7"
+    },
+    {
+        "ID": 768,
+        "Btag": "ПЁСИКМАКИМЫ#2984",
+        "Nickname": "ПЁСИКМАКИМЫ",
+        "twitch": "kweady7"
+    },
+    {
+        "ID": 768,
+        "Btag": "СуперМать#2700",
+        "Nickname": "СуперМать",
+        "twitch": "kweady7"
+    },
+    {
+        "ID": 769,
+        "Btag": "NanoMe#21313",
+        "Nickname": "NanoMe",
+        "twitch": "tquzzz66"
+    },
+    {
+        "ID": 770,
+        "Btag": "korka7064#2109",
+        "Nickname": "korka7064",
+        "twitch": "korka7064"
+    },
+    {
+        "ID": 771,
+        "Btag": "mortred#22936",
+        "Nickname": "mortred",
+        "twitch": "nemeckovaa"
+    },
+    {
+        "ID": 771,
+        "Btag": "BALTHASAR#21475",
+        "Nickname": "BALTHASAR",
+        "twitch": "nemeckovaa"
+    },
+    {
+        "ID": 772,
+        "Btag": "Kiri#22996",
+        "Nickname": "Kiri"
+    },
+    {
+        "ID": 773,
+        "Btag": "ooopexxx#2400",
+        "Nickname": "ooopexxx",
+        "twitch": "ooopexxx"
+    },
+    {
+        "ID": 774,
+        "Btag": "ХитрыйСтраус#239767",
+        "Nickname": "ХитрыйСтраус",
+        "twitch": "brendanfreizer"
+    },
+    {
+        "ID": 775,
+        "Btag": "Kashmir#21943",
+        "Nickname": "Kashmir",
+        "twitch": "iwaseek"
+    },
+    {
+        "ID": 776,
+        "Btag": "P1rilka#2332",
+        "Nickname": "P1rilka",
+        "twitch": "ksantax1"
+    },
+    {
+        "ID": 778,
+        "Btag": "kRaven#21587",
+        "Nickname": "kRaven",
+        "twitch": "drunk_octopus12"
+    },
+    {
+        "ID": 779,
+        "Btag": "СуперМурлок#217965",
+        "Nickname": "СуперМурлок",
+        "twitch": "ivosaru"
+    },
+    {
+        "ID": 780,
+        "Btag": "FilyaChad#2495",
+        "Nickname": "FilyaChad",
+        "twitch": "Filliolina"
+    },
+    {
+        "ID": 781,
+        "Btag": "Patrick#23642",
+        "Nickname": "Patrick",
+        "twitch": "Patr1ck1237"
+    },
+    {
+        "ID": 782,
+        "Btag": "Flace#2395",
+        "Nickname": "Flace",
+        "twitch": "iFlace"
+    },
+    {
+        "ID": 783,
+        "Btag": "Sullivan#21612",
+        "Nickname": "Sullivan",
+        "twitch": "SULLIV_N"
+    },
+    {
+        "ID": 784,
+        "Btag": "oxiggy#2286",
+        "Nickname": "oxiggy",
+        "twitch": "oxiggy"
+    },
+    {
+        "ID": 785,
+        "Btag": "killer1999#21898",
+        "Nickname": "killer1999",
+        "twitch": "vio_kim"
+    },
+    {
+        "ID": 786,
+        "Btag": "Katannnn#2274",
+        "Nickname": "Katannnn",
+        "twitch": "Katannnn"
+    },
+    {
+        "ID": 787,
+        "Btag": "WaitForMe#21896",
+        "Nickname": "WaitForMe",
+        "twitch": "Me_Resti"
+    },
+    {
+        "ID": 729,
+        "Btag": "Walarus#2151",
+        "Nickname": "Walarus",
+        "twitch": "walaruss"
+    },
+    {
+        "ID": 788,
+        "Btag": "Eisbrecher#21437",
+        "Nickname": "Eisbrecher",
+        "twitch": "Nekromonger___"
+    },
+    {
+        "ID": 789,
+        "Btag": "pten4uk#21123",
+        "Nickname": "pten4uk",
+        "twitch": "pten4ik99"
+    },
+    {
+        "ID": 790,
+        "Btag": "Narenai#2942",
+        "Nickname": "Narenai",
+        "twitch": "narenai_"
+    },
+    {
+        "ID": 791,
+        "Btag": "Korsner#2805",
+        "Nickname": "Korsner",
+        "twitch": "korsner137"
+    },
+    {
+        "ID": 792,
+        "Btag": "Hatake#21677",
+        "Nickname": "Hatake",
+        "twitch": "williamson37"
+    },
+    {
+        "ID": 793,
+        "Btag": "Squirrel#22483",
+        "Nickname": "Squirrel",
+        "twitch": "skrrsquirrel"
+    },
+    {
+        "ID": 794,
+        "Btag": "TKFred#2153",
+        "Nickname": "TKFred",
+        "twitch": "tk_fred"
+    },
+    {
+        "ID": 795,
+        "Btag": "Irae#2321",
+        "Nickname": "Irae",
+        "twitch": "lierria"
+    },
+    {
+        "ID": 796,
+        "Btag": "Tref#2420",
+        "Nickname": "Tref",
+        "twitch": "TrefChai"
+    },
+    {
+        "ID": 797,
+        "Btag": "paranoid#22983",
+        "Nickname": "paranoid",
+        "twitch": "paranoidandroid_ver01"
+    },
+    {
+        "ID": 273,
+        "Btag": "Ternovn1k#2906",
+        "Nickname": "Ternovn1k",
+        "twitch": "ternovn1k"
+    },
+    {
+        "ID": 798,
+        "Btag": "Infamez#2905",
+        "Nickname": "Infamez",
+        "twitch": "Infamez"
+    },
+    {
+        "ID": 799,
+        "Btag": "SASHABASHER#21517",
+        "Nickname": "SASHABASHER",
+        "twitch": "SashaWorldStar"
+    },
+    {
+        "ID": 800,
+        "Btag": "Magicien#21352",
+        "Nickname": "Magicien",
+        "twitch": "dimzon005"
+    },
+    {
+        "ID": 801,
+        "Btag": "Txao#21793",
+        "Nickname": "Txao",
+        "twitch": "Txao"
+    },
+    {
+        "ID": 801,
+        "Btag": "Txao8#2676",
+        "Nickname": "Txao8",
+        "twitch": "Txao"
+    },
+    {
+        "ID": 802,
+        "Btag": "Randomiel#2187",
+        "Nickname": "Randomiel",
+        "twitch": "jurequih"
+    },
+    {
+        "ID": 803,
+        "Btag": "Aquaman2#2576",
+        "Nickname": "Aquaman2",
+        "twitch": "aquaman1357"
+    },
+    {
+        "ID": 803,
+        "Btag": "Aquaman#21936",
+        "Nickname": "Aquaman",
+        "twitch": "aquaman1357"
+    },
+    {
+        "ID": 804,
+        "Btag": "Archie#22874",
+        "Nickname": "Archie",
+        "twitch": "aks_qk"
+    },
+    {
+        "ID": 804,
+        "Btag": "FFFFFFFF#21549",
+        "Nickname": "FFFFFFFF",
+        "twitch": "aks_qk"
+    },
+    {
+        "ID": 805,
+        "Btag": "РюмкаБорща#2174",
+        "Nickname": "РюмкаБорща",
+        "twitch": "ryumkaborstcha"
+    },
+    {
+        "ID": 805,
+        "Btag": "MANUL#21800",
+        "Nickname": "MANUL",
+        "twitch": "ryumkaborstcha"
+    },
+    {
+        "ID": 806,
+        "Btag": "KhalGrafTlkn#2405",
+        "Nickname": "KhalGrafTlkn",
+        "twitch": "khalgraftolken"
+    },
+    {
+        "ID": 807,
+        "Btag": "Darcs17#2329",
+        "Nickname": "Darcs17",
+        "twitch": "darcs17"
+    },
+    {
+        "ID": 807,
+        "Btag": "bordus#2411",
+        "Nickname": "bordus",
+        "twitch": "darcs17"
+    },
+    {
+        "ID": 808,
+        "Btag": "MissKillka#2381",
+        "Nickname": "MissKillka",
+        "twitch": "MissKillka"
+    },
+    {
+        "ID": 809,
+        "Btag": "MRTN#2621",
+        "Nickname": "MRTN",
+        "twitch": "mrtn_tw"
+    },
+    {
+        "ID": 809,
+        "Btag": "wowbebop#2591",
+        "Nickname": "wowbebop",
+        "twitch": "mrtn_tw"
+    },
+    {
+        "ID": 810,
+        "Btag": "Kenpachi#23687",
+        "Nickname": "Kenpachi",
+        "twitch": "longor09"
+    },
+    {
+        "ID": 811,
+        "Btag": "VictoryBond#2179",
+        "Nickname": "VictoryBond",
+        "twitch": "tomkasorc"
+    },
+    {
+        "ID": 812,
+        "Btag": "yungrein#2311",
+        "Nickname": "yungrein",
+        "twitch": "yungrein"
+    },
+    {
+        "ID": 813,
+        "Btag": "ARMIN#22951",
+        "Nickname": "ARMIN",
+        "twitch": "brigitta00"
+    },
+    {
+        "ID": 814,
+        "Btag": "IUPIXX#2135",
+        "Nickname": "IUPIXX",
+        "twitch": "IUPIXX_"
+    },
+    {
+        "ID": 814,
+        "Btag": "TRYME#21529",
+        "Nickname": "TRYME",
+        "twitch": "IUPIXX_"
+    },
+    {
+        "ID": 815,
+        "Btag": "HelloMySweet#2542",
+        "Nickname": "HelloMySweet",
+        "twitch": "ahkvah"
+    },
+    {
+        "ID": 816,
+        "Btag": "Quasar#22654",
+        "Nickname": "Quasar",
+        "twitch": "Grinyiii"
+    },
+    {
+        "ID": 817,
+        "Btag": "Quellik#21215",
+        "Nickname": "Quellik",
+        "twitch": "kwellik"
+    },
+    {
+        "ID": 817,
+        "Btag": "sakuta#2911",
+        "Nickname": "sakuta",
+        "twitch": "kwellik"
+    },
+    {
+        "ID": 817,
+        "Btag": "ナノミー#2155",
+        "Nickname": "ナノミー",
+        "twitch": "kwellik"
+    },
+    {
+        "ID": 818,
+        "Btag": "Sefirotus#2242",
+        "Nickname": "Sefirotus",
+        "twitch": "sefirotu"
+    },
+    {
+        "ID": 819,
+        "Btag": "Puppeach#2482",
+        "Nickname": "Puppeach",
+        "twitch": "puppeach"
+    },
+    {
+        "ID": 819,
+        "Btag": "budulai#21361",
+        "Nickname": "budulai",
+        "twitch": "puppeach"
+    },
+    {
+        "ID": 820,
+        "Btag": "вяжемшапочку#2815",
+        "Nickname": "вяжемшапочку",
+        "twitch": "etorepchikk"
+    }
+]
