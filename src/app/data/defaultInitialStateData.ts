@@ -1,6 +1,7 @@
 import { PlayerStats } from "../ts/types/PlayerStats";
 import { SearchMemoryType } from "../ts/types/SearchMemoryType";
 
+export const pl = [1, 2, 3, 4];
 export const playerStatsInitialState: PlayerStats = {
     tournamentsPlayed: 0,
     tournamentsWon: 0,
