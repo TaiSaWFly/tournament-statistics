@@ -70,7 +70,7 @@ const GlobalTournamentStatistics: React.FC<GlobalTournamentStatisticsProps> = ({
 
     return (
         <div className={style.global_tour}>
-            <h1 className={style.global_tour__title}>Anakq tournaments</h1>
+            <h1 className={style.global_tour__title}>Anak tournaments</h1>
 
             <GlobalTournamentStatisticsInfo
                 statisticsInfo={dataStatisticsInfo}
