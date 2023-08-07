@@ -1,0 +1,25 @@
+.player_page {
+    margin-top: 10px;
+}
+
+.player_page__info_stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.player_page__not_search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+
+    font-size: 3.4rem;
+    text-transform: capitalize;
+    text-align: center;
+
+    & svg {
+        width: 100px;
+        height: 100px;
+    }
+}

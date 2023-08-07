@@ -1,0 +1,38 @@
+@import "./default.scss";
+@import "./colors.scss";
+
+html {
+    font-size: 10px;
+    line-height: 1;
+}
+
+body {
+    margin: 0;
+    background: $quaternary;
+
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    color: $primary;
+    cursor: default;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1770px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

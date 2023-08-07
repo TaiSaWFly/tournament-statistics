@@ -1,0 +1,52 @@
+@import "../../../../../styles/colors.scss";
+
+.team__table {
+    & table {
+        color: $primary;
+        border-collapse: collapse;
+
+        & thead {
+            & tr {
+                border-bottom: 1px solid $primary;
+
+                & th {
+                    padding: 10px;
+                    font-size: 3rem;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        & tbody {
+            & tr {
+                font-size: 2.5rem;
+                text-align: center;
+
+                & td {
+                    padding: 5px 10px;
+
+                    & a {
+                        color: $primary;
+
+                        &::before {
+                            background-color: $primary;
+                        }
+
+                        &:hover {
+                            color: #fff;
+
+                            &::before {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.team__table__role {
+    display: flex;
+    justify-content: space-around;
+}

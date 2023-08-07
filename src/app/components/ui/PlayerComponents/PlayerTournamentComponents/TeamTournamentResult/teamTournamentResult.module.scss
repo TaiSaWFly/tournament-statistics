@@ -1,0 +1,27 @@
+@import "../../../../../../styles/colors.scss";
+
+.team_tournament_result {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 390px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+
+    font-size: 2.5rem;
+    text-align: center;
+    color: $secondary;
+
+    & span {
+        padding: 7px;
+        background-color: $primary;
+        border-top: 1px solid #afada0;
+    }
+}
+
+.team_tournament_result__title {
+    padding: 5px;
+    font-size: 2.7rem;
+    color: $primary;
+}

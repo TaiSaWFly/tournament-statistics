@@ -1,0 +1,57 @@
+@import "../../../../../../../styles/colors.scss";
+
+.team_table {
+    margin-bottom: 30px;
+}
+
+.team_table__wrap {
+    & table {
+        color: $secondary;
+        border-collapse: collapse;
+
+        & thead {
+            & th {
+                padding: 5px;
+
+                font-size: 2.7rem;
+                color: $primary;
+                background-color: transparent;
+
+                &:nth-child(2) {
+                    width: 155px;
+                }
+                &:nth-child(3),
+                &:nth-child(4) {
+                    width: 230px;
+                }
+            }
+        }
+
+        & tbody {
+            & td {
+                padding: 7px;
+                background-color: $primary;
+
+                font-size: 2.5rem;
+                border-left: 1px solid #afada0;
+                border-top: 1px solid #afada0;
+
+                &:nth-child(1) {
+                    padding: 0 10px;
+                    border-left: none;
+                    border-top: none;
+                    background-color: $tertiary;
+                }
+
+                &:nth-child(2) {
+                    border-left: none;
+                }
+
+                &:nth-child(4),
+                &:nth-child(5) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

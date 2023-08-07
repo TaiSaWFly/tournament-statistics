@@ -1,0 +1,29 @@
+.stats_result {
+    display: grid;
+    grid-template-columns: repeat(2, 0.9fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.stats_name {
+    font-size: 1.6rem;
+}
+
+.stats_value {
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.stats_value__result {
+    font-size: 1.3rem;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.stats_info__wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

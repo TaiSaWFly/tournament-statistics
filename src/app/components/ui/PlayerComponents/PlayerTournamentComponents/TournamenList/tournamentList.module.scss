@@ -1,0 +1,12 @@
+@import "../../../../../../styles/colors.scss";
+
+.tournamen_list {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0 20px;
+    margin-bottom: 30px;
+
+    font-size: 1.6rem;
+    white-space: nowrap;
+}

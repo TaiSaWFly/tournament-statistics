@@ -1,0 +1,18 @@
+@import "../../../../../../styles/colors.scss";
+
+.player_stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.player_stats__wrap {
+    margin-bottom: 50px;
+    padding: 0 15px;
+    border-right: 1px solid $primary;
+
+    &:last-of-type {
+        border-right: none;
+        padding-right: 0;
+    }
+}

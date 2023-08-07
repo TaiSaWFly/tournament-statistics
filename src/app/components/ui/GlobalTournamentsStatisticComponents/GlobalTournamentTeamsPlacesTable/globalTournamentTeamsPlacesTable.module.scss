@@ -1,0 +1,58 @@
+@import "../../../../../styles/colors.scss";
+
+.teams_places__table {
+    & table {
+        color: $primary;
+        border-collapse: collapse;
+
+        & thead {
+            & th {
+                padding: 10px;
+                font-size: 3rem;
+
+                &:nth-child(2) {
+                    width: 340px;
+                }
+            }
+        }
+
+        & tbody {
+            & tr {
+                font-size: 2.5rem;
+                text-align: center;
+
+                & td {
+                    padding: 10px;
+
+                    & a {
+                        color: $primary;
+
+                        &::before {
+                            background-color: $primary;
+                        }
+
+                        &:hover {
+                            color: #fff;
+
+                            &::before {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(1) {
+                    font-size: 4rem;
+                }
+
+                &:nth-child(2) {
+                    font-size: 3.5rem;
+                }
+
+                &:nth-child(3) {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
