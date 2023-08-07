@@ -1,0 +1,45 @@
+@import "../../../../../../styles/colors.scss";
+
+.matches_table {
+    margin-left: 55px;
+
+    & table {
+        color: $secondary;
+        border-collapse: collapse;
+
+        & thead {
+            & th {
+                padding: 5px;
+
+                font-size: 2.7rem;
+                color: $primary;
+                background-color: transparent;
+
+                &:nth-child(1) {
+                    width: 360px;
+                }
+            }
+        }
+
+        & tbody {
+            & td {
+                padding: 7px;
+                background-color: $primary;
+
+                font-size: 2.5rem;
+                border-left: 1px solid #afada0;
+                border-top: 1px solid #afada0;
+
+                &:nth-child(1) {
+                    padding: 0 10px;
+                    border-left: none;
+                }
+
+                &:nth-child(2),
+                &:nth-child(3) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

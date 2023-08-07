@@ -1,0 +1,57 @@
+@import "../../../../../styles/colors.scss";
+
+.link {
+    a {
+        display: inline;
+        color: $secondary;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+
+        &::before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: $secondary;
+            transition: all 0.2s ease-in-out;
+
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+
+        &:hover {
+            color: $tertiary;
+            &::before {
+                background-color: $tertiary;
+            }
+        }
+    }
+}
+
+.link__cap_link__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & svg {
+        fill: $primary;
+    }
+}
+
+.link__cap_link {
+    display: flex;
+    align-items: center;
+}
+
+.link__cap_icon {
+    height: 25px;
+    margin-left: 5px;
+
+    & svg {
+        height: inherit;
+    }
+}
+
+.link__current {
+    color: $quaternary;
+}

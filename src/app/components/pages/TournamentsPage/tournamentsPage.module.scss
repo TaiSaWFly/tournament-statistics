@@ -1,0 +1,87 @@
+@import "../../../../styles/colors.scss";
+
+.tournaments_page {
+    padding: 30px 0;
+}
+
+.tournaments_page__group {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tournaments_page__group_title {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 15px;
+    font-size: 4rem;
+}
+
+.tournaments_page__statistic_info {
+    margin-bottom: 30px;
+}
+
+.tournaments_page__group_tables {
+    padding: 15px;
+    background-color: rgba($color: $tertiary, $alpha: 0.75);
+    border-radius: 15px;
+}
+
+.tournaments_page__group_tables_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    border: 1px solid $primary;
+}
+
+.tournaments_page__table {
+    padding: 15px;
+
+    &:nth-child(2) {
+        border-left: 1px solid $primary;
+        border-right: 1px solid $primary;
+    }
+
+    @media (max-width: 1628px) {
+        &:nth-child(2) {
+            border-right: none;
+        }
+
+        &:nth-child(3) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid $primary;
+        }
+    }
+
+    @media (max-width: 1249px) {
+        &:nth-child(1) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &:nth-child(2) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid $primary;
+            border-left: none;
+        }
+
+        &:nth-child(3) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid $primary;
+        }
+    }
+}

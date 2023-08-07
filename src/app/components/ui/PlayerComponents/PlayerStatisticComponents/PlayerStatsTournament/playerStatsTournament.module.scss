@@ -1,0 +1,22 @@
+.stats_info__tournament {
+    display: grid;
+    grid-template-columns: repeat(2, 0.6fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.stats_name {
+    font-size: 1.6rem;
+}
+
+.stats_value {
+    font-size: 2.6rem;
+}
+
+.stats_info__wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

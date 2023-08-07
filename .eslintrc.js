@@ -29,7 +29,10 @@ module.exports = {
                 avoidEscape: true
             }
         ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": "error",
         "react/display-name": "off",
-        "react/prop-types": 0
+        "react/prop-types": 0,
+        "no-debugger": "off"
     }
 };
