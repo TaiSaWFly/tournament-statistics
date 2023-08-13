@@ -29,7 +29,7 @@ const TeamTournamentMatches: React.FC<TeamTournamentMatchesProps> = ({
         },
         {
             key: "score",
-            name: "Список матчей",
+            name: "Результат",
             component: (match) => <div>{match.score}</div>
         },
         {

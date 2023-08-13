@@ -9,6 +9,7 @@ import MainPage from "./components/pages/MainPage/MainPage";
 import Header from "./components/ui/HeaderComponents/Header";
 import TournamentsPage from "./components/pages/TournamentsPage/TournamentsPage";
 import NotFound from "./components/pages/NotFound/NotFound";
+import Footer from "./components/ui/Footer/Footer";
 
 const App: React.FC = () => {
     return (
@@ -24,6 +25,8 @@ const App: React.FC = () => {
                     <Redirect to="/" from="*" />
                 </Switch>
             </PageLayout>
+
+            <Footer />
         </AppLoader>
     );
 };

@@ -30,6 +30,12 @@ code {
     box-sizing: border-box;
 }
 
+.app_page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .conteiner {
     width: 100%;
     max-width: 1770px;
