@@ -16,7 +16,7 @@ const TeamTournamentResult: React.FC<TeamTournamentResultProps> = ({
     return (
         <div className={style.team_tournament_result}>
             <div className={style.team_tournament_result__title}>
-                Результы Турнира
+                Результаты Турнира
             </div>
             <span>
                 {teamTournament.Место} место из {qtyTournamentTeams}
