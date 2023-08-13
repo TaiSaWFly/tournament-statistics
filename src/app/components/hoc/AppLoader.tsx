@@ -87,8 +87,17 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
         }
     }, [isCounting]);
 
-    if (error) return <ErrorPage errorMessage={error.errorMessage} />;
-    return <>{isLoading ? <AppLoading /> : children}</>;
+    if (error) {
+        return (
+            <div className="app_page">
+                <ErrorPage errorMessage={error.errorMessage} />
+            </div>
+        );
+    }
+
+    return (
+        <div className="app_page">{isLoading ? <AppLoading /> : children}</div>
+    );
 };
 
 export default AppLoader;
