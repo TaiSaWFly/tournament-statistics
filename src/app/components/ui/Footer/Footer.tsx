@@ -3,8 +3,6 @@ import style from "./footer.module.scss";
 import ComponentContainer from "../../common/ComponentContainer/ComponentContainer";
 
 const Footer: React.FC = () => {
-    console.log(process.env);
-
     return (
         <footer className={style.footer}>
             <ComponentContainer>
