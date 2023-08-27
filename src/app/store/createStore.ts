@@ -21,7 +21,8 @@ const store = configureStore({
         getDefaultMiddleware({
             immutableCheck: false,
             serializableCheck: false
-        })
+        }),
+    devTools: process.env.NODE_ENV !== "production"
 });
 
 export const rootActions = {
