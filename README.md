@@ -8,5 +8,5 @@
 New version
 < ver. 1.0.0 >
 
-Last version
+Last current version
 < ver. 1.0.1 >
