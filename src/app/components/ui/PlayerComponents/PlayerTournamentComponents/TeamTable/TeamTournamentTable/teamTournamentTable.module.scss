@@ -1,56 +1,63 @@
 @import "../../../../../../../styles/colors.scss";
 
-.team_table {
-    margin-bottom: 30px;
-}
+.team_tournament_table {
+    font-size: 1.4rem;
+    color: $textGray;
+    text-align: center;
+    white-space: nowrap;
 
-.team_table__wrap {
-    & table {
-        color: $secondary;
-        border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
 
-        & thead {
+    & thead {
+        border-bottom: 1px solid $gray2;
+        background-color: $whiteBG;
+
+        & tr {
             & th {
-                padding: 5px;
+                padding: 20px 5px;
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: capitalize;
 
-                font-size: 2.7rem;
-                color: $primary;
-                background-color: transparent;
-
-                &:nth-child(2) {
-                    width: 155px;
-                }
-                &:nth-child(3),
-                &:nth-child(4) {
-                    width: 230px;
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px;
                 }
             }
         }
+    }
 
-        & tbody {
+    & tbody {
+        & tr {
+            border-bottom: 1px solid $gray2;
+
             & td {
-                padding: 7px;
-                background-color: $primary;
+                height: 65px;
+                overflow: hidden;
+                padding: 20px 5px;
 
-                font-size: 2.5rem;
-                border-left: 1px solid #afada0;
-                border-top: 1px solid #afada0;
-
-                &:nth-child(1) {
-                    padding: 0 10px;
-                    border-left: none;
-                    border-top: none;
-                    background-color: $tertiary;
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px;
                 }
 
                 &:nth-child(2) {
-                    border-left: none;
+                    width: 90px;
                 }
 
-                &:nth-child(4),
-                &:nth-child(5) {
-                    text-align: center;
+                &:nth-child(3) {
+                    width: 140px;
                 }
+
+                &:nth-child(4) {
+                    width: 120px;
+                }
+            }
+
+            &:last-of-type {
+                border: none;
             }
         }
     }

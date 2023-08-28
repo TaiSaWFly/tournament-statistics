@@ -1,13 +1,13 @@
 import React from "react";
+import "./selectField.scss";
 import Select, { SingleValue } from "react-select";
 import { SelectOption } from "../../../ts/types/SelectOption";
 
 interface SelectFieldProps {
-    name: string;
     options: SelectOption[];
     value: SelectOption | null;
     placeholder?: string;
-    className: string;
+    className?: string;
     maxMenuHeight: number;
     isSearchable: boolean;
     noOptionsMessage?: string;
@@ -15,7 +15,6 @@ interface SelectFieldProps {
 }
 
 const SelectField: React.FC<SelectFieldProps> = ({
-    name,
     value,
     options,
     placeholder,
@@ -31,9 +30,8 @@ const SelectField: React.FC<SelectFieldProps> = ({
 
     return (
         <Select
-            classNamePrefix={className}
+            classNamePrefix={className || "select_field"}
             options={options}
-            name={name}
             value={value}
             placeholder={placeholder}
             onChange={handleChange}

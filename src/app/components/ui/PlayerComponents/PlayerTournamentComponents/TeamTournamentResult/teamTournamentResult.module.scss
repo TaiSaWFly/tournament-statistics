@@ -1,27 +1,30 @@
 @import "../../../../../../styles/colors.scss";
+@import "../../../../../../styles/mixins.scss";
 
 .team_tournament_result {
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    max-width: 390px;
-    margin-left: 55px;
-    margin-bottom: 30px;
-
-    font-size: 2.5rem;
+    @include box-style;
     text-align: center;
-    color: $secondary;
+    white-space: nowrap;
+}
+
+.team_tournament_result__content {
+    @include box-style;
+
+    font-size: 1.7rem;
+    color: $gray3;
+    background-color: $whiteBG;
 
     & span {
-        padding: 7px;
-        background-color: $primary;
-        border-top: 1px solid #afada0;
+        display: block;
+        margin-bottom: 13px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 }
 
 .team_tournament_result__title {
-    padding: 5px;
-    font-size: 2.7rem;
-    color: $primary;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }

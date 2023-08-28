@@ -1,0 +1,51 @@
+@import "../../../../../../../styles/colors.scss";
+
+.role_colors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.role_colors__wrap {
+    display: flex;
+}
+
+.colors__item_tank,
+.colors__item_dps,
+.colors__item_support {
+    margin: 0 5px;
+
+    & span {
+        display: block;
+        margin: 0 auto 5px auto;
+        width: 15px;
+        height: 15px;
+
+        background-color: $dps;
+        border-radius: 50%;
+        border: 1px solid $gray2;
+    }
+}
+
+.colors__item_role {
+    font-size: 1.3rem;
+    text-align: center;
+    color: $textGray;
+}
+
+.colors__item_tank {
+    & span {
+        background-color: $tank;
+    }
+}
+
+.colors__item_dps {
+    & span {
+        background-color: $dps;
+    }
+}
+
+.colors__item_support {
+    & span {
+        background-color: $support;
+    }
+}

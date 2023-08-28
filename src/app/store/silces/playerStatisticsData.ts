@@ -1,9 +1,9 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AppDispatch } from "../createStore";
 import { IPlayerStats } from "../../ts/models/IPlayerStats";
-import countPlayerStatisticsData from "../../utils/appUtils/countSortStatisticData/countStatisticData/countPlayerStatisticsData";
 import { ITournamentDb } from "../../ts/models/ITournamentDb";
 import { IPlayer } from "../../ts/models/IPlayer";
+import countPlayerStatisticsData from "../../utils/appUtils/countData/countSortStatisticData/countStatisticData/countPlayerStatisticsData";
 
 interface IPlayerStatisticsDataSlice {
     entities: IPlayerStats[];

@@ -1,22 +1,21 @@
 import { useMemo, useState } from "react";
-import filterDoubleDataByKey from "../../../utils/appUtils/filterSearchData/filterDoubleDataByKey";
-import tansformDataToSelectOptionByKeys from "../../../utils/appUtils/tansformDataToSelectOptionByKeys";
+import filterDoubleDataByKey from "../../../utils/appUtils/filterSortData/filterDoubleDataByKey";
+import tansformDataToSelectOptionByKeys from "../../../utils/appUtils/transformAndCreateData/transformData/tansformDataToSelectOptionByKeys";
 import { useAppSelector } from "../../reduxHooks/reduxHooks";
-import countDataQtyByKey from "../../../utils/appUtils/countDataByKey/countDataQtyByKey";
-import countMaps from "../../../utils/appUtils/countSortStatisticData/countStatisticData/countMaps";
-import countReduceDataByKey from "../../../utils/appUtils/countDataByKey/countReduceDataByKey";
 import { ITournamentDb } from "../../../ts/models/ITournamentDb";
-import sortByRole from "../../../utils/appUtils/filterSearchData/sortByRole";
-import definedLengthArray from "../../../utils/appUtils/definedLengthArray";
-import { tournamentStatisticDataInitialState } from "../../../data/defaultInitialStateData";
+import sortByRole from "../../../utils/appUtils/filterSortData/sortByRole";
+import definedLengthArray from "../../../utils/appUtils/other/definedLengthArray";
+import { TournamentStatisticInfoType } from "../../../ts/types/TournamentTypes/TournamentStatisticInfoType";
+import returnTournamentStatistic from "../../../utils/appUtils/transformAndCreateData/createData/tornamentStatisticData/returnTournamentStatistic";
 
 const useTournamentStats = () => {
     const tournamentDb = useAppSelector((state) => state.tournamentDb.entities);
     const matchesDb = useAppSelector((state) => state.matchesDb.entities);
 
-    const [tournamentStatisticData, setTournamentStatisticData] = useState(
-        tournamentStatisticDataInitialState
-    );
+    const [tournamentNumber, setTournamentNumber] = useState(0);
+    const [tournamentStatisticInfoData, setTournamentStatisticInfoData] =
+        useState<TournamentStatisticInfoType[]>([]);
+
     const [tournamentPlaceTeams, setTournamentPlaceTeams] = useState<
         ITournamentDb[]
     >([]);
@@ -40,51 +39,39 @@ const useTournamentStats = () => {
     );
 
     const getTournamentListId = (listId: number) => {
-        const currentTournament = tournamentDb.filter(
+        const currentTournamentData = tournamentDb.filter(
             (tour) => tour["Номер турнира"] === listId
         );
-        const filterCurrentTournament = currentTournament.filter(
+        const currentTournamentByTeam = currentTournamentData.filter(
             (tour) =>
                 tour.Команда.toLocaleLowerCase() ===
                 tour.Игрок.toLocaleLowerCase()
         );
-        const filterMatchesDbByTourNumber = matchesDb.filter(
-            (match) => match.Турнир === listId
-        );
+
         const getPlaceTeams = definedLengthArray(
-            filterCurrentTournament.sort((a, b) => a.Место - b.Место)
+            currentTournamentByTeam.sort((a, b) => a.Место - b.Место)
         );
-        const getFirstPlaceTeam = currentTournament.filter(
+        const getFirstPlaceTeam = currentTournamentData.filter(
             (tuor) => tuor["ID команды"] === getPlaceTeams[0]["ID команды"]
         );
 
-        setTournamentStatisticData({
-            tournamentNumber: listId,
-            tournamentTeamsQty: countDataQtyByKey(
-                currentTournament,
-                "ID команды"
-            ),
-            tournamentPlayersQty: countDataQtyByKey(
-                currentTournament,
-                "PlayerID"
-            ),
-            tournamentMatchesQty: countDataQtyByKey(
-                filterMatchesDbByTourNumber,
-                "Уникальный номер матча"
-            ),
-            tournamentMapsQty: countMaps(filterCurrentTournament).mapsWon,
-            tournamentNewPlayersQty: countReduceDataByKey(
-                currentTournament,
-                "Новичок "
-            )
+        const tournamentStatsInfo = returnTournamentStatistic({
+            tournaments: tournamentDb,
+            currentTournamentData,
+            matches: matchesDb,
+            currentTournamentNumber: listId
         });
+
+        setTournamentNumber(listId);
+        setTournamentStatisticInfoData(tournamentStatsInfo);
         setTournamentPlaceTeams(getPlaceTeams);
         setTournamentFirstPlaceTeam(sortByRole(getFirstPlaceTeam));
     };
 
     return {
+        tournamentNumber,
+        tournamentStatisticInfoData,
         tournamentOptions,
-        tournamentStatisticData,
         tournamentPlaceTeams,
         tournamentFirstPlaceTeam,
         getTournamentListId

@@ -1,54 +1,57 @@
 @import "../../../../../styles/colors.scss";
+@import "../../../../../styles/mixins.scss";
 
 .player_info {
-    min-width: 200px;
-    padding-right: 20px;
-    margin-bottom: 50px;
+    font-size: 1.6rem;
+    @include box-style;
 }
 
 .player_info__wrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $gray2;
 }
 
 .player_nickname {
-    margin-right: 40px;
-    font-size: 5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
 
 .player_twitch {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 
-    & a {
+    a {
+        display: inline;
         position: relative;
         transition: all 0.2s ease-in-out;
 
         &::before {
             content: "";
             width: 100%;
+            max-width: 0%;
             height: 1px;
-            background-color: $primary;
+            background-color: #cfd4db;
             transition: all 0.2s ease-in-out;
 
             position: absolute;
-            bottom: -2px;
+            bottom: -1px;
             left: 0;
         }
 
         &:hover {
-            color: #fff;
+            color: rgba($color: $textViolet, $alpha: 0.85);
+
             &::before {
-                background-color: #fff;
+                max-width: 100%;
             }
         }
     }
 }
 
 .player_btag {
-    margin-bottom: 5px;
     font-size: 1.4rem;
+    margin-bottom: 7.5px;
 
     &:last-of-type {
         margin-bottom: 0;

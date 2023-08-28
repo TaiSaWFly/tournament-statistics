@@ -1,9 +1,11 @@
-import { searchMemoryInitialState } from "../../data/defaultInitialStateData";
-import { ErrorType } from "../../ts/types/ErrorType";
-import { SearchMemoryType } from "../../ts/types/SearchMemoryType";
-
-type localStorageDataType = SearchMemoryType | ErrorType;
-type localStorageKeysType = "searchMemory" | "error";
+import {
+    dashboardMemoryInitialState,
+    searchMemoryInitialState
+} from "../../data/defaultInitialStateData";
+import {
+    localStorageDataType,
+    localStorageKeysType
+} from "../../ts/types/LocalStorageDataTypes/LocalStorageDataType";
 
 const localStorageService = {
     toStorage: (key: localStorageKeysType, data: localStorageDataType) => {
@@ -20,6 +22,13 @@ const localStorageService = {
             localStorageService.toStorage(
                 "searchMemory",
                 searchMemoryInitialState
+            );
+        }
+
+        if (!localStorageService.fromStorage("dashboardMemory")) {
+            localStorageService.toStorage(
+                "dashboardMemory",
+                dashboardMemoryInitialState
             );
         }
     }

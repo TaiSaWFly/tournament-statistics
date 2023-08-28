@@ -12,11 +12,9 @@ const TeamNewRolePlayerTable: React.FC<TeamNewRolePlayerTableProps> = ({
     const { Check, NotCheck } = useSvgIcon();
     return (
         <div className={style.new_role_player}>
-            {isNew !== 0 ? (
-                <Check className={style.icon__check} />
-            ) : (
-                <NotCheck className={style.icon__not_check} />
-            )}
+            <div className={style.new_role__icon}>
+                {isNew !== 0 ? <Check /> : <NotCheck />}
+            </div>
         </div>
     );
 };

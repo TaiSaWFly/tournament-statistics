@@ -1,25 +1,68 @@
-.player_page {
-    margin-top: 10px;
-}
-
-.player_page__info_stats {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+@import "../../../../styles/mixins.scss";
+@import "../../../../styles/colors.scss";
 
 .player_page__not_search {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 50px 0;
+    flex-direction: column;
+    padding-top: 10px;
 
-    font-size: 3.4rem;
-    text-transform: capitalize;
     text-align: center;
 
-    & svg {
-        width: 100px;
-        height: 100px;
+    & .not_search__indicator {
+        &:first-of-type {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.not_search__indicator {
+    padding-top: 35px;
+    width: 50px;
+}
+
+.not_search__title {
+    @include box-style;
+
+    font-size: 2.7rem;
+    text-transform: capitalize;
+}
+
+.not_search__info_redirect {
+    @include box-style;
+
+    margin-top: 40px;
+    font-size: 2rem;
+    color: $textGray;
+
+    & span {
+        font-size: 1.7rem;
+    }
+
+    & a {
+        display: inline;
+        position: relative;
+        transition: color 0.2s ease-in-out;
+
+        &::before {
+            content: "";
+            width: 100%;
+            max-width: 0%;
+            height: 1px;
+            background-color: rgba($color: $textGray, $alpha: 0.5);
+            transition: max-width 0.2s ease-in-out;
+
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+        }
+
+        &:hover {
+            color: $textViolet;
+
+            &::before {
+                max-width: 100%;
+            }
+        }
     }
 }

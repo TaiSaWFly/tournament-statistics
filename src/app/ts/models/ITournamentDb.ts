@@ -1,3 +1,5 @@
+import { PlayerRoles } from "../types/PlayerTypes/PlayerRoles";
+
 export interface ITournamentDb {
     _id: number;
     "Номер турнира": number;
@@ -6,7 +8,7 @@ export interface ITournamentDb {
     "Связка команды": string;
     Команда: string;
     Игрок: string;
-    Роль: ITournamentDbRole;
+    Роль: PlayerRoles;
     Место: number;
     "Сыграно матчей": number;
     "Выиграно карт": number;
@@ -28,5 +30,3 @@ export interface ITournamentDb {
     "Средняя близость матчей": number;
     "Независимая оценка"?: string;
 }
-
-export type ITournamentDbRole = "tank" | "dps" | "support" | "Flex";

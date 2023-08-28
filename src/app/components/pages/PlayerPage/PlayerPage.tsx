@@ -1,64 +1,63 @@
-import React, { useEffect } from "react";
+import React from "react";
 import style from "./playerPage.module.scss";
-import { useHistory, useParams } from "react-router-dom";
-import { useActions } from "../../../hooks/reduxHooks/useActions";
+import { Link } from "react-router-dom";
 import usePlayer from "../../../hooks/appHooks/playerHooks/usePlayer";
-import useSvgIcon from "../../../hooks/appHooks/useSvgIcon";
-import PlayerSearchField from "../../ui/PlayerComponents/PlayerSearchField/PlayerSearchField";
 import PlayerInfoTournamentStats from "../../ui/PlayerComponents/PlayerInfoTournamentStats/PlayerInfoTournamentStats";
+import PlayerSearchField from "../../ui/PlayerComponents/PlayerSearchField/PlayerSearchField";
+import ArrowsIndicator from "../../common/ArrowsIndicator/ArrowsIndicator";
 import { useAppSelector } from "../../../hooks/reduxHooks/reduxHooks";
 
-const PlayerPage: React.FC = () => {
-    const { playerId } = useParams<{ playerId: string | undefined }>();
-    const history = useHistory();
+interface PlayerPageComponentsProps {
+    NotSearch: React.FC;
+}
 
-    const { ArrowLeft, ArrowRight } = useSvgIcon();
-    const { setPlayerData } = useActions();
-    const { player, playerData } = usePlayer();
-    const { playerOption } = useAppSelector(
-        (state) => state.searchMemory.entities
-    );
-
-    useEffect(() => {
-        playerId && setPlayerData(Number(playerId));
-        window.scrollTo(0, 0);
-
-        playerOption !== null &&
-            !playerId &&
-            history.push(`/player/${playerOption.value}`);
-        playerId && !player && !playerOption && history.push(`/404`);
-    }, [playerId]);
+const PlayerPage: React.FC & PlayerPageComponentsProps = () => {
+    const { player } = usePlayer();
 
     return (
-        <div className={style.player_page}>
+        <>
             <PlayerSearchField />
-
-            {playerOption !== null && !playerId ? null : playerOption ===
-                  null && playerId ? (
-                <>
-                    {playerData.length !== 0 && player && (
-                        <PlayerInfoTournamentStats
-                            {...{ player, playerData }}
-                        />
-                    )}
-                </>
-            ) : playerOption !== null && playerId ? (
-                <>
-                    {playerData.length !== 0 && player && (
-                        <PlayerInfoTournamentStats
-                            {...{ player, playerData }}
-                        />
-                    )}
-                </>
-            ) : (
-                <div className={style.player_page__not_search}>
-                    <ArrowRight />
-                    <span>здесь будет статистика покемона</span>
-                    <ArrowLeft />
-                </div>
-            )}
-        </div>
+            {player && <PlayerInfoTournamentStats {...{ player }} />}
+        </>
     );
 };
 
+const PlayerPageNotSearch: React.FC = () => {
+    const { playerOption: memoryOption } = useAppSelector(
+        (state) => state.memory.entities.searchMemory
+    );
+
+    return (
+        <>
+            <PlayerSearchField />
+
+            <div className={style.player_page__not_search}>
+                <div className={style.not_search__indicator}>
+                    <ArrowsIndicator />
+                </div>
+
+                <div className={style.not_search__title}>
+                    <span>здесь будет статистика</span>
+                </div>
+
+                {memoryOption && (
+                    <>
+                        <div className={style.not_search__indicator}>
+                            <ArrowsIndicator />
+                        </div>
+
+                        <div className={style.not_search__info_redirect}>
+                            <span>Перейти к</span>{" "}
+                            <Link to={`/player/${memoryOption.value}`}>
+                                {memoryOption.label}
+                            </Link>
+                        </div>
+                    </>
+                )}
+            </div>
+        </>
+    );
+};
+
+PlayerPage.NotSearch = PlayerPageNotSearch;
 export default PlayerPage;
