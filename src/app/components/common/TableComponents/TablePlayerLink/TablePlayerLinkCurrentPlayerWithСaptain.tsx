@@ -20,7 +20,7 @@ const TablePlayerLinkCurrentPlayerWithСaptain: React.FC<
         teammateId,
         teammateName
     );
-    const { setSearchMemoryPlayer } = useActions();
+    const { setSearchMemoryPlayer, setPlayerData } = useActions();
     const { Crown } = useSvgIcon();
 
     const redirectToPlayer = () => {
@@ -28,6 +28,7 @@ const TablePlayerLinkCurrentPlayerWithСaptain: React.FC<
             value: String(playerLink[0]._id),
             label: teammateName
         };
+        setPlayerData(Number(playerOption.value));
         history.push(`/player/${playerOption.value}`);
         setSearchMemoryPlayer(playerOption);
     };

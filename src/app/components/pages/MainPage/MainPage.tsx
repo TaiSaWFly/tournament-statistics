@@ -1,44 +1,30 @@
 import React from "react";
-import style from "./mainPage.module.scss";
-import GlobalTournamentStatistics from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentStatistics/GlobalTournamentStatistics";
 import useGlobalTourStats from "../../../hooks/appHooks/tournamentsHooks/useGlobalTourStats";
-import TopTwentyByCardsWonTable from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyByCardsWonTable/TopTwentyByCardsWonTable";
-import TopTwentyChampionsTable from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyChampionsTable/TopTwentyChampionsTable";
-import TopTwentyByWinrateTable from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyByWinrateTable/TopTwentyByWinrateTable";
-import TopTwentyLosersTable from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyLosersTable/TopTwentyLosersTable";
+import TournamentStatisticsInfo from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentStatisticsInfoComponents/TournamentStatisticsInfo/TournamentStatisticsInfo";
+import TopTwentyStatisticTables from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyStatisticTables/TopTwentyStatisticTables";
+import ComponentContainer from "../../common/ComponentContainer/ComponentContainer";
 
 const MainPage: React.FC = () => {
-    const {
-        qtyGlobalTournaments,
-        qtyGlobalTeams,
-        qtyGlobalPlayers,
-        qtyGlobalMatches,
-        qtyGlobalPlayerChampions,
-        topTwentyByCardsWon,
-        topTwentyChampions,
-        topTwentybyWinrate,
-        topTwentyLosers
-    } = useGlobalTourStats();
-
+    const { globalTournamentChart, topTwenty } = useGlobalTourStats();
     return (
-        <div>
-            <GlobalTournamentStatistics
-                {...{
-                    qtyGlobalTournaments,
-                    qtyGlobalTeams,
-                    qtyGlobalPlayers,
-                    qtyGlobalMatches,
-                    qtyGlobalPlayerChampions
-                }}
-            />
+        <section>
+            <ComponentContainer>
+                {globalTournamentChart && topTwenty && (
+                    <>
+                        <TournamentStatisticsInfo
+                            statisticsInfo={globalTournamentChart}
+                        />
 
-            <div className={style.main_page__tables}>
-                <TopTwentyByCardsWonTable data={topTwentyByCardsWon} />
-                <TopTwentyChampionsTable data={topTwentyChampions} />
-                <TopTwentyByWinrateTable data={topTwentybyWinrate} />
-                <TopTwentyLosersTable data={topTwentyLosers} />
-            </div>
-        </div>
+                        <TopTwentyStatisticTables
+                            topTwentyByCardsWon={topTwenty.topTwentyByCardsWon}
+                            topTwentyChampions={topTwenty.topTwentyChampions}
+                            topTwentyByWinrate={topTwenty.topTwentyByWinrate}
+                            topTwentyLosers={topTwenty.topTwentyLosers}
+                        />
+                    </>
+                )}
+            </ComponentContainer>
+        </section>
     );
 };
 

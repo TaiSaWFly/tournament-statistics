@@ -1,0 +1,108 @@
+@import "../../../../../styles/colors.scss";
+
+.select_field__player {
+    &__control {
+        font-family: "Inter", sans-serif !important;
+        font-size: 1.4rem !important;
+        font-weight: 500 !important;
+
+        cursor: pointer !important;
+        padding: 1.3rem 1.6rem !important;
+        border-radius: 5px !important;
+        border: 1px solid $gray2 !important;
+        box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.5) !important;
+
+        transition: border-color 0.3s ease-in-out !important;
+
+        &--menu-is-open {
+            border-color: rgba($color: $gray1, $alpha: 0.5) !important;
+
+            .select_field__player__indicator {
+                color: $gray1 !important;
+            }
+        }
+
+        &--is-focused.select_field__player__control--menu-is-open {
+            .select_field__player__single-value {
+                color: rgba($color: $textViolet, $alpha: 0.65) !important;
+            }
+        }
+
+        &:hover {
+            border-color: rgba($color: $gray1, $alpha: 0.5) !important;
+
+            .select_field__player__indicator {
+                color: $gray1 !important;
+            }
+        }
+    }
+
+    &__value-container {
+        padding: 0 !important;
+    }
+
+    &__single-value {
+        margin: 0 !important;
+        color: $textViolet !important;
+        transition: color 0.15s ease-in-out !important;
+    }
+
+    &__indicator-separator {
+        display: none !important;
+    }
+
+    &__indicator {
+        padding: 0 !important;
+        color: $gray2 !important;
+        transition: color 0.2s ease-in-out !important;
+    }
+
+    &__menu {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        font-family: "Inter", sans-serif !important;
+        font-size: 1.4rem !important;
+        font-weight: 500 !important;
+        color: $textViolet !important;
+
+        overflow: hidden !important;
+        border: 1px solid rgba($color: $gray1, $alpha: 0.5) !important;
+        border-radius: 5px !important;
+        box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.5) !important;
+        top: calc(100% + 5px) !important;
+    }
+
+    &__menu-list {
+        padding: 0 !important;
+        border-radius: 5px !important;
+
+        &::-webkit-scrollbar {
+            width: 5px !important;
+            background-color: transparent !important;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $gray1 !important;
+            border-radius: 10px !important;
+        }
+    }
+
+    &__option {
+        padding: 6px 20px !important;
+        cursor: pointer !important;
+
+        &--is-selected {
+            color: $textViolet !important;
+            background: $gray2 !important;
+        }
+        &--is-focused {
+            color: $textViolet !important;
+            background: $gray2 !important;
+        }
+    }
+}
+
+.select_field__player__option--is-focused.select_field__player__option--is-selected {
+    background: rgba($color: $gray2, $alpha: 0.5) !important;
+}

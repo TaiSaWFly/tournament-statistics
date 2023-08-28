@@ -1,34 +1,6 @@
-@import "../../../../../styles/colors.scss";
-
 .search {
     margin: 0 auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 260px;
     margin-bottom: 30px;
-}
-
-.search_wrapper {
-    padding-bottom: 10px;
-    position: relative;
-}
-
-.search_field {
-    padding: 0.8rem 2.2rem;
-    font-size: 2rem;
-    border-radius: 50px;
-    border: 1px solid $primary;
-
-    transition: border-color 0.2s ease-in-out;
-
-    &::placeholder {
-        color: #000;
-        transition: color 0.2s ease-in-out;
-    }
-
-    &:focus {
-        border-color: #000;
-        &::placeholder {
-            color: #ebebeb;
-        }
-    }
 }

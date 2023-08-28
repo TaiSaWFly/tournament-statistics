@@ -1,0 +1,23 @@
+@import "../../../../../../styles/colors.scss";
+
+.bage {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.bage__positive {
+    color: $bagePositive;
+}
+
+.bage__not_positive {
+    color: $bageNotPositive;
+}
+
+.bage__zero {
+    color: $bageNotZero;
+}
+
+.bage__error {
+    font-size: 1.5rem;
+    color: $bageError;
+}

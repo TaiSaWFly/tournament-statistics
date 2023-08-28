@@ -1,71 +1,75 @@
 import React from "react";
 import style from "./teamTournamentTable.module.scss";
 import { ITournamentDb } from "../../../../../../ts/models/ITournamentDb";
-import Table from "../../../../../common/TableComponents/Table";
-import { ColumnType } from "../../../../../../ts/types/ColumnType";
 import TableRole from "../../../../../common/TableComponents/TableRole/TableRole";
 import TablePlayerLink from "../../../../../common/TableComponents/TablePlayerLink/TablePlayerLink";
 import TeamNewRolePlayerTable from "../TeamNewRolePlayerTable/TeamNewRolePlayerTable";
+import { createColumnHelper } from "@tanstack/react-table";
+import Table from "../../../../../common/TableComponents/Table/Table";
 
 interface TeamTournamentTableProps {
     team: ITournamentDb[];
 }
 
 const TeamTournamentTable: React.FC<TeamTournamentTableProps> = ({ team }) => {
-    const columns: ColumnType<ITournamentDb, keyof ITournamentDb>[] = [
-        {
-            key: "Роль",
-            name: "",
-            component: (teammate) => <TableRole role={teammate.Роль} />
-        },
-        {
-            key: "Подроль",
-            name: "Подроль",
-            component: (teammate) => <div>{teammate.Подроль}</div>
-        },
-        {
-            key: "Игрок",
-            name: "Тиммейт",
-            component: (teammate) => (
+    const column = createColumnHelper<ITournamentDb>();
+    const columns = [
+        column.display({
+            id: "Роль",
+            cell: ({ row }) => <TableRole role={row.original.Роль} />
+        }),
+        column.display({
+            id: "Подроль",
+            header: () => "Подроль",
+            cell: ({ row }) => row.original.Подроль
+        }),
+        column.display({
+            id: "Игрок",
+            header: () => "Тиммейт",
+            cell: ({ row }) => (
                 <TablePlayerLink.CurrentPlayerWithСaptain
-                    teammateName={teammate.Игрок}
-                    teammateId={teammate.PlayerID}
-                    teamName={teammate.Команда}
+                    teammateName={row.original.Игрок}
+                    teammateId={row.original.PlayerID}
+                    teamName={row.original.Команда}
                 />
             )
-        },
-        {
-            key: "Рейтинг",
-            name: "Рейтинг",
-            component: (teammate) => <div>{teammate.Рейтинг}</div>
-        },
-        {
-            key: "Дивизион",
-            name: "Дивизион",
-            component: (teammate) => <div>{teammate.Дивизион}</div>
-        },
-        {
-            key: "Новичок ",
-            name: "Новичок",
-            component: (teammate) => (
-                <TeamNewRolePlayerTable isNew={teammate["Новичок "]} />
+        }),
+        column.display({
+            id: "Рейтинг",
+            header: () => "Рейтинг",
+            cell: ({ row }) => row.original.Рейтинг
+        }),
+        column.display({
+            id: "Дивизион",
+            header: () => "Дивизион",
+            cell: ({ row }) => row.original.Дивизион
+        }),
+        column.display({
+            id: "Новичок ",
+            header: () => "Новичок",
+            cell: ({ row }) => (
+                <TeamNewRolePlayerTable isNew={row.original["Новичок "]} />
             )
-        },
-        {
-            key: "Новичок на роли",
-            name: "Нв. Роль",
-            component: (teammate) => (
-                <TeamNewRolePlayerTable isNew={teammate["Новичок на роли"]} />
+        }),
+        column.display({
+            id: "Новичок на роли",
+            header: () => "Нв. Роль",
+            cell: ({ row }) => (
+                <TeamNewRolePlayerTable
+                    isNew={row.original["Новичок на роли"]}
+                />
             )
-        }
+        })
     ];
 
     return (
-        <div className={style.team_table}>
-            <div className={style.team_table__wrap}>
-                <Table columns={columns} dataBody={team} />
-            </div>
-        </div>
+        <Table
+            {...{
+                data: team,
+                columns,
+                className: style.team_tournament_table
+            }}
+        />
     );
 };
 

@@ -2,19 +2,16 @@
 
 .new_role_player {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}
+
+.new_role__icon {
+    width: 24px;
+    height: 24px;
 
     & svg {
-        width: 25px;
+        width: inherit;
         height: inherit;
     }
-}
-
-.icon__not_check {
-    fill: #ad1919;
-}
-
-.icon__check {
-    fill: $tertiary;
 }

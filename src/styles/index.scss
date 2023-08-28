@@ -8,11 +8,11 @@ html {
 
 body {
     margin: 0;
-    background: $quaternary;
+    background: $whiteBG;
 
-    font-family: "Comfortaa", cursive;
-    font-weight: 400;
-    color: $primary;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: $textViolet;
     cursor: default;
 
     -webkit-font-smoothing: antialiased;
@@ -30,9 +30,20 @@ code {
     box-sizing: border-box;
 }
 
+.app {
+    height: 100vh;
+    display: flex;
+}
+
+.app_page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .conteiner {
     width: 100%;
-    max-width: 1770px;
+    max-width: 1470px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }

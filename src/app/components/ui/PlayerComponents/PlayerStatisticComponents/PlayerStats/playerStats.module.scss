@@ -4,15 +4,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: -5px;
 }
 
-.player_stats__wrap {
-    margin-bottom: 50px;
-    padding: 0 15px;
-    border-right: 1px solid $primary;
+.player_stats__group_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    &:last-of-type {
-        border-right: none;
-        padding-right: 0;
-    }
+.player_stats__item {
+    padding: 5px;
 }

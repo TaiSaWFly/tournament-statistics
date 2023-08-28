@@ -1,0 +1,23 @@
+@import "../../../../../../styles/colors.scss";
+
+.tables {
+    padding-bottom: 10px;
+}
+
+.tables_title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: $gray3;
+    text-transform: capitalize;
+}
+
+.table_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -10px;
+}
+
+.table_comp {
+    margin: 10px;
+}

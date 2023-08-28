@@ -3,19 +3,17 @@ import style from "./playerInfoTournamentStats.module.scss";
 import { IPlayer } from "../../../../ts/models/IPlayer";
 import PlayerInfo from "../PlayerInfo/PlayerInfo";
 import PlayerStats from "../PlayerStatisticComponents/PlayerStats/PlayerStats";
-import PlayerTournaments from "../PlayerTournamentComponents/PlayerTournaments/PlayerTournaments";
+import PlayerListTournaments from "../PlayerTournamentComponents/PlayerListTournaments/PlayerListTournaments";
 import { useAppSelector } from "../../../../hooks/reduxHooks/reduxHooks";
-import Loading from "../../../common/LoadingComponents/Loading/Loading";
 import useDelayLoading from "../../../../hooks/appHooks/useDelayLoading";
+import Loader from "../../../common/Loader/Loader";
 
 interface PlayerInfoTournamentStatsProps {
     player: IPlayer;
-    playerData: IPlayer[];
 }
 
 const PlayerInfoTournamentStats: React.FC<PlayerInfoTournamentStatsProps> = ({
-    player,
-    playerData
+    player
 }) => {
     const { isLoading } = useDelayLoading(676);
 
@@ -23,42 +21,56 @@ const PlayerInfoTournamentStats: React.FC<PlayerInfoTournamentStatsProps> = ({
         (state) => state.playerStatisticsData.entities
     ).filter((data) => data.PlayerID === player.ID);
 
+    if (isLoading) return <Loader />;
     return (
-        <div className={style.player_info_stats}>
-            {!isLoading ? (
+        <div>
+            {player && playerStatisticsData.length !== 0 ? (
                 <>
-                    {playerStatisticsData.length !== 0 ? (
-                        <>
-                            <PlayerInfo
-                                nickname={player.Nickname}
-                                twitch={player.twitch}
-                                playerData={playerData}
-                            />
+                    <div
+                        className={style.player_info_tournament_stats__nickname}
+                    >
+                        {player.Nickname}
+                    </div>
 
-                            <PlayerStats {...{ player }} />
-                            <PlayerTournaments {...{ player }} />
-                        </>
-                    ) : (
-                        <div>
-                            <PlayerInfo
-                                nickname={player.Nickname}
-                                twitch={player.twitch}
-                                playerData={playerData}
-                            />
-
-                            <div
-                                className={style.player_info_stats__no_results}
-                            >
-                                не сыграно ни одного турнира
-                            </div>
+                    <div className={style.player_info_tournament_stats__group}>
+                        <div
+                            className={style.player_info_tournament_stats__info}
+                        >
+                            <PlayerInfo {...{ player }} />
                         </div>
-                    )}
+
+                        <PlayerStats {...{ player }} />
+                    </div>
+
+                    <PlayerListTournaments {...{ player }} />
                 </>
             ) : (
-                <Loading />
+                <>
+                    <div
+                        className={style.player_info_tournament_stats__nickname}
+                    >
+                        {player.Nickname}
+                    </div>
+
+                    <div className={style.player_info_tournament_stats__group}>
+                        <div
+                            className={style.player_info_tournament_stats__info}
+                        >
+                            <PlayerInfo {...{ player }} />
+                        </div>
+
+                        <div
+                            className={
+                                style.player_info_tournament_stats__no_results
+                            }
+                        >
+                            <div>не сыграно ни одного турнира</div>
+                        </div>
+                    </div>
+                </>
             )}
         </div>
     );
 };
 
-export default PlayerInfoTournamentStats;
+export default React.memo(PlayerInfoTournamentStats);

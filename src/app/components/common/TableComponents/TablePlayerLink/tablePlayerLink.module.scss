@@ -3,26 +3,27 @@
 .link {
     a {
         display: inline;
-        color: $secondary;
         position: relative;
         transition: all 0.2s ease-in-out;
 
         &::before {
             content: "";
             width: 100%;
+            max-width: 0%;
             height: 1px;
-            background-color: $secondary;
+            background-color: rgba($color: $textGray, $alpha: 0.5);
             transition: all 0.2s ease-in-out;
 
             position: absolute;
-            bottom: -2px;
+            bottom: -1px;
             left: 0;
         }
 
         &:hover {
-            color: $tertiary;
+            color: $textViolet;
+
             &::before {
-                background-color: $tertiary;
+                max-width: 100%;
             }
         }
     }
@@ -34,7 +35,7 @@
     justify-content: space-around;
 
     & svg {
-        fill: $primary;
+        fill: $textViolet;
     }
 }
 
@@ -44,14 +45,16 @@
 }
 
 .link__cap_icon {
-    height: 25px;
+    width: 24px;
+    height: 24px;
     margin-left: 5px;
 
     & svg {
+        width: inherit;
         height: inherit;
     }
 }
 
 .link__current {
-    color: $quaternary;
+    color: $textViolet;
 }

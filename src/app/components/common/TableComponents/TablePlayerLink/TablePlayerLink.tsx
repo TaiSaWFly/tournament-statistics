@@ -25,13 +25,14 @@ const TablePlayerLink: React.FC<TablePlayerLinkProps> &
     TablePlayerLinkComponentsProps = ({ teammateName, teammateId }) => {
     const history = useHistory();
     const { playerLink } = usePlayer(teammateId, teammateName);
-    const { setSearchMemoryPlayer } = useActions();
+    const { setSearchMemoryPlayer, setPlayerData } = useActions();
 
     const redirectToPlayer = () => {
         const playerOption: SelectOption = {
             value: String(playerLink[0]._id),
             label: teammateName
         };
+        setPlayerData(Number(playerOption.value));
         history.push(`/player/${playerOption.value}`);
         setSearchMemoryPlayer(playerOption);
     };

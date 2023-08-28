@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useDelayLoading = (delay: number) => {
+const useDelayLoading = (delay: number, dimention?: any) => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
@@ -10,10 +10,8 @@ const useDelayLoading = (delay: number) => {
             setIsLoading(false);
         }, delay);
 
-        return () => {
-            clearTimeout(timeout);
-        };
-    }, []);
+        return () => clearTimeout(timeout);
+    }, [dimention]);
 
     return { isLoading };
 };
