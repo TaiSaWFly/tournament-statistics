@@ -34,12 +34,26 @@ const PlayerInfoTournamentStats: React.FC<PlayerInfoTournamentStatsProps> = ({
 
                     <div className={style.player_info_tournament_stats__group}>
                         <div
-                            className={style.player_info_tournament_stats__info}
+                            className={
+                                style.player_info_tournament_stats__group_wrap
+                            }
                         >
-                            <PlayerInfo {...{ player }} />
-                        </div>
+                            <div
+                                className={
+                                    style.player_info_tournament_stats__info
+                                }
+                            >
+                                <PlayerInfo {...{ player }} />
+                            </div>
 
-                        <PlayerStats {...{ player }} />
+                            <div
+                                className={
+                                    style.player_info_tournament_stats__stats
+                                }
+                            >
+                                <PlayerStats {...{ player }} />
+                            </div>
+                        </div>
                     </div>
 
                     <PlayerListTournaments {...{ player }} />

@@ -9,7 +9,12 @@
 
 .player_info_tournament_stats__group {
     margin-bottom: 30px;
+}
+
+.player_info_tournament_stats__group_wrap {
+    margin: -10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -17,8 +22,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    padding: 10px;
     width: 100%;
     max-width: 270px;
+}
+
+.player_info_tournament_stats__stats {
+    padding: 10px;
 }
 
 .player_info_tournament_stats__no_results {
