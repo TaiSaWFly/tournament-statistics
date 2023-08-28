@@ -1,7 +1,9 @@
-import { PlayerStats } from "../ts/types/PlayerStats";
-import { SearchMemoryType } from "../ts/types/SearchMemoryType";
+import { PlayerStats } from "../ts/types/PlayerTypes/PlayerStats";
+import { SearchMemoryType } from "../ts/types/LocalStorageDataTypes/SearchMemoryType";
+import { DashboardMemoryType } from "../ts/types/LocalStorageDataTypes/DashboardMemoryType";
 
 export const pl = [1, 2, 3, 4];
+export const pageSize = 3;
 export const playerStatsInitialState: PlayerStats = {
     tournamentsPlayed: 0,
     tournamentsWon: 0,
@@ -14,15 +16,10 @@ export const playerStatsInitialState: PlayerStats = {
     averagePlace: 0,
     roleStatisticsData: null
 };
-export const tournamentStatisticDataInitialState = {
-    tournamentNumber: 0,
-    tournamentTeamsQty: 0,
-    tournamentPlayersQty: 0,
-    tournamentMatchesQty: 0,
-    tournamentMapsQty: 0,
-    tournamentNewPlayersQty: 0
-};
 export const searchMemoryInitialState: SearchMemoryType = {
     tournamentNumberOption: null,
     playerOption: null
+};
+export const dashboardMemoryInitialState: DashboardMemoryType = {
+    menu: { isOpen: false }
 };

@@ -7,10 +7,7 @@ const Footer: React.FC = () => {
         <footer className={style.footer}>
             <ComponentContainer>
                 <div className={style.footer_content}>
-                    <div>
-                        ver.
-                        {process.env.REACT_APP_VERSION}
-                    </div>
+                    <span>ver.{process.env.REACT_APP_VERSION}</span>
                 </div>
             </ComponentContainer>
         </footer>

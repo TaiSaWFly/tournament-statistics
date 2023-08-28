@@ -1,3 +1,5 @@
+@import "../../../../styles/colors.scss";
+
 .footer {
     margin-top: auto;
     padding: 20px 0;
@@ -7,4 +9,5 @@
 .footer_content {
     display: flex;
     justify-content: space-around;
+    color: $textGray;
 }

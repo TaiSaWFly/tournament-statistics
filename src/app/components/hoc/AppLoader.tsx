@@ -6,12 +6,12 @@ import {
 import { loadplayersDbList } from "../../store/silces/playersDb";
 import { loadTournamentDbList } from "../../store/silces/tournamentDb";
 import { loadmatchesDbList } from "../../store/silces/matchesDb";
-import AppLoading from "../common/LoadingComponents/AppLoading/AppLoading";
 import { countingPlayerStatisticsData } from "../../store/silces/playerStatisticsData";
-import filterDoubleDataByKey from "../../utils/appUtils/filterSearchData/filterDoubleDataByKey";
+import filterDoubleDataByKey from "../../utils/appUtils/filterSortData/filterDoubleDataByKey";
 import localStorageService from "../../services/app.services/localStorage.service";
 import { ErrorType } from "../../ts/types/ErrorType";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import Loader from "../common/Loader/Loader";
 
 interface AppLoaderProps {
     children: React.ReactNode;
@@ -51,9 +51,7 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
             setError(localStorageService.fromStorage("error") as ErrorType);
         }, 1000);
 
-        return () => {
-            clearTimeout(timeout);
-        };
+        return () => clearTimeout(timeout);
     }, []);
 
     useEffect(() => {
@@ -87,17 +85,8 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
         }
     }, [isCounting]);
 
-    if (error) {
-        return (
-            <div className="app_page">
-                <ErrorPage errorMessage={error.errorMessage} />
-            </div>
-        );
-    }
-
-    return (
-        <div className="app_page">{isLoading ? <AppLoading /> : children}</div>
-    );
+    if (error) return <ErrorPage errorMessage={error.errorMessage} />;
+    return <div className="app">{isLoading ? <Loader /> : children}</div>;
 };
 
 export default AppLoader;

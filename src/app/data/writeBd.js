@@ -1,3 +1,4 @@
+// Creates getEnvironment
 function getEnvironment() {
     var environment = {
         spreadsheetID: "",
@@ -6,6 +7,7 @@ function getEnvironment() {
     return environment;
 }
 
+// Creates getImportSheetName
 function getImportSheetName() {
     var sheetName = {
         ids: "",

@@ -1,29 +1,32 @@
+@import "../../../../../../styles/mixins.scss";
+
 .stats_result {
+    @include box-style;
+
     display: grid;
-    grid-template-columns: repeat(2, 0.9fr);
-    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 160px);
+    grid-column-gap: 15px;
     grid-row-gap: 20px;
     text-align: center;
 }
 
+.stats_info__item {
+    @include box-style;
+    padding: 10px;
+    background-color: $whiteBG;
+}
+
 .stats_name {
-    font-size: 1.6rem;
+    margin-bottom: 7.5px;
+    font-size: 1.4rem;
+    color: $gray3;
 }
 
 .stats_value {
-    font-size: 2.6rem;
-    text-align: center;
+    font-size: 2rem;
 }
 
 .stats_value__result {
-    font-size: 1.3rem;
-    text-align: center;
+    font-size: 1.2rem;
     white-space: pre-wrap;
-}
-
-.stats_info__wrap {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }

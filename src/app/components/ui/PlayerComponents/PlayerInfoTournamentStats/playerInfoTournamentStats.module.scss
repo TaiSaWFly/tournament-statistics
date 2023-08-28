@@ -1,11 +1,44 @@
-.player_info_stats {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/mixins.scss";
+
+.player_info_tournament_stats__nickname {
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    color: $gray3;
 }
 
-.player_info_stats__no_results {
-    font-size: 3rem;
+.player_info_tournament_stats__group {
+    margin-bottom: 30px;
+}
+
+.player_info_tournament_stats__group_wrap {
+    margin: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.player_info_tournament_stats__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px;
+    width: 100%;
+    max-width: 270px;
+}
+
+.player_info_tournament_stats__stats {
+    padding: 10px;
+}
+
+.player_info_tournament_stats__no_results {
+    @include box-style;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 2.4rem;
     text-transform: capitalize;
     text-align: center;
 }

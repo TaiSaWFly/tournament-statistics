@@ -1,0 +1,25 @@
+@import "../../../../styles/colors.scss";
+
+.structure {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.structure_item {
+    &:last-of-type {
+        width: 100%;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+            background-color: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $gray1;
+            border-radius: 10px;
+        }
+    }
+}

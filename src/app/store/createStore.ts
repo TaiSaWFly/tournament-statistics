@@ -3,16 +3,18 @@ import tournamentDbReducer from "./silces/tournamentDb";
 import playersDbReducer, { playersDbActions } from "./silces/playersDb";
 import matchesDbReducer from "./silces/matchesDb";
 import playerStatisticsDataReducer from "./silces/playerStatisticsData";
-import searchMemoryReducer, {
-    searchMemoryActions
-} from "./silces/searchMemory";
+import memoryReducer, { memoryActions } from "./silces/Memory";
+import globalTournamentStatisticsReduser, {
+    globalTournamentStatisticsActions
+} from "./silces/globalTournamentStatistics";
 
 const rootReducer = combineReducers({
     tournamentDb: tournamentDbReducer,
     playersDb: playersDbReducer,
     matchesDb: matchesDbReducer,
     playerStatisticsData: playerStatisticsDataReducer,
-    searchMemory: searchMemoryReducer
+    memory: memoryReducer,
+    globalTournamentStatistics: globalTournamentStatisticsReduser
 });
 
 const store = configureStore({
@@ -27,7 +29,8 @@ const store = configureStore({
 
 export const rootActions = {
     ...playersDbActions,
-    ...searchMemoryActions
+    ...memoryActions,
+    ...globalTournamentStatisticsActions
 };
 
 export default store;

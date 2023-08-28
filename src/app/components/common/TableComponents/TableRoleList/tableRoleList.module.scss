@@ -1,0 +1,16 @@
+.role_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.role_list__wrap {
+    display: flex;
+
+    & li {
+        margin-right: 4px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

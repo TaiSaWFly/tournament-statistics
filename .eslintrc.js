@@ -29,6 +29,9 @@ module.exports = {
                 avoidEscape: true
             }
         ],
+        "object-shorthand": 0,
+        "no-redeclare": "off",
+        "@typescript-eslint/no-redeclare": "error",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": "error",
         "react/display-name": "off",

@@ -1,0 +1,48 @@
+@import "../../../../../../../styles/colors.scss";
+@import "../../../../../../../styles/mixins.scss";
+
+.tournament__team_name {
+    margin-bottom: 35px;
+
+    & span {
+        font-size: 3rem;
+        color: $gray3;
+    }
+
+    & .team_name {
+        margin-left: 20px;
+        font-size: 4.5rem;
+        color: $textViolet;
+    }
+}
+
+.tournament_wrap {
+    display: flex;
+}
+
+.tournament_wrap__group {
+    margin-right: 25px;
+    padding-top: 35px;
+}
+
+.tournament_number {
+    min-width: 80px;
+    margin-bottom: 20px;
+
+    font-size: 6rem;
+    color: $gray3;
+    text-align: center;
+}
+
+.tournament_team__table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.tournament_team__table_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}

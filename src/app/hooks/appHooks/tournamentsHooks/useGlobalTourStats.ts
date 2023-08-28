@@ -1,7 +1,8 @@
-import countDataQtyByKey from "../../../utils/appUtils/countDataByKey/countDataQtyByKey";
-import definedLengthArray from "../../../utils/appUtils/definedLengthArray";
+import { useEffect, useState } from "react";
 import { useAppSelector } from "../../reduxHooks/reduxHooks";
-import _ from "lodash";
+import { TopTwentyDataObjType } from "../../../ts/types/TopTwentyDataObjType";
+import { useActions } from "../../reduxHooks/useActions";
+import { TournamentStatisticInfoType } from "../../../ts/types/TournamentTypes/TournamentStatisticInfoType";
 
 const useGlobalTourStats = () => {
     const tournamentDb = useAppSelector((state) => state.tournamentDb.entities);
@@ -9,47 +10,47 @@ const useGlobalTourStats = () => {
     const playerStatisticsData = useAppSelector(
         (state) => state.playerStatisticsData.entities
     );
-    const filterChampions = tournamentDb.filter((tour) => tour.Чемпионство);
 
-    // _____count global tournaments stats_____
-    const globalTournamentStats = {
-        qtyGlobalTournaments: countDataQtyByKey(tournamentDb, "Номер турнира"),
-        qtyGlobalTeams: countDataQtyByKey(tournamentDb, "ID команды"),
-        qtyGlobalPlayers: countDataQtyByKey(tournamentDb, "PlayerID"),
-        qtyGlobalMatches: countDataQtyByKey(
-            matchesDb,
-            "Уникальный номер матча"
-        ),
-        qtyGlobalPlayerChampions: countDataQtyByKey(filterChampions, "PlayerID")
-    };
-    // _____count global tournaments stats_____
+    const { setTopTwentyData, setGlobalTournamentChartData } = useActions();
+    const { topTwentyData, globalTournamentChartData } = useAppSelector(
+        (state) => state.globalTournamentStatistics.entities
+    );
 
-    const fillterDataByQtyTournaments = playerStatisticsData.filter(
-        (data) => data["Колличество турниров"] >= 5
+    const [topTwenty, setTopTwenty] = useState<TopTwentyDataObjType | null>(
+        topTwentyData
     );
-    const topTwentyByCardsWon = definedLengthArray(
-        _.orderBy(fillterDataByQtyTournaments, ["Выиграно карт"], ["desc"]),
-        20
-    );
-    const topTwentyChampions = definedLengthArray(
-        _.orderBy(playerStatisticsData, ["Чемпионств"], ["desc"]),
-        20
-    );
-    const topTwentybyWinrate = definedLengthArray(
-        _.orderBy(fillterDataByQtyTournaments, ["Винрейт"], ["desc"]),
-        20
-    );
-    const topTwentyLosers = definedLengthArray(
-        _.orderBy(fillterDataByQtyTournaments, ["Отлётов в ноль"], ["desc"]),
-        20
-    );
+    const [globalTournamentChart, setGlobalTournamentChart] = useState<
+        TournamentStatisticInfoType[] | null
+    >(globalTournamentChartData);
+
+    useEffect(() => {
+        if (!topTwentyData) {
+            const fillterDataByQtyTournaments = playerStatisticsData.filter(
+                (data) => data["Колличество турниров"] >= 5
+            );
+
+            setTopTwentyData({
+                fillterDataByQtyTournaments,
+                playerStatisticsData
+            });
+        }
+
+        if (!globalTournamentChartData) {
+            setGlobalTournamentChartData({
+                tournaments: tournamentDb,
+                matches: matchesDb
+            });
+        }
+    }, []);
+
+    useEffect(() => {
+        setTopTwenty(topTwentyData);
+        setGlobalTournamentChart(globalTournamentChartData);
+    }, [topTwentyData, globalTournamentChartData]);
 
     return {
-        ...globalTournamentStats,
-        topTwentyByCardsWon,
-        topTwentyChampions,
-        topTwentybyWinrate,
-        topTwentyLosers
+        globalTournamentChart,
+        topTwenty
     };
 };
 

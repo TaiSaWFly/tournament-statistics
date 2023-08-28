@@ -1,0 +1,14 @@
+@import "../../../../styles/colors.scss";
+@import "../../../../styles/mixins.scss";
+
+.not_found {
+    @include box-style;
+
+    width: 100%;
+    max-width: 650px;
+    margin: 50px auto 0 auto;
+
+    font-size: 3.5rem;
+    line-height: 1.7;
+    text-align: center;
+}

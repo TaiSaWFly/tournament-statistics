@@ -1,0 +1,19 @@
+@import "../../../../../../../styles/colors.scss";
+
+.player_chart {
+    padding: 5px;
+}
+
+.player_chart__title {
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: $gray3;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.player_chart__item {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}

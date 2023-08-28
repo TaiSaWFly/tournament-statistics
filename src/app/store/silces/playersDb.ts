@@ -9,13 +9,15 @@ interface IPlayersDbSlice {
     player: IPlayer | null;
     playerData: IPlayer[];
     isLoading: boolean;
+    isSettingPlayer: boolean;
 }
 
 const initialState: IPlayersDbSlice = {
     entities: [],
     player: null,
     playerData: [],
-    isLoading: true
+    isLoading: true,
+    isSettingPlayer: true
 };
 
 const playersDbSlice = createSlice({
@@ -30,6 +32,7 @@ const playersDbSlice = createSlice({
             state.isLoading = false;
         },
         setPlayerData: (state, action: PayloadAction<number>) => {
+            state.isSettingPlayer = true;
             const findPlayer =
                 state.entities.find((data) => data._id === action.payload) ||
                 null;
@@ -37,6 +40,7 @@ const playersDbSlice = createSlice({
             state.playerData = findPlayer
                 ? state.entities.filter((d) => d.ID === findPlayer.ID)
                 : [];
+            state.isSettingPlayer = false;
         }
     }
 });

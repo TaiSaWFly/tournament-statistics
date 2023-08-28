@@ -1,0 +1,43 @@
+@import "../../../../../../../styles/mixins.scss";
+@import "../../../../../../../styles/colors.scss";
+
+.stats_role {
+    height: 100%;
+    @include box-style;
+
+    padding-left: 50px;
+    position: relative;
+}
+
+.stats_role__wrap {
+    width: 330px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.stats_role__title {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.stats_role__colors {
+    position: absolute;
+    top: 50%;
+    left: -42px;
+
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.stats__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.stats_role_chart__wrap {
+    display: flex;
+}

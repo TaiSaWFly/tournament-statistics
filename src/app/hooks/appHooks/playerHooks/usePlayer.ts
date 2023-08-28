@@ -1,11 +1,12 @@
-import findPlayerByName from "../../../utils/appUtils/filterSearchData/findPlayerByName";
 import { useAppSelector } from "../../reduxHooks/reduxHooks";
+import findPlayerByName from "../../../utils/appUtils/filterSortData/findPlayerByName";
 
 const usePlayer = (playerId?: number, playerName?: string) => {
     const {
         entities: playerDb,
         player,
-        playerData
+        playerData,
+        isSettingPlayer
     } = useAppSelector((state) => state.playersDb);
 
     const currentPlayerData = playerId
@@ -20,7 +21,8 @@ const usePlayer = (playerId?: number, playerName?: string) => {
         player,
         playerData,
         currentPlayerData,
-        playerLink
+        playerLink,
+        isSettingPlayer
     };
 };
 
