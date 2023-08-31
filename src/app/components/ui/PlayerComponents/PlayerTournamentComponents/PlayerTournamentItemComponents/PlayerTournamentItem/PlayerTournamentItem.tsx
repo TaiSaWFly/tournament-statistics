@@ -19,7 +19,6 @@ const PlayerTournamentItem: React.FC<PlayerTournamentItemProps> = ({
     teamTournament,
     tournamentTeamsQty
 }) => {
-    const [isOpenTeamResult, setIsOpenTeamResult] = useState(false);
     const [isOpenTeamMatches, setIsOpenTeamMatches] = useState(false);
 
     return (
@@ -37,9 +36,6 @@ const PlayerTournamentItem: React.FC<PlayerTournamentItemProps> = ({
 
                     <PlayerTournamentItemActions
                         {...{
-                            isOpenTeamResult,
-                            onOpenTeamResult: () =>
-                                setIsOpenTeamResult(!isOpenTeamResult),
                             isOpenTeamMatches,
                             onOpenTeamMatches: () =>
                                 setIsOpenTeamMatches(!isOpenTeamMatches)
@@ -52,14 +48,12 @@ const PlayerTournamentItem: React.FC<PlayerTournamentItemProps> = ({
                         <TeamTournamentTable team={teamTournament} />
                     </div>
 
-                    {isOpenTeamResult && (
-                        <div className={style.tournament_team__table_item}>
-                            <TeamTournamentResult
-                                teamTournament={teamTournament[0]}
-                                qtyTournamentTeams={tournamentTeamsQty}
-                            />
-                        </div>
-                    )}
+                    <div className={style.tournament_team__table_item}>
+                        <TeamTournamentResult
+                            teamTournament={teamTournament[0]}
+                            qtyTournamentTeams={tournamentTeamsQty}
+                        />
+                    </div>
 
                     {isOpenTeamMatches && (
                         <div className={style.tournament_team__table_item}>
