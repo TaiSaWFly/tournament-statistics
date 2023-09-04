@@ -1,12 +1,13 @@
 # Anak Tournament Statistics
 
-< ver. 0.1.0 >
-< ver. 1.0.10 >
-< ver. 1.0.0 >
-< ver. 1.0.1 >
+<p> < ver. 0.1.0 > </p> 
+<p> < ver. 1.0.10 > </p>
+<p> < ver. 1.0.0 > </p>
+<p> < ver. 1.0.1 > </p>
+<p> < ver. 1.0.2 > </p>
 
 New version
 < ver. 1.0.0 >
 
 Last current version
-< ver. 1.0.1 >
+< ver. 1.0.2 >
