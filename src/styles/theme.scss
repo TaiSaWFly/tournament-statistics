@@ -1,0 +1,66 @@
+@import "./colors.scss";
+
+$colors: (
+    primaryBG: $primaryBG,
+    primaryBGDark: $primaryBGDark,
+    secondaryBG: $secondaryBG,
+    secondaryBGDark: $secondaryBGDark,
+    navBG: $navBG,
+    navBGDark: $navBGDark,
+    //////////////////////
+    violet1: $violet1,
+    violet1Dark: $violet1Dark,
+    gray1: $gray1,
+    gray1-rgb: $gray1-rgb,
+    gray1Dark: $gray1Dark,
+    gray1Dark-rgb: $gray1Dark-rgb,
+    gray2: $gray2,
+    gray2Dark: $gray2Dark,
+    gray3: $gray3,
+    gray3Dark: $gray3Dark,
+    //////////////////////
+    textViolet: $textViolet,
+    textVioletDark: $textVioletDark,
+    textViolet-rbg: $textViolet-rbg,
+    textVioletDark-rbg: $textVioletDark-rbg,
+    textGray: $textGray,
+    textGray-rgb: $textGray-rgb,
+    textGrayDark: $textGrayDark,
+    textGrayDark-rgb: $textGrayDark-rgb,
+    textBlack: $textBlack,
+    textBlackDark: $textBlackDark,
+    //////////////////////
+    btn: $btn,
+    btnDark: $btnDark,
+    btnHover: $btnHover,
+    btnHoverDark: btnHoverDark,
+    btnHover-rgb: $btnHover-rgb,
+    btnHoverDark-rgb: $btnHoverDark-rgb,
+    paginate-gradient: $paginate-gradient,
+    //////////////////////
+    paginate-gradientDark: $paginate-gradientDark
+);
+
+$colors-dark: (
+    primaryBG: map-get($colors, primaryBGDark),
+    secondaryBG: map-get($colors, secondaryBGDark),
+    navBG: map-get($colors, navBGDark),
+    //////////////////////
+    violet1: map-get($colors, violet1Dark),
+    gray1: map-get($colors, gray1Dark),
+    gray1-rgb: map-get($colors, gray1Dark-rgb),
+    gray2: map-get($colors, gray2Dark),
+    gray3: map-get($colors, gray3Dark),
+    //////////////////////
+    textViolet: map-get($colors, textVioletDark),
+    textViolet-rbg: map-get($colors, textVioletDark-rbg),
+    textGray: map-get($colors, textGrayDark),
+    textGray-rgb: map-get($colors, textGrayDark-rgb),
+    textBlack: map-get($colors, textBlackDark),
+    //////////////////////
+    btn: map-get($colors, btnDark),
+    btnHover: map-get($colors, btnHoverDark),
+    btnHover-rgb: map-get($colors, btnHoverDark-rgb),
+    //////////////////////
+    paginate-gradient: map-get($colors, paginate-gradientDark)
+);

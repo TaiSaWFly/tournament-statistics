@@ -1,0 +1,134 @@
+@import "../../../../../../styles/colors.scss";
+@import "../../../../../../styles/theme.scss";
+@import "../../../../../../styles/functions.scss";
+
+.tornament_team__table {
+    font-size: 1.4rem;
+    color: getColor(textGray);
+    text-align: center;
+    white-space: nowrap;
+
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+
+    & thead {
+        border-bottom: 1px solid $gray2;
+        background-color: getColor(primaryBG);
+
+        & tr {
+            & th {
+                padding: 20px 0;
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: capitalize;
+
+                &:first-of-type {
+                    width: 212px;
+                }
+
+                &:last-of-type {
+                    width: 200px;
+                }
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px 40px;
+                }
+            }
+        }
+    }
+
+    & tbody {
+        & tr {
+            border-bottom: 1px solid $gray2;
+
+            &:last-of-type {
+                border: none;
+            }
+
+            & td {
+                height: 65px;
+                overflow: hidden;
+                padding: 20px 0;
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px 40px;
+                }
+            }
+        }
+
+        &::-webkit-scrollbar {
+            height: 3px;
+            background-color: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba($color: $gray1, $alpha: 0.6);
+            border-radius: 10px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        display: flex;
+        border-radius: 10px 0 0 10px;
+
+        & thead {
+            border-bottom: none;
+            border-right: 1px solid #e2e8f0;
+
+            & tr {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                & th {
+                    height: 40px;
+                    padding: 10px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    &:first-of-type {
+                        width: auto;
+                    }
+
+                    &:last-of-type {
+                        width: auto;
+                    }
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        & tbody {
+            overflow-x: auto;
+
+            & tr {
+                display: table-cell;
+                border-right: 1px solid #e2e8f0;
+                border-bottom: none;
+
+                & td {
+                    height: 40px;
+                    padding: 10px 20px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import React, { ReactElement, Children, useRef, useEffect } from "react";
 import style from "./appStructure.module.scss";
-import { useAppStructure } from "../../../hooks/appHooks/appContext/useAppStructure";
+import { useAppStructure } from "../../../hooks/appHooks/appContexts/useAppStructure";
 
 interface AppStructureProps {
     children: ReactElement[];

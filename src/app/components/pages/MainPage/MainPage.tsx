@@ -1,13 +1,15 @@
 import React from "react";
+import style from "./mainPage.module.scss";
 import useGlobalTourStats from "../../../hooks/appHooks/tournamentsHooks/useGlobalTourStats";
-import TournamentStatisticsInfo from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentStatisticsInfoComponents/TournamentStatisticsInfo/TournamentStatisticsInfo";
-import TopTwentyStatisticTables from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyStatisticTables/TopTwentyStatisticTables";
 import ComponentContainer from "../../common/ComponentContainer/ComponentContainer";
+import TournamentStatisticsInfo from "../../ui/MainComponents/GlobalTournamentsStatisticComponents/GlobalTournamentStatisticsInfoComponents/TournamentStatisticsInfo/TournamentStatisticsInfo";
+import TopTwentyStatisticTables from "../../ui/MainComponents/GlobalTournamentsStatisticComponents/GlobalTournamentsTopTwentyStatisticTables/TopTwentyStatisticTables/TopTwentyStatisticTables";
 
 const MainPage: React.FC = () => {
     const { globalTournamentChart, topTwenty } = useGlobalTourStats();
+
     return (
-        <section>
+        <section className={style.main_page}>
             <ComponentContainer>
                 {globalTournamentChart && topTwenty && (
                     <>

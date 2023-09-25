@@ -1,11 +1,13 @@
-@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
 
 .table_role {
     display: flex;
     justify-content: space-around;
 }
 
-.table_role__icon {
+.table_role__icon,
+.table_role__icon__flex {
     width: 24px;
     height: 24px;
     overflow: hidden;
@@ -13,5 +15,21 @@
     & svg {
         width: inherit;
         height: inherit;
+    }
+}
+
+.table_role__icon svg {
+    & path {
+        fill: getColor(textGray);
+    }
+
+    & circle {
+        stroke: getColor(textGray);
+    }
+}
+
+.table_role__icon__flex svg {
+    & path {
+        stroke: getColor(textGray);
     }
 }

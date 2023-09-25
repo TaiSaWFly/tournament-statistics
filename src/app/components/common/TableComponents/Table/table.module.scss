@@ -1,5 +1,7 @@
 @import "../../../../../styles/colors.scss";
 @import "../../../../../styles/mixins.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
 
 .table_component {
     @include box-style;
@@ -7,25 +9,37 @@
     .table_title {
         margin-bottom: 20px;
         font-size: 2rem;
-        color: $textViolet;
+        color: getColor(textViolet);
         text-align: center;
         text-transform: capitalize;
+
+        @media (max-width: 720px) {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 415px) {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media (max-width: 720px) {
+        padding: 20px;
     }
 }
 
 .table {
     font-size: 1.4rem;
-    color: $textGray;
+    color: getColor(textGray);
     text-align: center;
     white-space: nowrap;
 
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
     border-collapse: collapse;
 
     & thead {
         border-bottom: 1px solid $gray2;
-        background-color: $whiteBG;
+        background-color: getColor(primaryBG);
 
         & tr {
             & th {
@@ -60,6 +74,16 @@
                     padding: 20px 40px;
                 }
             }
+        }
+
+        &::-webkit-scrollbar {
+            height: 3px;
+            background-color: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba($color: $gray1, $alpha: 0.6);
+            border-radius: 10px;
         }
     }
 }

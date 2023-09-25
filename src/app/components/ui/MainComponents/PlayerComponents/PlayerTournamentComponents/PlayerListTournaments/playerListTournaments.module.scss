@@ -1,0 +1,41 @@
+@import "../../../../../../../styles/colors.scss";
+@import "../../../../../../../styles/theme.scss";
+@import "../../../../../../../styles/functions.scss";
+
+.player_tournaments__title {
+    margin-left: 32px;
+    font-size: 3rem;
+    color: getColor(gray3);
+    text-transform: capitalize;
+
+    @media (max-width: 965px) {
+        margin-left: 0;
+    }
+
+    @media (max-width: 720px) {
+        text-align: center;
+    }
+
+    @media (max-width: 415px) {
+        font-size: 2.8rem;
+    }
+}
+
+.player_tournament_item__wrap {
+    & .player_tournament_item {
+        margin-bottom: 50px;
+        padding-left: 32px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 965px) {
+            padding-left: 0;
+        }
+
+        @media (max-width: 600px) {
+            margin-bottom: 20px;
+        }
+    }
+}

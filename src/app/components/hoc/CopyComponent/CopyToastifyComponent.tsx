@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import style from "./copyComponent.module.scss";
-import useSvgIcon from "../../../hooks/appHooks/useSvgIcon";
+import useSvgIcon from "../../../hooks/appHooks/someHooks/useSvgIcon";
 
 interface CopyToastifyComponentProps {
     clientHeight: number;
@@ -48,7 +48,13 @@ const CopyToastifyComponent: React.FC<CopyToastifyComponentProps> = ({
             }
         >
             <div className={style.copy_toastify__text}>
-                {copyTextInfo && `${copyTextInfo}: `} <span>{copyText}</span>
+                {copyTextInfo && (
+                    <div className={style.copy_toastify__text_info}>
+                        {copyTextInfo}:
+                    </div>
+                )}
+
+                <div className={style.copy_toastify__text_text}>{copyText}</div>
             </div>
 
             <div className={style.copy_toastify__icon}>

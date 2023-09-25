@@ -1,8 +1,14 @@
 @import "./colors.scss";
+@import "./theme.scss";
+@import "./functions.scss";
+
+@mixin box-style-shadow {
+    box-shadow: 0px 1px 8px rgba(getColor(gray1-rgb), 0.5);
+}
 
 @mixin box-style {
+    @include box-style-shadow;
     padding: 30px;
-    background-color: #fff;
+    background-color: getColor(secondaryBG);
     border-radius: 10px;
-    box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.5);
 }

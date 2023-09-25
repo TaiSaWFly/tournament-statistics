@@ -3,15 +3,15 @@ import { SelectOption } from "../../ts/types/SelectOption";
 import { SearchMemoryType } from "../../ts/types/LocalStorageDataTypes/SearchMemoryType";
 import localStorageService from "../../services/app.services/localStorage.service";
 import {
-    dashboardMemoryInitialState,
+    appMemoryInitialState,
     searchMemoryInitialState
 } from "../../data/defaultInitialStateData";
-import { DashboardMemoryType } from "../../ts/types/LocalStorageDataTypes/DashboardMemoryType";
+import { AppMemoryType } from "../../ts/types/LocalStorageDataTypes/AppMemoryType";
 
 interface IMemorySlice {
     entities: {
         searchMemory: SearchMemoryType;
-        dashboardMemory: DashboardMemoryType;
+        appMemory: AppMemoryType;
     };
 }
 
@@ -22,11 +22,9 @@ const initialState: IMemorySlice = {
                   "searchMemory"
               ) as SearchMemoryType)
             : searchMemoryInitialState,
-        dashboardMemory: localStorageService.fromStorage("dashboardMemory")
-            ? (localStorageService.fromStorage(
-                  "dashboardMemory"
-              ) as DashboardMemoryType)
-            : dashboardMemoryInitialState
+        appMemory: localStorageService.fromStorage("appMemory")
+            ? (localStorageService.fromStorage("appMemory") as AppMemoryType)
+            : appMemoryInitialState
     }
 };
 
@@ -84,12 +82,14 @@ const memorySlice = createSlice({
             }
         },
         setDashboardMemory: (state, action: PayloadAction<boolean>) => {
-            state.entities.dashboardMemory.menu.isOpen = action.payload;
-            const dashboardMemoryDataToStorage = state.entities.dashboardMemory;
-            localStorageService.toStorage(
-                "dashboardMemory",
-                dashboardMemoryDataToStorage
-            );
+            state.entities.appMemory.dashboard.menu.isOpen = action.payload;
+            const appMemoryDataToStorage = state.entities.appMemory;
+            localStorageService.toStorage("appMemory", appMemoryDataToStorage);
+        },
+        setAppThemeMemory: (state, action: PayloadAction<boolean>) => {
+            state.entities.appMemory.appTheme.isDarkTheme = action.payload;
+            const appMemoryDataToStorage = state.entities.appMemory;
+            localStorageService.toStorage("appMemory", appMemoryDataToStorage);
         }
     }
 });

@@ -1,6 +1,11 @@
 @import "../../../../../styles/colors.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
 
 .link {
+    display: flex;
+    justify-content: space-around;
+
     a {
         display: inline;
         position: relative;
@@ -11,7 +16,7 @@
             width: 100%;
             max-width: 0%;
             height: 1px;
-            background-color: rgba($color: $textGray, $alpha: 0.5);
+            background-color: rgba($color: getColor(textGray-rgb), $alpha: 0.5);
             transition: all 0.2s ease-in-out;
 
             position: absolute;
@@ -20,7 +25,7 @@
         }
 
         &:hover {
-            color: $textViolet;
+            color: getColor(textViolet);
 
             &::before {
                 max-width: 100%;
@@ -29,19 +34,42 @@
     }
 }
 
+.link__visible {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        display: inline;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+
+        &::before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: rgba($color: getColor(textGray-rgb), $alpha: 0.5);
+            transition: all 0.2s ease-in-out;
+
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+        }
+    }
+}
+
 .link__cap_link__wrap {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    & svg {
-        fill: $textViolet;
-    }
 }
 
 .link__cap_link {
     display: flex;
     align-items: center;
+
+    & svg {
+        fill: getColor(textViolet);
+    }
 }
 
 .link__cap_icon {
@@ -56,5 +84,5 @@
 }
 
 .link__current {
-    color: $textViolet;
+    color: getColor(textBlack);
 }

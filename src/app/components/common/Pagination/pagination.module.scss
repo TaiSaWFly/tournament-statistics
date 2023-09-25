@@ -1,17 +1,132 @@
 @import "../../../../styles/colors.scss";
 @import "../../../../styles/mixins.scss";
+@import "../../../../styles/functions.scss";
+@import "../../../../styles/theme.scss";
 
 .paginate {
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
+    padding: 25px 0;
 
-    -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    @media (max-width: 720px) {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.paginate_wrap {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.paginate_list__wrap {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+
+    &::after,
+    &::before {
+        content: "";
+        width: 10px;
+        height: 100%;
+        background: getColor(paginate-gradient);
+
+        position: absolute;
+        top: 0;
+    }
+
+    &::after {
+        left: 0;
+    }
+
+    &::before {
+        transform: rotate(180deg);
+        right: 0;
+    }
+}
+
+.paginate_list {
+    display: flex;
+    padding: 5px 10px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        height: 0px;
+    }
+}
+
+.paginate_list__item {
+    @include box-style;
+
+    padding: 7px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    &:hover {
+        border-color: getColor(gray2);
+        box-shadow: 0px 1px 8px rgba($color: getColor(gray1-rgb), $alpha: 0.15);
+
+        .paginate_list__item_names {
+            color: rgba($color: getColor(textGray-rgb), $alpha: 0.9);
+        }
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.paginate_list__item__active {
+    @include box-style;
+
+    padding: 7px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid $gray2;
+    box-shadow: 0px 1px 8px rgba($color: getColor(gray1-rgb), $alpha: 0.9);
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    & .paginate_list__item_names {
+        color: getColor(textViolet);
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.paginate_list__item_names {
+    width: 100%;
+    max-width: 75px;
+    min-width: 20px;
+
+    font-size: 1.4rem;
+    color: $textGray;
+    text-align: center;
+    white-space: nowrap;
+
+    transition: color 0.15s ease-in-out;
+}
+
+.paginate_arrow__rigth {
+    padding-left: 5px;
+}
+
+.paginate_arrow__left {
+    padding-right: 5px;
 }
 
 .paginate__icon_action {
@@ -33,69 +148,4 @@
             color: $gray3;
         }
     }
-}
-
-.paginate_list {
-    display: flex;
-    margin: 0 15px;
-}
-
-.paginate_list__item {
-    @include box-style;
-
-    padding: 7px;
-    margin-right: 15px;
-
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid transparent;
-
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
-    &:hover {
-        border-color: $gray2;
-        box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.15);
-
-        .paginate_list__item_names {
-            color: rgba($color: $textGray, $alpha: 0.9);
-        }
-    }
-
-    &:last-of-type {
-        margin-right: 0;
-    }
-}
-
-.paginate_list__item__active {
-    @include box-style;
-
-    padding: 7px;
-    margin-right: 15px;
-
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid $gray2;
-    box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.9);
-
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
-    & .paginate_list__item_names {
-        color: $textViolet;
-    }
-
-    &:last-of-type {
-        margin-right: 0;
-    }
-}
-
-.paginate_list__item_names {
-    width: 100%;
-    max-width: 75px;
-    min-width: 20px;
-
-    font-size: 1.4rem;
-    color: $textGray;
-    text-align: center;
-
-    transition: color 0.15s ease-in-out;
 }

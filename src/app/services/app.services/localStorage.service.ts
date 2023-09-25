@@ -1,5 +1,5 @@
 import {
-    dashboardMemoryInitialState,
+    appMemoryInitialState,
     searchMemoryInitialState
 } from "../../data/defaultInitialStateData";
 import {
@@ -25,11 +25,8 @@ const localStorageService = {
             );
         }
 
-        if (!localStorageService.fromStorage("dashboardMemory")) {
-            localStorageService.toStorage(
-                "dashboardMemory",
-                dashboardMemoryInitialState
-            );
+        if (!localStorageService.fromStorage("appMemory")) {
+            localStorageService.toStorage("appMemory", appMemoryInitialState);
         }
     }
 };

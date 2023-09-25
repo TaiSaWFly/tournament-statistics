@@ -1,0 +1,45 @@
+@import "../../../../../../styles/colors.scss";
+
+.places_tables_wrap {
+    margin: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media (max-width: 600px) {
+        margin: 0;
+    }
+}
+
+.places__table_places_team {
+    margin: 10px;
+
+    @media (max-width: 600px) {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 445px) {
+        width: 100%;
+    }
+}
+
+.places__table_team {
+    margin: 10px;
+
+    @media (max-width: 600px) {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+.places__table_result {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+
+    @media (max-width: 600px) {
+        margin: 0;
+    }
+}

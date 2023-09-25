@@ -12,6 +12,7 @@ import localStorageService from "../../services/app.services/localStorage.servic
 import { ErrorType } from "../../ts/types/ErrorType";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Loader from "../common/Loader/Loader";
+import { useActions } from "../../hooks/reduxHooks/useActions";
 
 interface AppLoaderProps {
     children: React.ReactNode;
@@ -19,6 +20,7 @@ interface AppLoaderProps {
 
 const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
     const dispatch = useAppDispatch();
+    const { setIsMobileDevice } = useActions();
 
     const [isLoading, setIsLoading] = useState(true);
     const [isDataLoading, setIsDataLoading] = useState(true);
@@ -39,10 +41,13 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
     );
 
     useEffect(() => {
+        const isMobileDevice = /Mobi/i.test(window.navigator.userAgent);
         localStorageService.removefromStorage("error");
 
+        setIsMobileDevice(isMobileDevice);
         setIsLoading(true);
         setIsDataLoading(true);
+
         dispatch(loadplayersDbList());
         dispatch(loadTournamentDbList());
         dispatch(loadmatchesDbList());
@@ -86,7 +91,7 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
     }, [isCounting]);
 
     if (error) return <ErrorPage errorMessage={error.errorMessage} />;
-    return <div className="app">{isLoading ? <Loader /> : children}</div>;
+    return <>{isLoading ? <Loader /> : children}</>;
 };
 
 export default AppLoader;

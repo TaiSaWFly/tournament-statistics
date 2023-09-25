@@ -1,9 +1,6 @@
 import { ErrorType } from "../ErrorType";
-import { DashboardMemoryType } from "./DashboardMemoryType";
+import { AppMemoryType } from "./AppMemoryType";
 import { SearchMemoryType } from "./SearchMemoryType";
 
-export type localStorageDataType =
-    | SearchMemoryType
-    | ErrorType
-    | DashboardMemoryType;
-export type localStorageKeysType = "searchMemory" | "error" | "dashboardMemory";
+export type localStorageDataType = SearchMemoryType | ErrorType | AppMemoryType;
+export type localStorageKeysType = "searchMemory" | "error" | "appMemory";

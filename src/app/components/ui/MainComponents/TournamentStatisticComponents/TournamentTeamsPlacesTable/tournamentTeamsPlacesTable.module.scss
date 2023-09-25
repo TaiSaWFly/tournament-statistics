@@ -1,0 +1,129 @@
+@import "../../../../../../styles/colors.scss";
+@import "../../../../../../styles/theme.scss";
+@import "../../../../../../styles/functions.scss";
+
+.team_places__table {
+    font-size: 1.4rem;
+    color: getColor(textGray);
+    text-align: center;
+    white-space: nowrap;
+
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+
+    & thead {
+        border-bottom: 1px solid $gray2;
+        background-color: getColor(primaryBG);
+
+        & tr {
+            & th {
+                padding: 20px 0;
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: capitalize;
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px 40px;
+                }
+
+                &:last-of-type {
+                    width: 195px;
+                }
+            }
+        }
+    }
+
+    & tbody {
+        & tr {
+            border-bottom: 1px solid $gray2;
+
+            &:nth-child(1) {
+                color: getColor(gray1);
+                background-color: $firstPlace;
+                border-bottom: 1px solid $firstPlace;
+            }
+            &:nth-child(2) {
+                color: getColor(gray1);
+                background-color: $secondPlace;
+                border-bottom: 1px solid $secondPlace;
+            }
+            &:nth-child(3) {
+                color: getColor(gray1);
+                background-color: $thirdPlace;
+                border-bottom: 1px solid $thirdPlace;
+            }
+
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+                & td {
+                    a {
+                        color: getColor(gray1);
+
+                        &::before {
+                            background-color: rgba(
+                                $color: getColor(gray1-rgb),
+                                $alpha: 0.5
+                            );
+                        }
+
+                        &:hover {
+                            color: getColor(gray1);
+                        }
+                    }
+                }
+            }
+
+            &:last-of-type {
+                border: none;
+            }
+
+            & td {
+                height: 65px;
+                overflow: hidden;
+                padding: 20px 0;
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px 40px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 445px) {
+        width: 100%;
+
+        & thead {
+            & tr {
+                & th {
+                    padding: 20px;
+
+                    &:first-of-type {
+                        padding: 20px;
+                    }
+
+                    &:last-of-type {
+                        width: auto;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+
+        & tbody {
+            & tr {
+                & td {
+                    padding: 20px;
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

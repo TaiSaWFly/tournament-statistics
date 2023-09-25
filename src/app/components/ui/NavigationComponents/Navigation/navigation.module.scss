@@ -1,0 +1,14 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/mixins.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
+
+.navigate {
+    height: 100%;
+    padding: 16px;
+    background-color: getColor(navBG);
+    @include box-style-shadow;
+
+    position: relative;
+    z-index: 1000;
+}

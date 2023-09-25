@@ -2,10 +2,10 @@ import React from "react";
 import style from "./playerPage.module.scss";
 import { Link } from "react-router-dom";
 import usePlayer from "../../../hooks/appHooks/playerHooks/usePlayer";
-import PlayerInfoTournamentStats from "../../ui/PlayerComponents/PlayerInfoTournamentStats/PlayerInfoTournamentStats";
-import PlayerSearchField from "../../ui/PlayerComponents/PlayerSearchField/PlayerSearchField";
 import ArrowsIndicator from "../../common/ArrowsIndicator/ArrowsIndicator";
 import { useAppSelector } from "../../../hooks/reduxHooks/reduxHooks";
+import PlayerSearchField from "../../ui/MainComponents/PlayerComponents/PlayerSearchField/PlayerSearchField";
+import PlayerInfoTournamentStats from "../../ui/MainComponents/PlayerComponents/PlayerInfoTournamentStats/PlayerInfoTournamentStats";
 
 interface PlayerPageComponentsProps {
     NotSearch: React.FC;
@@ -23,6 +23,7 @@ const PlayerPage: React.FC & PlayerPageComponentsProps = () => {
 };
 
 const PlayerPageNotSearch: React.FC = () => {
+    const { isMobileDevice } = useAppSelector((state) => state.system);
     const { playerOption: memoryOption } = useAppSelector(
         (state) => state.memory.entities.searchMemory
     );
@@ -46,7 +47,13 @@ const PlayerPageNotSearch: React.FC = () => {
                             <ArrowsIndicator />
                         </div>
 
-                        <div className={style.not_search__info_redirect}>
+                        <div
+                            className={
+                                isMobileDevice
+                                    ? style.not_search__info_redirect__visible
+                                    : style.not_search__info_redirect
+                            }
+                        >
                             <span>Перейти к</span>{" "}
                             <Link to={`/player/${memoryOption.value}`}>
                                 {memoryOption.label}

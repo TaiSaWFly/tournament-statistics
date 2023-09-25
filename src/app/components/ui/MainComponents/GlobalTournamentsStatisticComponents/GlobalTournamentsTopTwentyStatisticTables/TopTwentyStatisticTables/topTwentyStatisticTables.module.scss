@@ -1,0 +1,118 @@
+@import "../../../../../../../styles/colors.scss";
+@import "../../../../../../../styles/theme.scss";
+@import "../../../../../../../styles/functions.scss";
+
+.tables_title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: getColor(gray3);
+    text-transform: capitalize;
+
+    @media (max-width: 965px) {
+        text-align: center;
+    }
+
+    @media (max-width: 415px) {
+        margin-bottom: 15px;
+        font-size: 2.2rem;
+    }
+}
+
+.table_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -10px;
+
+    @media (max-width: 946px) {
+        margin: 0;
+    }
+}
+
+.table_comp {
+    margin: 10px;
+
+    @media (max-width: 946px) {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+
+        & table {
+            display: flex;
+            border-radius: 10px 0 0 10px;
+
+            & thead {
+                border-bottom: none;
+                border-right: 1px solid $gray2;
+
+                & tr {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    & th {
+                        height: 55px;
+                        padding: 10px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        &:first-of-type,
+                        &:last-of-type {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+
+            & tbody {
+                overflow-x: auto;
+
+                tr {
+                    display: table-cell;
+                    border-right: 1px solid $gray2;
+                    border-bottom: none;
+
+                    & td {
+                        height: 55px;
+                        padding: 10px 20px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        &:first-of-type,
+                        &:last-of-type {
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 720px) {
+        & table {
+            & thead {
+                & tr {
+                    & th {
+                        height: 40px;
+                    }
+                }
+            }
+
+            & tbody {
+                & tr {
+                    & td {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

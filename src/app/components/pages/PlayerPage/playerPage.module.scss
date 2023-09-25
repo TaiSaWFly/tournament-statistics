@@ -14,11 +14,19 @@
             transform: rotate(180deg);
         }
     }
+
+    @media (max-width: 720px) {
+        padding-top: 20px;
+    }
 }
 
 .not_search__indicator {
     padding-top: 35px;
     width: 50px;
+
+    @media (max-width: 720px) {
+        width: 30px;
+    }
 }
 
 .not_search__title {
@@ -26,6 +34,14 @@
 
     font-size: 2.7rem;
     text-transform: capitalize;
+
+    @media (max-width: 600px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 600px) {
+        padding: 20px;
+    }
 }
 
 .not_search__info_redirect {
@@ -63,6 +79,36 @@
             &::before {
                 max-width: 100%;
             }
+        }
+    }
+}
+
+.not_search__info_redirect__visible {
+    @include box-style;
+
+    margin-top: 40px;
+    font-size: 2rem;
+    color: $textGray;
+
+    & span {
+        font-size: 1.7rem;
+    }
+
+    & a {
+        display: inline;
+        position: relative;
+        transition: color 0.2s ease-in-out;
+
+        &::before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: rgba($color: $textGray, $alpha: 0.5);
+            transition: max-width 0.2s ease-in-out;
+
+            position: absolute;
+            bottom: -1px;
+            left: 0;
         }
     }
 }

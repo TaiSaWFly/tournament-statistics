@@ -1,0 +1,14 @@
+.search {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 30px;
+
+    @media (max-width: 720px) {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 415px) {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,244 @@
+@import "../../../../../../../../styles/colors.scss";
+@import "../../../../../../../../styles/mixins.scss";
+@import "../../../../../../../../styles/functions.scss";
+@import "../../../../../../../../styles/theme.scss";
+
+.tournament__team_name {
+    display: flex;
+    margin-bottom: 35px;
+
+    @media (max-width: 720px) {
+        margin-bottom: 20px;
+        justify-content: space-around;
+    }
+}
+
+.tournament__team_name__wrap {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team_name__title {
+    margin-right: 20px;
+    font-size: 3rem;
+    color: getColor(gray3);
+
+    @media (max-width: 720px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2.5rem;
+    }
+
+    @media (max-width: 415px) {
+        font-size: 2rem;
+    }
+}
+
+.team_name {
+    font-size: 4.5rem;
+    color: getColor(textViolet);
+
+    @media (max-width: 720px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 3.5rem;
+    }
+
+    @media (max-width: 415px) {
+        font-size: 2.8rem;
+    }
+}
+
+.tournament_wrap {
+    display: flex;
+
+    @media (max-width: 720px) {
+        display: block;
+    }
+}
+
+.tournament_wrap__group {
+    margin-right: 25px;
+    padding-top: 35px;
+
+    @media (max-width: 946px) {
+        width: 15%;
+        margin-right: 0;
+    }
+
+    @media (max-width: 720px) {
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.tournament_wrap__group_wrap {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 720px) {
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.tournament_number {
+    min-width: 80px;
+    margin-bottom: 20px;
+
+    font-size: 6rem;
+    color: getColor(gray3);
+    text-align: center;
+
+    & span {
+        display: none;
+    }
+
+    @media (max-width: 720px) {
+        margin-bottom: 0;
+        margin-right: 10px;
+        font-size: 4rem;
+
+        & span {
+            display: inline;
+            font-size: 2.8rem;
+        }
+    }
+
+    @media (max-width: 600px) {
+        font-size: 3.5rem;
+
+        & span {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media (max-width: 415px) {
+        font-size: 2.8rem;
+
+        & span {
+            font-size: 2rem;
+        }
+    }
+}
+
+.tournament_team__table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+
+    @media (max-width: 946px) {
+        width: 85%;
+        margin: 0;
+    }
+
+    @media (max-width: 720px) {
+        width: 100%;
+    }
+}
+
+.tournament_team__table_item {
+    margin: 10px;
+
+    @media (max-width: 946px) {
+        margin: 0;
+        margin-bottom: 10px;
+        max-width: 750px;
+        width: 100%;
+    }
+}
+
+.tournament_team__table_item_result {
+    margin: 10px;
+
+    @media (max-width: 946px) {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0;
+        margin-bottom: 10px;
+        max-width: 750px;
+        width: 100%;
+    }
+}
+
+.tournament_team__table_item_matches {
+    margin: 10px;
+
+    @media (max-width: 946px) {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 667px) {
+        display: block;
+
+        & table {
+            display: flex;
+            border-radius: 10px 0 0 10px;
+
+            & thead {
+                border-bottom: none;
+                border-right: 1px solid #e2e8f0;
+
+                & tr {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    & th {
+                        height: 40px;
+                        padding: 10px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        &:first-of-type,
+                        &:last-of-type {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+
+            & tbody {
+                overflow-x: auto;
+
+                & tr {
+                    display: table-cell;
+                    border-right: 1px solid #e2e8f0;
+                    border-bottom: none;
+
+                    & td {
+                        height: 40px;
+                        padding: 10px 20px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        &:first-of-type {
+                            white-space: wrap;
+                        }
+
+                        &:first-of-type,
+                        &:last-of-type {
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import "../../../../../../../styles/mixins.scss";
+@import "../../../../../../../styles/theme.scss";
+@import "../../../../../../../styles/functions.scss";
+
+.statistics__info {
+    margin-bottom: 30px;
+
+    @media (max-width: 415px) {
+        margin-bottom: 15px;
+    }
+}
+
+.statistics__info_wrap {
+    margin: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media (max-width: 600px) {
+        margin: 0;
+    }
+}
+
+.statistics__info_item {
+    margin: 5px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+
+    @include box-style;
+    padding: 25px 30px;
+    font-size: 2rem;
+
+    @media (max-width: 667px) {
+        padding: 20px 25px;
+    }
+
+    @media (max-width: 600px) {
+        margin: 0;
+        margin-bottom: 10px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.info_stats {
+    text-align: center;
+}
+
+.info_title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: getColor(textGray);
+    text-transform: capitalize;
+}
+
+.info_content {
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: getColor(textViolet);
+    text-transform: capitalize;
+}
+
+.info_prefix {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: getColor(textGray);
+    text-transform: capitalize;
+}

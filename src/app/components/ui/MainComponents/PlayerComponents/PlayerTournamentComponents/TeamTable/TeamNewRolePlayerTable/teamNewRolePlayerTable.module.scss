@@ -1,0 +1,28 @@
+@import "../../../../../../../../styles/colors.scss";
+@import "../../../../../../../../styles/theme.scss";
+@import "../../../../../../../../styles/functions.scss";
+
+.new_role_player {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new_role__icon {
+    width: 24px;
+    height: 24px;
+
+    & svg,
+    div {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+.new_role__icon_not_check {
+    & svg {
+        & path {
+            stroke: getColor(gray3);
+        }
+    }
+}
