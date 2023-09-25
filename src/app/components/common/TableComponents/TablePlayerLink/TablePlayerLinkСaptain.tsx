@@ -3,8 +3,9 @@ import style from "./tablePlayerLink.module.scss";
 import { useHistory } from "react-router-dom";
 import usePlayer from "../../../../hooks/appHooks/playerHooks/usePlayer";
 import { useActions } from "../../../../hooks/reduxHooks/useActions";
-import useSvgIcon from "../../../../hooks/appHooks/useSvgIcon";
+import useSvgIcon from "../../../../hooks/appHooks/someHooks/useSvgIcon";
 import { SelectOption } from "../../../../ts/types/SelectOption";
+import { useAppSelector } from "../../../../hooks/reduxHooks/reduxHooks";
 
 export interface TablePlayerLinkСaptainProps {
     teammateName: string;
@@ -18,6 +19,7 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
     teamName
 }) => {
     const history = useHistory();
+    const { isMobileDevice } = useAppSelector((state) => state.system);
     const { playerLink, currentPlayerData } = usePlayer(
         teammateId,
         teammateName
@@ -39,7 +41,7 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
     );
 
     return (
-        <div className={style.link}>
+        <div className={isMobileDevice ? style.link__visible : style.link}>
             {playerLink.length !== 0 ? (
                 <>
                     {isСaptain ? (

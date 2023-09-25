@@ -1,0 +1,53 @@
+@import "../../../../../../../styles/colors.scss";
+@import "../../../../../../../styles/mixins.scss";
+@import "../../../../../../../styles/theme.scss";
+@import "../../../../../../../styles/functions.scss";
+
+.team_tournament_result {
+    @include box-style;
+    text-align: center;
+    white-space: nowrap;
+
+    @media (max-width: 720px) {
+        padding: 20px;
+    }
+}
+
+.team_tournament_result__title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+
+    @media (max-width: 600px) {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+    }
+}
+
+.team_tournament_result__content {
+    @include box-style;
+
+    font-size: 1.7rem;
+    color: getColor(gray3);
+    background-color: getColor(primaryBG);
+
+    & span {
+        display: block;
+        margin-bottom: 13px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 720px) {
+        padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 1.5rem;
+
+        & span {
+            margin-bottom: 10px;
+        }
+    }
+}

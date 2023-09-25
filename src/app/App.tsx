@@ -1,13 +1,14 @@
 import React from "react";
 import AppLoader from "./components/hoc/AppLoader";
 import PageLayout from "./components/layouts/PageLayout";
-import Header from "./components/ui/HeaderComponent/Header";
-import Navigation from "./components/ui/NavigationComponents/Navigation";
+import Header from "./components/ui/HeaderComponents/Header/Header";
+import Navigation from "./components/ui/NavigationComponents/Navigation/Navigation";
 import AppStructure from "./components/hoc/AppStructure/AppStructure";
+import AppRoutes from "./components/hoc/AppRoutes";
+import Footer from "./components/ui/FooterComponents/Footer";
 import withStoreRouterProviders from "./components/hoc/withStoreRouterProviders";
 import withAnalitics from "./components/hoc/withAnalitics";
-import AppRoutes from "./components/hoc/AppRoutes";
-import Footer from "./components/ui/Footer/Footer";
+import withAppTheme from "./components/hoc/withAppTheme";
 
 const App: React.FC = () => {
     return (
@@ -29,7 +30,7 @@ const App: React.FC = () => {
     );
 };
 
-const AppWithStoreRouterProvidersAndAnalitics = withStoreRouterProviders(
-    withAnalitics(App)
+const AppWithAppHOCs = withStoreRouterProviders(
+    withAnalitics(withAppTheme(App))
 );
-export default AppWithStoreRouterProvidersAndAnalitics;
+export default AppWithAppHOCs;

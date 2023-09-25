@@ -1,0 +1,133 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
+@import "../../../../../styles/mixins.scss";
+
+// item open
+
+.navigate_list__item_open {
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+
+    & a {
+        color: $textWhite;
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.link_open {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: background-color 0.2s ease-in-out;
+    position: relative;
+
+    &:hover {
+        background-color: getColor(violet1);
+    }
+}
+
+.link_open__active {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+
+    background-color: getColor(violet1);
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: relative;
+
+    & .link_icon__chevron_open {
+        color: $primaryBG;
+    }
+}
+
+.link_icon_open {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.link_icon__chevron_open {
+    width: 15px;
+    height: 15px;
+    color: transparent;
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    transform: translateY(-50%);
+    transition: color 0.2s ease-in-out;
+}
+
+// item close
+
+.navigate_list__item_close {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: $textWhite;
+    position: relative;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.link_close {
+    padding: 8px;
+
+    color: $textWhite;
+    background-color: transparent;
+    border-radius: 5px;
+
+    transition: background-color 0.2s ease-in-out;
+    position: relative;
+
+    &:hover {
+        background-color: getColor(violet1);
+    }
+}
+
+.link_close__active {
+    padding: 8px;
+
+    color: $textWhite;
+    background-color: getColor(violet1);
+    border-radius: 5px;
+
+    position: relative;
+}
+
+.link_icon_close {
+    width: 24px;
+    height: 24px;
+}
+
+.link_name__info_close {
+    padding: 8px;
+    white-space: nowrap;
+
+    border-radius: 5px;
+    background-color: getColor(violet1);
+    @include box-style-shadow;
+    cursor: default;
+
+    transition: opacity 0.15s ease-in-out;
+
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 7.5px);
+
+    transform: translateY(-50%);
+}

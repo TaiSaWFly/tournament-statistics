@@ -1,20 +1,71 @@
+// Default Theme
+$primaryBG: #f1f5f9; // +Dark Theme
+$secondaryBG: #fff; // +Dark Theme
+$navBG: #200f2c; // +Dark Theme
+
+$violet1: #451f58; // +Dark Theme
+$gray1: #7f8b9c; // +Dark Theme
+$gray1-rgb: 127, 139, 156; // +Dark Theme
+$gray2: #e2e8f0; // +Dark Theme
+$gray3: #475569; // +Dark Theme
+
+$textWhite: #e2e8f0;
+$textViolet: #200f2c; // +Dark Theme
+$textViolet-rbg: 32, 15, 44; // +Dark Theme
+$textGray: #64748b; // +Dark Theme
+$textGray-rgb: 100, 116, 139; // +Dark Theme
+$textBlack: #19161b; // +Dark Theme
+
 $bagePositive: #279f51;
 $bageNotPositive: #ff392b;
 $bageNotZero: #ff8901;
 $bageError: #7f8b9c;
 
-$violet: #451f58;
-$gray1: #7f8b9c;
-$gray2: #e2e8f0;
-$gray3: #475569;
+$btn: #451f58; // +Dark Theme
+$btnHover: #381b4d; // +Dark Theme
+$btnHover-rgb: 56, 27, 77; // +Dark Theme
 
-$textWhite: #e2e8f0;
-$textViolet: #200f2c;
-$textGray: #64748b;
+$firstPlace: #ffdd5f;
+$secondPlace: #dddddd;
+$thirdPlace: #eeae6e;
 
 $tank: #6d6a6d;
 $dps: #cf3c3c;
 $support: #fdd46a;
 
-$whiteBG: #f1f5f9;
-$navBG: #200f2c;
+$paginate-gradient: linear-gradient(
+    90deg,
+    rgba(241, 245, 249, 1) 25%,
+    rgba(241, 245, 249, 0.6951155462184874) 50%,
+    rgba(241, 245, 249, 0.3981967787114846) 75%,
+    rgba(241, 245, 249, 0) 100%
+); // +Dark Theme
+
+// Dark Theme
+$primaryBGDark: #1b1b1d;
+$secondaryBGDark: #242526;
+$navBGDark: #242526;
+
+$violet1Dark: #1b1b1d;
+$gray1Dark: #0b0c0e;
+$gray1Dark-rgb: 11, 12, 14;
+$gray2Dark: #1b1b1d;
+$gray3Dark: #aaaeb8;
+
+$textVioletDark: #e2e8f0;
+$textVioletDark-rbg: 226, 232, 240;
+$textGrayDark: #e2e8f0;
+$textGrayDark-rgb: 226, 232, 240;
+$textBlackDark: #9ba2b4;
+
+$btnDark: #242526;
+$btnHoverDark: #0b0c0e;
+$btnHoverDark-rgb: 11, 12, 14;
+
+$paginate-gradientDark: linear-gradient(
+    90deg,
+    rgba(27, 27, 29, 1) 25%,
+    rgba(27, 27, 29, 0.6951155462184874) 50%,
+    rgba(27, 27, 29, 0.3981967787114846) 75%,
+    rgba(27, 27, 29, 0) 100%
+);

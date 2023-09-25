@@ -1,0 +1,54 @@
+@import "../../../../../../../../styles/colors.scss";
+@import "../../../../../../../../styles/mixins.scss";
+@import "../../../../../../../../styles/functions.scss";
+@import "../../../../../../../../styles/theme.scss";
+
+.role_lastrate__title {
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: getColor(gray3);
+    text-align: center;
+    text-transform: capitalize;
+
+    @media (max-width: 510px) {
+        font-size: 1.5rem;
+    }
+}
+
+.role_lastrate__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.role_lastrate_role__wrap {
+    padding: 2.5px;
+    width: 100%;
+    max-width: 160px;
+}
+
+.role_lastrate__tank,
+.role_lastrate__dps,
+.role_lastrate__support {
+    @include box-style;
+
+    display: flex;
+    align-items: center;
+    background-color: getColor(primaryBG);
+    padding: 10px;
+}
+
+.role_lastrate__role_title {
+    font-size: 1.3rem;
+    color: getColor(textGray);
+    text-transform: capitalize;
+}
+
+.role_lastrate__rate {
+    width: 75px;
+    margin: 0 auto;
+
+    font-size: 1.2rem;
+    text-align: center;
+    white-space: pre-wrap;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import style from "./pagination.module.scss";
 import createPaginatePages from "../../../utils/appUtils/transformAndCreateData/createData/paginatePage/createPaginatePages";
 import { TournamentNumber } from "../../../ts/types/TournamentTypes/TournamentNumber";
-import useSvgIcon from "../../../hooks/appHooks/useSvgIcon";
+import { PaginateArrowLeft, PaginateArrowRight } from "./PaginateArrows";
 
 interface PaginationProps {
     itemCount: number;
@@ -19,61 +19,55 @@ const Pagination: React.FC<PaginationProps> = ({
     pageNames,
     onPageChange
 }) => {
-    const { ChevronLeft, ChevronRight } = useSvgIcon();
-
     const pageCount = Math.ceil(itemCount / pageSize);
     const pages = createPaginatePages(pageNames, pageCount, pageSize);
 
     return (
         <div className={style.paginate}>
-            {pageCount !== 1 && currentPage !== 1 ? (
-                <div
-                    className={style.paginate__icon_action}
-                    onClick={() =>
-                        currentPage !== 1 && onPageChange(currentPage - 1)
-                    }
-                >
-                    <ChevronLeft />
-                </div>
-            ) : (
-                <div className={style.paginate__icon_action}></div>
-            )}
+            <div className={style.paginate_wrap}>
+                <PaginateArrowLeft
+                    {...{
+                        pageCount,
+                        currentPage,
+                        onPageChange
+                    }}
+                />
 
-            <ul className={style.paginate_list}>
-                {pages.map((page) => (
-                    <li
-                        key={"page_" + page.pageNumber}
-                        className={
-                            currentPage === page.pageNumber
-                                ? style.paginate_list__item__active
-                                : style.paginate_list__item
-                        }
-                        onClick={() => onPageChange(page.pageNumber)}
-                    >
-                        <div className={style.paginate_list__item_names}>
-                            {page.pageNames.map((pageName) => (
-                                <span key={pageName._id}>
-                                    {" "}
-                                    {pageName.tournamentNumber}
-                                </span>
-                            ))}
-                        </div>
-                    </li>
-                ))}
-            </ul>
-
-            {pageCount !== 1 && currentPage !== pageCount ? (
-                <div
-                    className={style.paginate__icon_action}
-                    onClick={() =>
-                        currentPage < pageCount && onPageChange(currentPage + 1)
-                    }
-                >
-                    <ChevronRight />
+                <div className={style.paginate_list__wrap}>
+                    <ul className={style.paginate_list}>
+                        {pages.map((page) => (
+                            <li
+                                key={"page_" + page.pageNumber}
+                                className={
+                                    currentPage === page.pageNumber
+                                        ? style.paginate_list__item__active
+                                        : style.paginate_list__item
+                                }
+                                onClick={() => onPageChange(page.pageNumber)}
+                            >
+                                <div
+                                    className={style.paginate_list__item_names}
+                                >
+                                    {page.pageNames.map((pageName) => (
+                                        <span key={pageName._id}>
+                                            {" "}
+                                            {pageName.tournamentNumber}
+                                        </span>
+                                    ))}
+                                </div>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-            ) : (
-                <div className={style.paginate__icon_action}></div>
-            )}
+
+                <PaginateArrowRight
+                    {...{
+                        pageCount,
+                        currentPage,
+                        onPageChange
+                    }}
+                />
+            </div>
         </div>
     );
 };

@@ -4,10 +4,10 @@ import useTournamentStats from "../../../hooks/appHooks/tournamentsHooks/useTour
 import { SelectOption } from "../../../ts/types/SelectOption";
 import { useActions } from "../../../hooks/reduxHooks/useActions";
 import { useAppSelector } from "../../../hooks/reduxHooks/reduxHooks";
-import TournamentStatisticsInfo from "../../ui/GlobalTournamentsStatisticComponents/GlobalTournamentStatisticsInfoComponents/TournamentStatisticsInfo/TournamentStatisticsInfo";
-import TournamentTitleSearch from "../../ui/TournamentStatisticComponents/TournamentTitleSearch/TournamentTitleSearch";
-import TournamentPlaces from "../../ui/TournamentStatisticComponents/TournamentPlaces/TournamentPlaces";
 import ComponentContainer from "../../common/ComponentContainer/ComponentContainer";
+import TournamentStatisticsInfo from "../../ui/MainComponents/GlobalTournamentsStatisticComponents/GlobalTournamentStatisticsInfoComponents/TournamentStatisticsInfo/TournamentStatisticsInfo";
+import TournamentTitleSearch from "../../ui/MainComponents/TournamentStatisticComponents/TournamentTitleSearch/TournamentTitleSearch";
+import TournamentPlaces from "../../ui/MainComponents/TournamentStatisticComponents/TournamentPlaces/TournamentPlaces";
 
 const TournamentsPage: React.FC = () => {
     const { setSearchMemoryTournamentNumber } = useActions();

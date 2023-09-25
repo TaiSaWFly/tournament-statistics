@@ -1,12 +1,27 @@
 @import "../../../../styles/colors.scss";
 @import "../../../../styles/mixins.scss";
+@import "../../../../styles/theme.scss";
+@import "../../../../styles/functions.scss";
 
-.copy_group {
-    padding-right: 25px;
-    position: relative;
+.copy {
+    & .copy_group {
+        padding-right: 25px;
+        position: relative;
 
-    &:hover {
-        .copy_icon {
+        &:hover {
+            .copy_icon {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.copy__visible {
+    & .copy_group {
+        padding-right: 25px;
+        position: relative;
+
+        & .copy_icon {
             opacity: 1;
         }
     }
@@ -21,7 +36,7 @@
 
         & svg {
             & path {
-                stroke: $gray3;
+                stroke: getColor(gray3);
             }
         }
     }
@@ -43,6 +58,10 @@
     & svg {
         width: inherit;
         height: inherit;
+
+        & path {
+            stroke: getColor(textGray);
+        }
     }
 }
 
@@ -52,18 +71,53 @@
     padding: 25px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
     position: fixed;
     z-index: 1000;
+
+    @media (max-width: 965px) {
+        padding: 20px;
+    }
+
+    @media (max-width: 667px) {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    @media (max-width: 510px) {
+        width: 100%;
+        max-width: 170px;
+        padding: 13px;
+    }
 }
 
 .copy_toastify__text {
     margin-right: 10px;
-    color: $textGray;
 
-    & span {
-        color: $textViolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;
+
+    @media (max-width: 667px) {
+        margin-right: 0;
+        font-size: 1.3rem;
     }
+
+    @media (max-width: 510px) {
+        font-size: 1.2rem;
+    }
+}
+
+.copy_toastify__text_info {
+    margin-right: 5px;
+    color: getColor(textGray);
+}
+
+.copy_toastify__text_text {
+    color: getColor(textViolet);
 }
 
 .copy_toastify__icon {
@@ -73,5 +127,15 @@
     & svg {
         width: inherit;
         height: inherit;
+    }
+
+    @media (max-width: 965px) {
+        width: 20px;
+        height: 20px;
+    }
+
+    @media (max-width: 510px) {
+        width: 18px;
+        height: 18px;
     }
 }

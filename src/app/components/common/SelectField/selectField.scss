@@ -1,16 +1,19 @@
 @import "../../../../styles/colors.scss";
+@import "../../../../styles/theme.scss";
+@import "../../../../styles/functions.scss";
 
 .select_field {
     &__control {
+        padding: 1.3rem 1.6rem !important;
         font-family: "Inter", sans-serif !important;
         font-size: 1.4rem !important;
         font-weight: 500 !important;
-
         cursor: pointer !important;
-        padding: 1.3rem 1.6rem !important;
+
+        background-color: getColor(secondaryBG) !important;
         border-radius: 5px !important;
         border: 1px solid $gray2 !important;
-        box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.5) !important;
+        box-shadow: 0px 1px 8px rgba($color: getColor(gray1-rgb), $alpha: 0.5) !important;
 
         transition: border-color 0.3s ease-in-out !important;
 
@@ -37,7 +40,11 @@
 
     &__single-value {
         margin: 0 !important;
-        color: $textViolet !important;
+        color: getColor(textViolet) !important;
+    }
+
+    &__input-container {
+        color: getColor(textBlack) !important;
     }
 
     &__indicator-separator {
@@ -57,12 +64,13 @@
         font-family: "Inter", sans-serif !important;
         font-size: 1.4rem !important;
         font-weight: 500 !important;
-        color: $textViolet !important;
+        color: getColor(textViolet) !important;
 
         overflow: hidden !important;
+        background-color: getColor(secondaryBG) !important;
         border: 1px solid rgba($color: $gray1, $alpha: 0.5) !important;
         border-radius: 5px !important;
-        box-shadow: 0px 1px 8px rgba($color: $gray1, $alpha: 0.5) !important;
+        box-shadow: 0px 1px 8px rgba($color: getColor(gray1-rgb), $alpha: 0.5) !important;
         top: calc(100% + 5px) !important;
     }
 
@@ -86,16 +94,16 @@
         cursor: pointer !important;
 
         &--is-selected {
-            color: $textViolet !important;
-            background: $gray2 !important;
+            color: getColor(textViolet) !important;
+            background: getColor(gray2) !important;
         }
         &--is-focused {
-            color: $textViolet !important;
-            background: $gray2 !important;
+            color: getColor(textViolet) !important;
+            background: getColor(gray2) !important;
         }
     }
 }
 
 .select_field__option--is-focused.select_field__option--is-selected {
-    background: rgba($color: $gray2, $alpha: 0.5) !important;
+    background: rgba($color: getColor(gray1-rgb), $alpha: 0.5) !important;
 }

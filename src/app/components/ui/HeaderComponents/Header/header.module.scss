@@ -1,0 +1,27 @@
+@import "../../../../../styles/mixins.scss";
+@import "../../../../../styles/theme.scss";
+
+.header {
+    margin-bottom: 30px;
+    background-color: getColor(secondaryBG);
+    border-bottom: 1px solid getColor(gray2);
+    @include box-style-shadow;
+
+    @media (max-width: 600px) {
+        margin-bottom: 15px;
+    }
+}
+
+.header_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_title {
+    padding: 15px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: getColor(textGray);
+    text-transform: capitalize;
+}

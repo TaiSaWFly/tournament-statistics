@@ -1,0 +1,97 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/mixins.scss";
+@import "../../../../../styles/functions.scss";
+@import "../../../../../styles/theme.scss";
+
+.switch_theme {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.switch {
+    display: inline-block;
+    width: 56px;
+    height: 26px;
+    cursor: pointer;
+    position: relative;
+}
+
+.switch_checkbox {
+    height: 0;
+    width: 0;
+    opacity: 0;
+
+    &:checked + .switch_slider {
+        &::after {
+            background-color: $gray2;
+        }
+
+        &::after {
+            transform: translateX(29px);
+        }
+    }
+}
+
+.switch_slider {
+    background-color: getColor(primaryBG);
+    border: 1px solid $gray2;
+    border-radius: 13px;
+    box-shadow: 0px 1px 8px rgba(getColor(gray1-rgb), 0.5);
+
+    transition: background-color 0.35s ease-in-out;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    &::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+
+        border-radius: 50%;
+        background-color: $textGray;
+        box-shadow: 0px 0px 3px rgba($color: $gray3, $alpha: 0.5);
+
+        transition: transform 0.2s ease-in-out,
+            background-color 0.2s ease-in-out;
+
+        position: absolute;
+        bottom: 2.3px;
+        left: 2.5px;
+    }
+}
+
+.switch_slider__icon_ligth,
+.switch_slider__icon_dark {
+    width: 16px;
+    height: 16px;
+
+    & svg {
+        width: inherit;
+        height: inherit;
+    }
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.switch_slider__icon_ligth {
+    right: 5px;
+    & svg * {
+        fill: $textGray;
+    }
+}
+
+.switch_slider__icon_dark {
+    left: 5px;
+    & svg * {
+        fill: $gray2;
+    }
+}

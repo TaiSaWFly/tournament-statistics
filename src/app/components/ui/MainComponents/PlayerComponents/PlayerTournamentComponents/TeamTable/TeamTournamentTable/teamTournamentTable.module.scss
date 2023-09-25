@@ -1,0 +1,172 @@
+@import "../../../../../../../../styles/colors.scss";
+@import "../../../../../../../../styles/theme.scss";
+@import "../../../../../../../../styles/functions.scss";
+
+.team_tournament_table {
+    font-size: 1.4rem;
+    color: getColor(textGray);
+    text-align: center;
+    white-space: nowrap;
+
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+
+    & thead {
+        border-bottom: 1px solid $gray2;
+        background-color: getColor(primaryBG);
+
+        & tr {
+            & th {
+                padding: 20px 5px;
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: capitalize;
+
+                &:first-of-type {
+                    color: transparent;
+                }
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+
+    & tbody {
+        & tr {
+            border-bottom: 1px solid $gray2;
+
+            & td {
+                height: 65px;
+                overflow: hidden;
+                padding: 20px 5px;
+
+                &:first-of-type,
+                &:last-of-type {
+                    padding: 20px;
+                }
+
+                &:nth-child(2) {
+                    width: 90px;
+                }
+
+                &:nth-child(3) {
+                    width: 140px;
+                }
+
+                &:nth-child(4) {
+                    width: 120px;
+                }
+            }
+
+            &:last-of-type {
+                border: none;
+            }
+        }
+
+        &::-webkit-scrollbar {
+            height: 3px;
+            background-color: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba($color: $gray1, $alpha: 0.6);
+            border-radius: 10px;
+        }
+    }
+
+    @media (max-width: 946px) {
+        display: flex;
+        border-radius: 10px 0 0 10px;
+
+        & thead {
+            border-bottom: none;
+            border-right: 1px solid $gray2;
+
+            & tr {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                & th {
+                    height: 55px;
+                    padding: 10px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    &:first-of-type {
+                        color: inherit;
+                    }
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        & tbody {
+            overflow-x: auto;
+
+            tr {
+                display: table-cell;
+                border-right: 1px solid $gray2;
+                border-bottom: none;
+
+                & td {
+                    height: 55px;
+                    padding: 10px 20px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    &:nth-child(2) {
+                        width: auto;
+                    }
+
+                    &:nth-child(3) {
+                        width: auto;
+                    }
+
+                    &:nth-child(4) {
+                        width: auto;
+                    }
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 720px) {
+        & thead {
+            & tr {
+                & th {
+                    height: 40px;
+                }
+            }
+        }
+
+        & tbody {
+            & tr {
+                & td {
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

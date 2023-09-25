@@ -1,10 +1,11 @@
 import { PlayerStats } from "../ts/types/PlayerTypes/PlayerStats";
 import { SearchMemoryType } from "../ts/types/LocalStorageDataTypes/SearchMemoryType";
-import { DashboardMemoryType } from "../ts/types/LocalStorageDataTypes/DashboardMemoryType";
+import { BlockDimentionsType } from "../ts/types/BlockDimentionsType";
+import { AppMemoryType } from "../ts/types/LocalStorageDataTypes/AppMemoryType";
 
-export const pl = [1, 2, 3, 4];
-export const pageSize = 3;
-export const playerStatsInitialState: PlayerStats = {
+const pl = [1, 2, 3, 4];
+const pageSize = 3;
+const playerStatsInitialState: PlayerStats = {
     tournamentsPlayed: 0,
     tournamentsWon: 0,
     winrateZero: 0,
@@ -16,10 +17,26 @@ export const playerStatsInitialState: PlayerStats = {
     averagePlace: 0,
     roleStatisticsData: null
 };
-export const searchMemoryInitialState: SearchMemoryType = {
+const searchMemoryInitialState: SearchMemoryType = {
     tournamentNumberOption: null,
     playerOption: null
 };
-export const dashboardMemoryInitialState: DashboardMemoryType = {
-    menu: { isOpen: false }
+const appMemoryInitialState: AppMemoryType = {
+    dashboard: { menu: { isOpen: false } },
+    appTheme: { isDarkTheme: false }
+};
+const blockDimentionsInitialState: BlockDimentionsType = {
+    clientHeight: 0,
+    clientWidth: 0
+};
+const sidebarMinWidth = 240;
+
+export {
+    pl,
+    pageSize,
+    playerStatsInitialState,
+    searchMemoryInitialState,
+    blockDimentionsInitialState,
+    sidebarMinWidth,
+    appMemoryInitialState
 };

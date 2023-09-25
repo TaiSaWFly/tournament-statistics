@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./tableRole.module.scss";
-import useSvgIcon from "../../../../hooks/appHooks/useSvgIcon";
+import useSvgIcon from "../../../../hooks/appHooks/someHooks/useSvgIcon";
 import { PlayerRoles } from "../../../../ts/types/PlayerTypes/PlayerRoles";
 
 interface TableRoleProps {
@@ -39,7 +39,7 @@ const TableRole: React.FC<TableRoleProps> = ({ role }) => {
 
         if (role === "Flex") {
             roleSvg = (
-                <div className={style.table_role__icon}>
+                <div className={style.table_role__icon__flex}>
                     <Flex />
                 </div>
             );

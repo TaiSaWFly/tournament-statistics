@@ -4,11 +4,19 @@ interface ButtonProps {
     children: ReactNode;
     className?: string;
     onClick?: (e?: any) => void;
+    onMouseEnter?: (e?: any) => void;
+    onMouseLeave?: (e?: any) => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ className, children, onClick }) => {
+const Button: React.FC<ButtonProps> = ({
+    className,
+    children,
+    onClick,
+    onMouseEnter,
+    onMouseLeave
+}) => {
     return (
-        <button onClick={onClick} className={className}>
+        <button {...{ onClick, onMouseEnter, onMouseLeave, className }}>
             {children}
         </button>
     );

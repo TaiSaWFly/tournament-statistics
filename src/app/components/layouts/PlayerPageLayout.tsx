@@ -3,9 +3,9 @@ import { Route, Switch, useHistory, useParams } from "react-router-dom";
 import PlayerPage from "../pages/PlayerPage/PlayerPage";
 import { useAppSelector } from "../../hooks/reduxHooks/reduxHooks";
 import { useActions } from "../../hooks/reduxHooks/useActions";
-import { useAppStructure } from "../../hooks/appHooks/appContext/useAppStructure";
+import { useAppStructure } from "../../hooks/appHooks/appContexts/useAppStructure";
 import usePlayer from "../../hooks/appHooks/playerHooks/usePlayer";
-import useDelayLoading from "../../hooks/appHooks/useDelayLoading";
+import useDelayLoading from "../../hooks/appHooks/someHooks/useDelayLoading";
 import ComponentContainer from "../common/ComponentContainer/ComponentContainer";
 import {
     NOTFOUND_ROUTE,

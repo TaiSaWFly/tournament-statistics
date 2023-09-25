@@ -1,5 +1,31 @@
 @import "./default.scss";
+@import "./mixins.scss";
+@import "./theme.scss";
+@import "./functions.scss";
 @import "./colors.scss";
+
+// @media max-width
+// 965
+// 946
+// 727
+// 720
+// 667
+// 600
+// 510
+// 445
+// 415
+
+:root {
+    @each $name, $color in $colors {
+        --color-#{$name}: #{$color};
+    }
+}
+
+.app.dark {
+    @each $name, $color in $colors-dark {
+        --color-#{$name}: #{$color};
+    }
+}
 
 html {
     font-size: 10px;
@@ -8,13 +34,7 @@ html {
 
 body {
     margin: 0;
-    background: $whiteBG;
-
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    color: $textViolet;
     cursor: default;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -33,6 +53,16 @@ code {
 .app {
     height: 100vh;
     display: flex;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: getColor(textViolet);
+    background: getColor(primaryBG);
+
+    * {
+        transition: background-color 0.2s ease-in-out,
+            border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
 }
 
 .app_page {
@@ -46,4 +76,9 @@ code {
     max-width: 1470px;
     margin: 0 auto;
     padding: 0 30px;
+
+    @media (max-width: 600px) {
+        max-width: 1500px;
+        padding: 0 15px;
+    }
 }

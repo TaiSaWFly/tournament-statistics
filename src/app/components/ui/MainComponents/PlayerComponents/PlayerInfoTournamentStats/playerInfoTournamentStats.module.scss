@@ -1,0 +1,113 @@
+@import "../../../../../../styles/mixins.scss";
+@import "../../../../../../styles/theme.scss";
+@import "../../../../../../styles/functions.scss";
+
+.player_info_tournament_stats__nickname {
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    color: getColor(gray3);
+
+    @media (max-width: 720px) {
+        margin-bottom: 20px;
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    @media (max-width: 415px) {
+        margin-bottom: 15px;
+        font-size: 2.8rem;
+    }
+}
+
+.player_info_tournament_stats__group {
+    margin-bottom: 50px;
+
+    @media (max-width: 600px) {
+        margin-bottom: 30px;
+    }
+}
+
+.player_info_tournament_stats__group_wrap {
+    margin: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media (max-width: 600px) {
+        margin: 0;
+    }
+}
+
+.player_info_tournament_stats__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px;
+    width: 100%;
+    min-width: 270px;
+    max-width: fit-content;
+
+    @media (max-width: 600px) {
+        min-width: 250px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.player_info_tournament_stats__stats {
+    padding: 10px;
+
+    @media (max-width: 600px) {
+        padding: 0;
+    }
+
+    @media (max-width: 415px) {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+.player_info_tournament_stats__no_results_wrap {
+    padding: 10px;
+
+    @media (max-width: 600px) {
+        padding: 0;
+    }
+
+    @media (max-width: 415px) {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+.player_info_tournament_stats__group__no_results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.player_info_tournament_stats__no_results {
+    @include box-style;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    text-align: center;
+
+    @media (max-width: 720px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 600px) {
+        padding: 20px;
+    }
+
+    @media (max-width: 415px) {
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+    }
+}

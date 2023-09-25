@@ -1,0 +1,48 @@
+@import "../../../../../../../styles/mixins.scss";
+@import "../../../../../../../styles/colors.scss";
+@import "../../../../../../../styles/functions.scss";
+
+.stats_info__tournament {
+    @include box-style;
+
+    display: grid;
+    grid-template-columns: repeat(2, 165px);
+    grid-gap: 20px;
+    text-align: center;
+
+    @media (max-width: 600px) {
+        padding: 20px;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    @media (max-width: 415px) {
+        width: 100%;
+        max-width: 250px;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 15px;
+    }
+}
+
+.stats_info__item {
+    @include box-style;
+    padding: 10px;
+    background-color: getColor(primaryBG);
+}
+
+.stats_name {
+    margin-bottom: 7.5px;
+    font-size: 1.4rem;
+    color: getColor(gray3);
+
+    @media (max-width: 600px) {
+        font-size: 1.3rem;
+    }
+}
+
+.stats_value {
+    font-size: 2rem;
+
+    @media (max-width: 600px) {
+        font-size: 1.9rem;
+    }
+}

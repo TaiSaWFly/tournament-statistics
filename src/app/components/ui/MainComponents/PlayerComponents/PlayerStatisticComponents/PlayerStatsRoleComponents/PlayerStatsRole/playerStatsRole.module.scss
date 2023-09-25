@@ -1,0 +1,78 @@
+@import "../../../../../../../../styles/mixins.scss";
+@import "../../../../../../../../styles/colors.scss";
+
+.stats_role {
+    height: 100%;
+    @include box-style;
+
+    padding-left: 50px;
+    position: relative;
+
+    @media (max-width: 600px) {
+        padding: 20px 20px 20px 50px;
+    }
+
+    @media (max-width: 510px) {
+        padding: 20px;
+    }
+}
+
+.stats_role__wrap {
+    width: 330px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+.stats_role__title {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    text-align: center;
+
+    @media (max-width: 720px) {
+        font-size: 2.2rem;
+    }
+
+    @media (max-width: 510px) {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 510px) {
+        font-size: 1.8rem;
+    }
+}
+
+.stats_role__colors {
+    position: absolute;
+    top: 50%;
+    left: -42px;
+
+    transform: translateY(-50%) rotate(-90deg);
+
+    @media (max-width: 510px) {
+        margin-bottom: 10px;
+        position: static;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.stats__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.stats_role_chart__wrap {
+    display: flex;
+
+    @media (max-width: 600px) {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

@@ -10,6 +10,7 @@ import TablePlayerLinkCurrentPlayerWithСaptain, {
 import TablePlayerLinkСaptain, {
     TablePlayerLinkСaptainProps
 } from "./TablePlayerLinkСaptain";
+import { useAppSelector } from "../../../../hooks/reduxHooks/reduxHooks";
 
 interface TablePlayerLinkProps {
     teammateName: string;
@@ -24,6 +25,7 @@ interface TablePlayerLinkComponentsProps {
 const TablePlayerLink: React.FC<TablePlayerLinkProps> &
     TablePlayerLinkComponentsProps = ({ teammateName, teammateId }) => {
     const history = useHistory();
+    const { isMobileDevice } = useAppSelector((state) => state.system);
     const { playerLink } = usePlayer(teammateId, teammateName);
     const { setSearchMemoryPlayer, setPlayerData } = useActions();
 
@@ -38,7 +40,7 @@ const TablePlayerLink: React.FC<TablePlayerLinkProps> &
     };
 
     return (
-        <div className={style.link}>
+        <div className={isMobileDevice ? style.link__visible : style.link}>
             {playerLink.length !== 0 ? (
                 <a onClick={redirectToPlayer}>{teammateName}</a>
             ) : (

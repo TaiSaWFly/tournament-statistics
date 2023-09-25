@@ -1,0 +1,37 @@
+.player_stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -5px;
+
+    @media (max-width: 600px) {
+        margin: 0;
+    }
+}
+
+.player_stats__group_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (max-width: 415px) {
+        width: 100%;
+    }
+}
+
+.player_stats__item_tournament,
+.player_stats__item_results,
+.player_stats__item_role {
+    padding: 5px;
+
+    @media (max-width: 600px) {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.player_stats__item_role {
+    @media (max-width: 600px) {
+        margin-bottom: 0;
+    }
+}

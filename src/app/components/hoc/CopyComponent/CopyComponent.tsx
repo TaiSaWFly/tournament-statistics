@@ -1,8 +1,9 @@
 import React, { ReactNode, useState, useEffect } from "react";
 import style from "./copyComponent.module.scss";
-import useCopy from "../../../hooks/appHooks/useCopy";
-import { useAppStructure } from "../../../hooks/appHooks/appContext/useAppStructure";
+import useCopy from "../../../hooks/appHooks/someHooks/useCopy";
+import { useAppStructure } from "../../../hooks/appHooks/appContexts/useAppStructure";
 import CopyToastifyComponent from "./CopyToastifyComponent";
+import { useAppSelector } from "../../../hooks/reduxHooks/reduxHooks";
 
 interface CopyComponentProps {
     children: ReactNode;
@@ -15,6 +16,7 @@ const CopyComponent: React.FC<CopyComponentProps> = ({
     copyTextInfo,
     copyText
 }) => {
+    const { isMobileDevice } = useAppSelector((state) => state.system);
     const { appStructureRef } = useAppStructure();
     const { CopyIcon, handleCopyToClipBoard } = useCopy();
     const [isCopied, setIsCopied] = useState(false);
@@ -35,7 +37,7 @@ const CopyComponent: React.FC<CopyComponentProps> = ({
 
     return (
         <>
-            <span className={style.copy}>
+            <span className={isMobileDevice ? style.copy__visible : style.copy}>
                 <span
                     className={
                         !isCopied ? style.copy_group : style.copy_group__copied
