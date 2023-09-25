@@ -6,7 +6,7 @@ import playerStatisticsDataReducer from "./silces/playerStatisticsData";
 import globalTournamentStatisticsReduser, {
     globalTournamentStatisticsActions
 } from "./silces/globalTournamentStatistics";
-import memoryReducer, { memoryActions } from "./silces/memory";
+import memoryReducer, { memoryActions } from "./silces/Memory";
 import systemReduser, { systemActions } from "./silces/systemSlice";
 
 const rootReducer = combineReducers({
