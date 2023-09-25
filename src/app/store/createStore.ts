@@ -3,10 +3,10 @@ import tournamentDbReducer from "./silces/tournamentDb";
 import playersDbReducer, { playersDbActions } from "./silces/playersDb";
 import matchesDbReducer from "./silces/matchesDb";
 import playerStatisticsDataReducer from "./silces/playerStatisticsData";
-import memoryReducer, { memoryActions } from "./silces/memory";
 import globalTournamentStatisticsReduser, {
     globalTournamentStatisticsActions
 } from "./silces/globalTournamentStatistics";
+import memoryReducer, { memoryActions } from "./silces/memory";
 import systemReduser, { systemActions } from "./silces/systemSlice";
 
 const rootReducer = combineReducers({
