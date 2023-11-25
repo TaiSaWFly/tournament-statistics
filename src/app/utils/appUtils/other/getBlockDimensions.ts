@@ -1,6 +1,6 @@
 import { MutableRefObject } from "react";
 import { BlockDimentionsType } from "../../../ts/types/BlockDimentionsType";
-import { blockDimentionsInitialState } from "../../../data/defaultInitialStateData";
+import { blockDimentionsInitialState } from "../../../data/AppData/defaultInitialStateData";
 
 const getBlockDimensions = (
     ref: MutableRefObject<HTMLElement | null>

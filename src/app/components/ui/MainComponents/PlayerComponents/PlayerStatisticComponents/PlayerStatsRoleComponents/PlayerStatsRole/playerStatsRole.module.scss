@@ -40,9 +40,6 @@
 
     @media (max-width: 510px) {
         margin-bottom: 10px;
-    }
-
-    @media (max-width: 510px) {
         font-size: 1.8rem;
     }
 }
@@ -70,9 +67,9 @@
 
 .stats_role_chart__wrap {
     display: flex;
+    justify-content: space-around;
 
     @media (max-width: 600px) {
-        justify-content: space-around;
         flex-wrap: wrap;
     }
 }

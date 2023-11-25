@@ -4,7 +4,7 @@ import { IPlayer } from "../../../../../../ts/models/IPlayer";
 import usePlayerTournaments from "../../../../../../hooks/appHooks/playerHooks/usePlayerTournaments";
 import useDelayLoading from "../../../../../../hooks/appHooks/someHooks/useDelayLoading";
 import Pagination from "../../../../../common/Pagination/Pagination";
-import { pageSize } from "../../../../../../data/defaultInitialStateData";
+import { pageSize } from "../../../../../../data/AppData/defaultInitialStateData";
 import paginate from "../../../../../../utils/appUtils/other/paginate";
 import PlayerTournamentItem from "../PlayerTournamentItemComponents/PlayerTournamentItem/PlayerTournamentItem";
 import { TournamentTeam } from "../../../../../../ts/types/TournamentTypes/TournamentTeam";

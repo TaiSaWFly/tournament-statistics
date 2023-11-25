@@ -1,0 +1,33 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/functions.scss";
+
+.color_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color_info__wrap {
+    display: flex;
+}
+
+.color__item {
+    margin: 0 5px;
+
+    & span {
+        display: block;
+        margin: 0 auto 5px auto;
+        width: 15px;
+        height: 15px;
+
+        border-radius: 50%;
+        border: 1px solid $gray2;
+    }
+}
+
+.color__item_name {
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: getColor(textGray);
+}

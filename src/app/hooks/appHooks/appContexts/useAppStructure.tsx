@@ -5,8 +5,8 @@ import React, {
     MutableRefObject,
     useEffect
 } from "react";
-import { AppStructureContexPropsType } from "../../../ts/types/AppContext/AppStructureContexPropsType";
-import { blockDimentionsInitialState } from "../../../data/defaultInitialStateData";
+import { AppStructureContexPropsType } from "../../../ts/types/ComponentsPropsTypes/AppContext/AppStructureContexPropsType";
+import { blockDimentionsInitialState } from "../../../data/AppData/defaultInitialStateData";
 import useBlockDimensionsOnEvents from "../someHooks/useBlockDimensionsOnEvents";
 
 const AppStructureContex = React.createContext<AppStructureContexPropsType>({

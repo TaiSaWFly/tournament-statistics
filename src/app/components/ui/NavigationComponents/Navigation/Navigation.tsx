@@ -5,8 +5,8 @@ import NavigationClose from "../NavigationState/NavigationClose/NavigationClose"
 import { useActions } from "../../../../hooks/reduxHooks/useActions";
 import { useAppSelector } from "../../../../hooks/reduxHooks/reduxHooks";
 import { useAppStructure } from "../../../../hooks/appHooks/appContexts/useAppStructure";
-import { BLOCK_BREAKPOINT_720 } from "../../../../data/breakPoints";
-import { sidebarMinWidth } from "../../../../data/defaultInitialStateData";
+import { BLOCK_BREAKPOINT_720 } from "../../../../data/AppData/breakPoints";
+import { sidebarMinWidth } from "../../../../data/AppData/defaultInitialStateData";
 import useBlockDimensionsOnEvents from "../../../../hooks/appHooks/someHooks/useBlockDimensionsOnEvents";
 import useNavigateList from "../../../../hooks/appHooks/someHooks/useNavigateList";
 

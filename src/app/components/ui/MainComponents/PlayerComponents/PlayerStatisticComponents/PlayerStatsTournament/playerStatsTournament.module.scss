@@ -15,9 +15,11 @@
         grid-template-columns: repeat(2, auto);
     }
 
-    @media (max-width: 415px) {
+    @media (max-width: 440px) {
         width: 100%;
         max-width: 250px;
+        margin: 0 auto;
+
         grid-template-columns: repeat(1, auto);
         grid-gap: 15px;
     }

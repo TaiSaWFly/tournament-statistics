@@ -8,7 +8,7 @@ import {
     NOTFOUND_ROUTE,
     PLAYER_ID_ROUTE,
     TOURNAMENTS_ROUTE
-} from "../../data/routes";
+} from "../../data/AppData/routes";
 import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 
 const MainPage = lazy(() => import("../pages/MainPage/MainPage"));

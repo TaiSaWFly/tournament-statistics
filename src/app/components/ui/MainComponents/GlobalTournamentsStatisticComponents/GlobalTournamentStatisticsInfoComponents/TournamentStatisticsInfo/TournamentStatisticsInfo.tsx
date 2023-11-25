@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./tournamentStatisticsInfo.module.scss";
 import { TournamentStatisticInfoType } from "../../../../../../ts/types/TournamentTypes/TournamentStatisticInfoType";
-import TournamentStatisticsInfoChart from "../TournamentStatisticsInfoChart";
+import TournamentStatisticsInfoChart from "../../../../../common/ChartComponents/TournamentStatisticsInfoChart";
 import TournamentStatisticsInfoDiffBage from "../TournamentStatisticsInfoDiffBage/TournamentStatisticsInfoDiffBage";
 
 interface TournamentStatisticsInfoProps {
@@ -35,6 +35,7 @@ const TournamentStatisticsInfo: React.FC<TournamentStatisticsInfoProps> = ({
                             />
 
                             <TournamentStatisticsInfoChart
+                                label="КВО"
                                 data={info.lastStatsData}
                             />
                         </div>

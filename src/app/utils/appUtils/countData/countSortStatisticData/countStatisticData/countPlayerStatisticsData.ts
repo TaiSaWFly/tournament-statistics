@@ -6,6 +6,8 @@ import { IPlayerStats } from "../../../../../ts/models/IPlayerStats";
 import countZeroWinrate from "../../countWinrate/countZeroWinrate";
 import countWinrateByMaps from "../../countWinrate/countWinrateByMaps";
 import countReduceDataByKey from "../../countDataByKey/countReduceDataByKey";
+import countAverageProximity from "../../countWinrate/countAverageProximity";
+import returnRoleStatistics from "../../../transformAndCreateData/createData/roleStatistics/returnRoleStatistics";
 
 const countPlayerStatisticsData = (
     tournaments: ITournamentDb[],
@@ -28,6 +30,12 @@ const countPlayerStatisticsData = (
             const winrateZero = countZeroWinrate(tournamentsPlayerData);
             const { roleTournamentsWon, roleTournamentsLose } =
                 roleTournamentsWonLose(tournamentsPlayerData);
+            const averageProximity = countAverageProximity(
+                tournamentsPlayerData
+            );
+            const roleStatisticsData = returnRoleStatistics(
+                tournamentsPlayerData
+            );
 
             const playerStats: IPlayerStats = {
                 _id: players[i].ID * 121 * 212,
@@ -41,7 +49,9 @@ const countPlayerStatisticsData = (
                 "Чемпионство роль": roleTournamentsWon,
                 "Отлётов в ноль": winrateZero,
                 "Отлётов в ноль роль": roleTournamentsLose,
-                "Колличество турниров": tournamentsPlayerData.length
+                "Колличество турниров": tournamentsPlayerData.length,
+                "Средняя близость": averageProximity,
+                "Статистика по ролям": roleStatisticsData
             };
 
             playerStatistics.push(playerStats);

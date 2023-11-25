@@ -7,8 +7,8 @@ import { TournamentStatisticInfoType } from "../../../ts/types/TournamentTypes/T
 const useGlobalTourStats = () => {
     const tournamentDb = useAppSelector((state) => state.tournamentDb.entities);
     const matchesDb = useAppSelector((state) => state.matchesDb.entities);
-    const playerStatisticsData = useAppSelector(
-        (state) => state.playerStatisticsData.entities
+    const { data: playerStatisticsData } = useAppSelector(
+        (state) => state.playerStatisticsData.entities.playerStats
     );
 
     const { setTopTwentyData, setGlobalTournamentChartData } = useActions();

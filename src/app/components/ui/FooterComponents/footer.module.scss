@@ -1,4 +1,6 @@
 @import "../../../../styles/colors.scss";
+@import "../../../../styles/theme.scss";
+@import "../../../../styles/functions.scss";
 
 .footer {
     margin-top: auto;
@@ -6,8 +8,44 @@
     font-size: 1.2rem;
 }
 
-.footer_content {
+.footer_content__wrap {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+
     color: $textGray;
+    white-space: nowrap;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+
+    & span {
+        margin: 0 10px;
+
+        & a {
+            color: getColor(textBlack);
+            display: inline;
+            position: relative;
+
+            &::before {
+                content: "";
+                width: 0;
+                height: 1px;
+                background-color: getColor(textBlack);
+                transition: width 0.15s ease-in-out;
+
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+            }
+
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

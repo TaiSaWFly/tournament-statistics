@@ -4,7 +4,7 @@ import {
     MAIN_ROUTE,
     PLAYER_ROUTE,
     TOURNAMENTS_ROUTE
-} from "../../../data/routes";
+} from "../../../data/AppData/routes";
 import { NavigateItemType } from "../../../ts/types/NavigateItemType";
 
 const useNavigateList = (): NavigateItemType[] => {
