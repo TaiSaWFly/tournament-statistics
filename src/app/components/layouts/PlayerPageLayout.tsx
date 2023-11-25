@@ -11,7 +11,7 @@ import {
     NOTFOUND_ROUTE,
     PLAYER_ID_ROUTE,
     PLAYER_ROUTE
-} from "../../data/routes";
+} from "../../data/AppData/routes";
 
 const PlayerPageLayout: React.FC = () => {
     const history = useHistory<any>();

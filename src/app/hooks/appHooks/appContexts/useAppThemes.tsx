@@ -1,5 +1,5 @@
 import React, { ReactNode, useContext, useEffect, useState } from "react";
-import { AppThemesContextPropsType } from "../../../ts/types/AppContext/AppThemesContextPropsType";
+import { AppThemesContextPropsType } from "../../../ts/types/ComponentsPropsTypes/AppContext/AppThemesContextPropsType";
 import { useActions } from "../../reduxHooks/useActions";
 import { useAppSelector } from "../../reduxHooks/reduxHooks";
 

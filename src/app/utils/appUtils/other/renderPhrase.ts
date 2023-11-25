@@ -1,12 +1,17 @@
-export type renderPhraseCases = {
+export type RenderPhraseCasesType = {
     nominativeCase: string;
     genitiveCase: string;
     instrumentalCase: string;
 };
 
-const renderPhrase = (
+type RenderPhraseType = (
     number: number,
-    { nominativeCase, genitiveCase, instrumentalCase }: renderPhraseCases
+    { nominativeCase, genitiveCase, instrumentalCase }: RenderPhraseCasesType
+) => string;
+
+const renderPhrase: RenderPhraseType = (
+    number: number,
+    { nominativeCase, genitiveCase, instrumentalCase }
 ) => {
     let lastOne = number;
 

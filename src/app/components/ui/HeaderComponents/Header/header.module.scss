@@ -25,3 +25,14 @@
     color: getColor(textGray);
     text-transform: capitalize;
 }
+
+.header_actions {
+    display: flex;
+}
+
+.header_actions__item {
+    margin-right: 20px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}

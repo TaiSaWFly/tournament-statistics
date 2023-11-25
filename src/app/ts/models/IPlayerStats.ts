@@ -1,3 +1,5 @@
+import { RoleStatisticsType } from "../types/RoleTypes/RoleStatisticsType";
+
 export interface IPlayerStats {
     _id: number;
     pageId: number;
@@ -11,4 +13,6 @@ export interface IPlayerStats {
     "Отлётов в ноль": number;
     "Отлётов в ноль роль": string[];
     "Колличество турниров": number;
+    "Средняя близость": number;
+    "Статистика по ролям": RoleStatisticsType;
 }

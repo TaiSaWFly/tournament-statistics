@@ -8,14 +8,51 @@ const transformDataForRoleChart = (
     roleStatisticsData: RoleStatisticsType,
     roleStat: keyof RoleStatsTypeNumber
 ): ChartDataType[] => {
-    const data: ChartDataType[] = Object.keys(roleStatisticsData).map(
-        (data) => ({
-            name: data,
-            value: roleStatisticsData[data as keyof RoleStatisticsType][
-                roleStat
-            ]
-        })
-    );
+    let data: ChartDataType[] = [];
+    const {
+        averageWinrate: tankAverageWinrate,
+        tournamentsPlayed: tankTournamentsPlayed
+    } = roleStatisticsData.tank;
+    const {
+        averageWinrate: dpsAverageWinrate,
+        tournamentsPlayed: dpsTournamentsPlayed
+    } = roleStatisticsData.dps;
+    const {
+        averageWinrate: supportAverageWinrate,
+        tournamentsPlayed: supportTournamentsPlayed
+    } = roleStatisticsData.support;
+
+    const isNotZeroRoleWinrate =
+        tankAverageWinrate === 0 &&
+        dpsAverageWinrate === 0 &&
+        supportAverageWinrate === 0;
+
+    const isNotZeroRoleTournamentsPlayed =
+        tankTournamentsPlayed === 0 &&
+        dpsTournamentsPlayed === 0 &&
+        supportTournamentsPlayed === 0;
+
+    if (roleStat === "averageWinrate") {
+        if (!isNotZeroRoleWinrate) {
+            return (data = Object.keys(roleStatisticsData).map((data) => ({
+                name: data,
+                value: roleStatisticsData[data as keyof RoleStatisticsType][
+                    roleStat
+                ]
+            })));
+        }
+    }
+
+    if (roleStat === "tournamentsPlayed") {
+        if (!isNotZeroRoleTournamentsPlayed) {
+            return (data = Object.keys(roleStatisticsData).map((data) => ({
+                name: data,
+                value: roleStatisticsData[data as keyof RoleStatisticsType][
+                    roleStat
+                ]
+            })));
+        }
+    }
 
     return data;
 };

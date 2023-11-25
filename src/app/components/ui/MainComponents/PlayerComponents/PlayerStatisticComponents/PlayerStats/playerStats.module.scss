@@ -14,23 +14,26 @@
     flex-direction: column;
     justify-content: space-between;
 
-    @media (max-width: 415px) {
+    @media (max-width: 440px) {
         width: 100%;
     }
 }
 
 .player_stats__item_tournament,
 .player_stats__item_results,
-.player_stats__item_role {
+.player_stats__item_role,
+.player_stats__item_diff_of_average {
     padding: 5px;
 
     @media (max-width: 600px) {
+        max-width: 410px;
+        width: 100%;
         padding: 0;
         margin-bottom: 10px;
     }
 }
 
-.player_stats__item_role {
+.player_stats__item_diff_of_average {
     @media (max-width: 600px) {
         margin-bottom: 0;
     }

@@ -58,7 +58,8 @@ const PlayerSearchField: React.FC = () => {
         history.push({
             pathname: `/player/${playerId}`,
             state: {
-                from: match.url
+                from: match.url,
+                stateTitle
             }
         });
     };

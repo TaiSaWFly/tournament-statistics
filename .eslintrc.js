@@ -29,11 +29,12 @@ module.exports = {
                 avoidEscape: true
             }
         ],
+        "@typescript-eslint/no-use-before-define": "error",
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-redeclare": "error",
         "object-shorthand": 0,
         "no-redeclare": "off",
-        "@typescript-eslint/no-redeclare": "error",
         "no-use-before-define": "off",
-        "@typescript-eslint/no-use-before-define": "error",
         "react/display-name": "off",
         "react/prop-types": 0,
         "no-debugger": "off"

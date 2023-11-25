@@ -5,7 +5,7 @@ import localStorageService from "../../services/app.services/localStorage.servic
 import {
     appMemoryInitialState,
     searchMemoryInitialState
-} from "../../data/defaultInitialStateData";
+} from "../../data/AppData/defaultInitialStateData";
 import { AppMemoryType } from "../../ts/types/LocalStorageDataTypes/AppMemoryType";
 
 interface IMemorySlice {

@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useMemo } from "react";
 import style from "./playerStatsRole.module.scss";
 import { RoleStatisticsType } from "../../../../../../../ts/types/RoleTypes/RoleStatisticsType";
-import PlayerStatsRoleChart from "../PlayerStatsRoleChart/PlayerStatsRoleChart";
+import PlayerStatsRoleChart from "../../../PlayerCharts/PlayerStatsRoleChart/PlayerStatsRoleChart";
 import transformDataForRoleChart from "../../../../../../../utils/appUtils/transformAndCreateData/transformData/transformDataForRoleChart";
-import PlayerStatsRoleColorsInfo from "../PlayerStatsRoleColorsInfo/PlayerStatsRoleColorsInfo";
 import PlayerStatsRoleLastRate from "../PlayerStatsRoleLastRate/PlayerStatsRoleLastRate";
+import { TooltipsColorInfoDataType } from "../../../../../../../ts/types/TooltipsColorInfoDataType";
+import ChartTooltipsColorInfo from "../../../../../../common/ChartComponents/ChartTooltipsColorInfo/ChartTooltipsColorInfo";
+import {
+    dpsColor,
+    supportColor,
+    tankColor
+} from "../../../../../../../data/AppData/colors";
 
 interface PlayerStatsRoleProps {
     roleStatisticsData: RoleStatisticsType;
@@ -13,6 +19,24 @@ interface PlayerStatsRoleProps {
 const PlayerStatsRole: React.FC<PlayerStatsRoleProps> = ({
     roleStatisticsData
 }) => {
+    const colorsInfo: TooltipsColorInfoDataType[] = useMemo(
+        () => [
+            {
+                name: "tank",
+                hex: tankColor
+            },
+            {
+                name: "support",
+                hex: supportColor
+            },
+            {
+                name: "dps",
+                hex: dpsColor
+            }
+        ],
+        []
+    );
+
     const tournamentsPlayed = transformDataForRoleChart(
         roleStatisticsData,
         "tournamentsPlayed"
@@ -30,20 +54,20 @@ const PlayerStatsRole: React.FC<PlayerStatsRoleProps> = ({
                 </div>
 
                 <div className={style.stats_role__colors}>
-                    <PlayerStatsRoleColorsInfo />
+                    <ChartTooltipsColorInfo {...{ colorsInfo }} />
                 </div>
 
                 <div className={style.stats__wrap}>
                     <div className={style.stats_role_chart__wrap}>
                         <PlayerStatsRoleChart
                             title="Сыграно турниров"
-                            label="games"
+                            declareLabel="games"
                             data={tournamentsPlayed}
                         />
 
                         <PlayerStatsRoleChart
                             title="Средний винрейт"
-                            label="percent"
+                            declareLabel="percent"
                             data={averageWinrate}
                         />
                     </div>

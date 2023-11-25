@@ -1,15 +1,14 @@
 import { IPlayer } from "../../../ts/models/IPlayer";
 import { useAppSelector } from "../../reduxHooks/reduxHooks";
-import countAverageProximity from "../../../utils/appUtils/countData/countWinrate/countAverageProximity";
-import { playerStatsInitialState } from "../../../data/defaultInitialStateData";
+import { playerStatsInitialState } from "../../../data/AppData/defaultInitialStateData";
 import sortBestResult from "../../../utils/appUtils/filterSortData/sortBestResult";
 import countAveragePlace from "../../../utils/appUtils/countData/countSortStatisticData/countStatisticData/countAveragePlace";
-import returnRoleStatistics from "../../../utils/appUtils/transformAndCreateData/createData/roleStatistics/returnRoleStatistics";
+import { PlayerStatsDataType } from "../../../ts/types/PlayerTypes/PlayerStatsDataType";
 
-const usePlayerStats = (player: IPlayer) => {
+const usePlayerStats = (player: IPlayer): PlayerStatsDataType => {
     const tournamentDb = useAppSelector((state) => state.tournamentDb.entities);
-    const playerStatisticsData = useAppSelector(
-        (state) => state.playerStatisticsData.entities
+    const { data: playerStatisticsData } = useAppSelector(
+        (state) => state.playerStatisticsData.entities.playerStats
     );
 
     const foundTournaments = tournamentDb.filter(
@@ -30,12 +29,13 @@ const usePlayerStats = (player: IPlayer) => {
                   mapsAll: foundPlayerStatistic[0]["Всего карт"],
                   winrateByMaps: foundPlayerStatistic[0].Винрейт,
                   bestResult: sortBestResult(foundTournaments),
-                  averageProximity: countAverageProximity(foundTournaments),
+                  averageProximity: foundPlayerStatistic[0]["Средняя близость"],
                   averagePlace: countAveragePlace(
                       foundTournaments,
                       foundPlayerStatistic[0]["Колличество турниров"]
                   ),
-                  roleStatisticsData: returnRoleStatistics(foundTournaments)
+                  roleStatisticsData:
+                      foundPlayerStatistic[0]["Статистика по ролям"]
               }
             : playerStatsInitialState;
 

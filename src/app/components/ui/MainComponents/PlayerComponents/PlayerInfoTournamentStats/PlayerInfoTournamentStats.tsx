@@ -18,7 +18,7 @@ const PlayerInfoTournamentStats: React.FC<PlayerInfoTournamentStatsProps> = ({
     const { isLoading } = useDelayLoading(676);
 
     const playerStatisticsData = useAppSelector(
-        (state) => state.playerStatisticsData.entities
+        (state) => state.playerStatisticsData.entities.playerStats.data
     ).filter((data) => data.PlayerID === player.ID);
 
     if (isLoading) return <Loader />;

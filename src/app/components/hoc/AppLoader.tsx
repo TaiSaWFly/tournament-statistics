@@ -6,7 +6,10 @@ import {
 import { loadplayersDbList } from "../../store/silces/playersDb";
 import { loadTournamentDbList } from "../../store/silces/tournamentDb";
 import { loadmatchesDbList } from "../../store/silces/matchesDb";
-import { countingPlayerStatisticsData } from "../../store/silces/playerStatisticsData";
+import {
+    countingPlayerStatisticsData,
+    countingAveragePlayerStatisticsData
+} from "../../store/silces/playerStatisticsData";
 import filterDoubleDataByKey from "../../utils/appUtils/filterSortData/filterDoubleDataByKey";
 import localStorageService from "../../services/app.services/localStorage.service";
 import { ErrorType } from "../../ts/types/ErrorType";
@@ -36,8 +39,13 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
         (state) => state.matchesDb
     );
 
-    const { isCounting } = useAppSelector(
-        (state) => state.playerStatisticsData
+    const { isCountingPlayerStats: playerStatsIsCounting } = useAppSelector(
+        (state) => state.playerStatisticsData.entities.playerStats
+    );
+    const {
+        isCountingAveragePlayersStatsChart: averagePlayersStatsChartIsCounting
+    } = useAppSelector(
+        (state) => state.playerStatisticsData.entities.averagePlayersStatsChart
     );
 
     useEffect(() => {
@@ -85,10 +93,16 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
     }, [isDataLoading]);
 
     useEffect(() => {
-        if (!isCounting) {
+        if (!playerStatsIsCounting) {
+            dispatch(countingAveragePlayerStatisticsData());
+        }
+    }, [playerStatsIsCounting]);
+
+    useEffect(() => {
+        if (!playerStatsIsCounting && !averagePlayersStatsChartIsCounting) {
             setIsLoading(false);
         }
-    }, [isCounting]);
+    }, [playerStatsIsCounting, averagePlayersStatsChartIsCounting]);
 
     if (error) return <ErrorPage errorMessage={error.errorMessage} />;
     return <>{isLoading ? <Loader /> : children}</>;

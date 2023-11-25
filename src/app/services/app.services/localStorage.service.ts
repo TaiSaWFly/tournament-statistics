@@ -1,7 +1,7 @@
 import {
     appMemoryInitialState,
     searchMemoryInitialState
-} from "../../data/defaultInitialStateData";
+} from "../../data/AppData/defaultInitialStateData";
 import {
     localStorageDataType,
     localStorageKeysType

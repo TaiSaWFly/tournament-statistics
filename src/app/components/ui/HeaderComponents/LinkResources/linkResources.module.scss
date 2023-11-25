@@ -1,0 +1,87 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/functions.scss";
+@import "../../../../../styles/theme.scss";
+@import "../../../../../styles/mixins.scss";
+
+.link_resource {
+    position: relative;
+}
+
+.link {
+    cursor: pointer;
+
+    &.active {
+        & .link_icon {
+            transform: rotate(45deg);
+        }
+    }
+
+    &:hover {
+        & .link_icon {
+            & svg {
+                fill: $gray1;
+            }
+        }
+    }
+}
+
+.link_icon {
+    width: 26px;
+    height: 26px;
+
+    transform: rotate(0deg);
+    transition: transform 0.15s ease-in-out;
+
+    & svg {
+        width: inherit;
+        height: inherit;
+        fill: getColor(textViolet);
+        transition: fill 0.1s ease-in-out;
+    }
+}
+
+.link_resource__modal {
+    @include box-style;
+    padding: 25px;
+    width: 100%;
+    min-width: 230px;
+
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    z-index: 1000;
+
+    transform: translateX(-50%);
+
+    @media (max-width: 1545px) {
+        left: -45%;
+    }
+}
+
+.link_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    font-size: 1.2rem;
+    text-align: center;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    & a {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+
+        & svg {
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    & span {
+        width: 100%;
+    }
+}

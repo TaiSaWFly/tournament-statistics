@@ -1,5 +1,7 @@
 import { TournamentStatisticInfoType } from "../../../../../ts/types/TournamentTypes/TournamentStatisticInfoType";
-import renderPhrase, { renderPhraseCases } from "../../../other/renderPhrase";
+import renderPhrase, {
+    RenderPhraseCasesType
+} from "../../../other/renderPhrase";
 import countDataQtyByKey from "../../../countData/countDataByKey/countDataQtyByKey";
 import countReduceDataByKey from "../../../countData/countDataByKey/countReduceDataByKey";
 
@@ -7,7 +9,7 @@ type ReturnTournamentStatisticInfoObjWithoutLastDataType<T, K> = {
     countData: T[];
     key: K;
     title: string;
-    prefix: renderPhraseCases;
+    prefix: RenderPhraseCasesType;
 };
 
 function returnTournamentStatisticInfoObjWithoutLastData<T, K extends keyof T>(

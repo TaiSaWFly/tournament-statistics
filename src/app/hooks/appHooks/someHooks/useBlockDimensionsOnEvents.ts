@@ -1,5 +1,5 @@
 import { MutableRefObject, useEffect, useState } from "react";
-import { blockDimentionsInitialState } from "../../../data/defaultInitialStateData";
+import { blockDimentionsInitialState } from "../../../data/AppData/defaultInitialStateData";
 import getBlockDimensions from "../../../utils/appUtils/other/getBlockDimensions";
 
 type useBlockDimensionsOnEventsType = {
