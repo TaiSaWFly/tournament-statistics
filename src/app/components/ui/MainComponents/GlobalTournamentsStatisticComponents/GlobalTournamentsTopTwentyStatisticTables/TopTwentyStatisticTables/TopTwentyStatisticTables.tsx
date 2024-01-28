@@ -16,7 +16,7 @@ const TopTwentyStatisticTables: React.FC<TopTwentyStatisticTablesProps> = ({
 }) => {
     return (
         <>
-            <div className={style.tables_title}>Статистика Топ-20</div>
+            <h2 className={style.tables_title}>Статистика Топ-20</h2>
 
             <div className={style.table_wrap}>
                 <div className={style.table_comp}>

@@ -16,7 +16,7 @@ import { ReactComponent as OpenMenu } from "../../../../assets/svg-icons/navigat
 import { ReactComponent as Copy } from "../../../../assets/svg-icons/copy.svg";
 import { ReactComponent as Book } from "../../../../assets/svg-icons/book-1.svg";
 import { ReactComponent as Note } from "../../../../assets/svg-icons/note-2.svg";
-import { ReactComponent as Link } from "../../../../assets/svg-icons/link-icon.svg";
+import { ReactComponent as LinkIcon } from "../../../../assets/svg-icons/link-icon.svg";
 import { ReactComponent as LigthTheme } from "../../../../assets/svg-icons/theme-isons/ligth.svg";
 import { ReactComponent as DarkTheme } from "../../../../assets/svg-icons/theme-isons/dark.svg";
 import { ReactComponent as GitHubIcon } from "../../../../assets/svg-icons/resource/github.svg";
@@ -45,7 +45,7 @@ const useSvgIcon = () => {
         Copy,
         Book,
         Note,
-        Link,
+        LinkIcon,
         GitHubIcon,
         GoogleSheetsIcon,
         PowerBiIcon
