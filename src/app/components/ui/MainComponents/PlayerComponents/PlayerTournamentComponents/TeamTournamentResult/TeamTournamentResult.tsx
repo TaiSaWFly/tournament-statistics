@@ -25,7 +25,7 @@ const TeamTournamentResult: React.FC<TeamTournamentResultProps> = ({
                 </span>
 
                 <span>
-                    Выйграно {teamTournament["Выиграно карт"]}/
+                    Выиграно {teamTournament["Выиграно карт"]}/
                     {teamTournament["Всего карт"]} карт
                 </span>
 

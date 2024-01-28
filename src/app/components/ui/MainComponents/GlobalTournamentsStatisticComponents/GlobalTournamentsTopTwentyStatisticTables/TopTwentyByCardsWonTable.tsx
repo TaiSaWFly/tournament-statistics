@@ -30,7 +30,7 @@ const TopTwentyByCardsWonTable: React.FC<TopTwentyByCardsWonTableProps> = ({
         })
     ];
 
-    return <Table {...{ data, columns, title: "по выйгранным картам" }} />;
+    return <Table {...{ data, columns, title: "по выигранным картам" }} />;
 };
 
 export default TopTwentyByCardsWonTable;
