@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./tablePlayerLink.module.scss";
 import usePlayer from "../../../../hooks/appHooks/playerHooks/usePlayer";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SelectOption } from "../../../../ts/types/SelectOption";
 import { useActions } from "../../../../hooks/reduxHooks/useActions";
 import TablePlayerLinkCurrentPlayerWithСaptain, {
@@ -24,25 +24,27 @@ interface TablePlayerLinkComponentsProps {
 
 const TablePlayerLink: React.FC<TablePlayerLinkProps> &
     TablePlayerLinkComponentsProps = ({ teammateName, teammateId }) => {
-    const history = useHistory();
     const { isMobileDevice } = useAppSelector((state) => state.system);
     const { playerLink } = usePlayer(teammateId, teammateName);
     const { setSearchMemoryPlayer, setPlayerData } = useActions();
 
-    const redirectToPlayer = () => {
-        const playerOption: SelectOption = {
-            value: String(playerLink[0]._id),
-            label: teammateName
-        };
-        setPlayerData(Number(playerOption.value));
-        history.push(`/player/${playerOption.value}`);
-        setSearchMemoryPlayer(playerOption);
+    const playerOption: SelectOption = {
+        value: String(playerLink[0]._id),
+        label: teammateName
     };
 
     return (
         <div className={isMobileDevice ? style.link__visible : style.link}>
             {playerLink.length !== 0 ? (
-                <a onClick={redirectToPlayer}>{teammateName}</a>
+                <Link
+                    to={`/player/${playerOption.value}`}
+                    onClick={() => {
+                        setPlayerData(Number(playerOption.value));
+                        setSearchMemoryPlayer(playerOption);
+                    }}
+                >
+                    {teammateName}
+                </Link>
             ) : (
                 <span>{teammateName}</span>
             )}

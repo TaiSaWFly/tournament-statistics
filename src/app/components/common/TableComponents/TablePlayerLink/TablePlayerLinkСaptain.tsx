@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./tablePlayerLink.module.scss";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import usePlayer from "../../../../hooks/appHooks/playerHooks/usePlayer";
 import { useActions } from "../../../../hooks/reduxHooks/useActions";
 import useSvgIcon from "../../../../hooks/appHooks/someHooks/useSvgIcon";
@@ -18,7 +18,6 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
     teammateId,
     teamName
 }) => {
-    const history = useHistory();
     const { isMobileDevice } = useAppSelector((state) => state.system);
     const { playerLink, currentPlayerData } = usePlayer(
         teammateId,
@@ -27,13 +26,9 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
     const { setSearchMemoryPlayer } = useActions();
     const { Crown } = useSvgIcon();
 
-    const redirectToPlayer = () => {
-        const playerOption: SelectOption = {
-            value: String(playerLink[0]._id),
-            label: teammateName
-        };
-        history.push(`/player/${playerOption.value}`);
-        setSearchMemoryPlayer(playerOption);
+    const playerOption: SelectOption = {
+        value: String(playerLink[0]._id),
+        label: teammateName
     };
 
     const isСaptain = currentPlayerData.some(
@@ -47,7 +42,14 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
                     {isСaptain ? (
                         <div className={style.link__cap_link__wrap}>
                             <div className={style.link__cap_link}>
-                                <a onClick={redirectToPlayer}>{teammateName}</a>
+                                <Link
+                                    to={`/player/${playerOption.value}`}
+                                    onClick={() =>
+                                        setSearchMemoryPlayer(playerOption)
+                                    }
+                                >
+                                    {teammateName}
+                                </Link>
 
                                 <div className={style.link__cap_icon}>
                                     <Crown />
@@ -55,7 +57,12 @@ const TablePlayerLinkСaptain: React.FC<TablePlayerLinkСaptainProps> = ({
                             </div>
                         </div>
                     ) : (
-                        <a onClick={redirectToPlayer}>{teammateName}</a>
+                        <Link
+                            to={`/player/${playerOption.value}`}
+                            onClick={() => setSearchMemoryPlayer(playerOption)}
+                        >
+                            {teammateName}
+                        </Link>
                     )}
                 </>
             ) : (

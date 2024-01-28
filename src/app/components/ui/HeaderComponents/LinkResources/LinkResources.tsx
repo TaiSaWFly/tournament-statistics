@@ -10,7 +10,8 @@ import useOutsideClick from "../../../../hooks/appHooks/someHooks/useOutsideClic
 import Modal from "../../../common/Modal/Modal";
 
 const LinkResources: React.FC = () => {
-    const { Link, GoogleSheetsIcon, GitHubIcon, PowerBiIcon } = useSvgIcon();
+    const { LinkIcon, GoogleSheetsIcon, GitHubIcon, PowerBiIcon } =
+        useSvgIcon();
     const { ref, isShow, setShow } = useOutsideClick(false);
 
     return (
@@ -22,7 +23,7 @@ const LinkResources: React.FC = () => {
                 }
             >
                 <div className={style.link_icon}>
-                    <Link />
+                    <LinkIcon />
                 </div>
             </div>
 
@@ -31,41 +32,43 @@ const LinkResources: React.FC = () => {
                 reference={ref}
                 isOpen={isShow}
             >
-                <div className={style.link_item}>
-                    <a
-                        onClick={() => setShow(false)}
-                        href={GOOGLE_STATISTICS_TOURNAMENTS_LINK}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <GoogleSheetsIcon />
-                    </a>
-                    <span>Статистика за все турниры От Dashabreeze</span>
-                </div>
+                <ul>
+                    <li className={style.link_item}>
+                        <a
+                            onClick={() => setShow(false)}
+                            href={GOOGLE_STATISTICS_TOURNAMENTS_LINK}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <GoogleSheetsIcon />
+                        </a>
+                        <span>Статистика за все турниры От Dashabreeze</span>
+                    </li>
 
-                <div className={style.link_item}>
-                    <a
-                        onClick={() => setShow(false)}
-                        href={LOGS_STATISTICS_TOURNAMENTS_LINK}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <PowerBiIcon />
-                    </a>
-                    <span>Логи от Мяуса</span>
-                </div>
+                    <li className={style.link_item}>
+                        <a
+                            onClick={() => setShow(false)}
+                            href={LOGS_STATISTICS_TOURNAMENTS_LINK}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <PowerBiIcon />
+                        </a>
+                        <span>Логи от Мяуса</span>
+                    </li>
 
-                <div className={style.link_item}>
-                    <a
-                        onClick={() => setShow(false)}
-                        href={REPO_STATISTICS_TOURNAMENTS_LINK}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <GitHubIcon />
-                    </a>
-                    <span>Репозиторий Приложения</span>
-                </div>
+                    <li className={style.link_item}>
+                        <a
+                            onClick={() => setShow(false)}
+                            href={REPO_STATISTICS_TOURNAMENTS_LINK}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <GitHubIcon />
+                        </a>
+                        <span>Репозиторий Приложения</span>
+                    </li>
+                </ul>
             </Modal>
         </div>
     );

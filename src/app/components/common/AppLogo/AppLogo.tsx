@@ -13,6 +13,7 @@ const AppLogo: React.FC = () => {
                 src={
                     "https://static-cdn.jtvnw.net/jtv_user_pictures/e4677934-9998-4c51-af88-8d4923120f3a-profile_image-70x70.png"
                 }
+                alt="Twitch Anakq"
             />
         </a>
     );
