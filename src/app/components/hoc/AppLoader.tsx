@@ -103,7 +103,6 @@ const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
             setIsLoading(false);
         }
     }, [playerStatsIsCounting, averagePlayersStatsChartIsCounting]);
-    console.log(error);
 
     if (error) return <ErrorPage errorMessage={error.errorMessage} />;
     return <>{isLoading ? <Loader /> : children}</>;

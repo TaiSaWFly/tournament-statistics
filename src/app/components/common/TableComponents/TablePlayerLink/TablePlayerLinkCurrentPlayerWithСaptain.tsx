@@ -24,10 +24,16 @@ const TablePlayerLinkCurrentPlayerWithСaptain: React.FC<
     const { setSearchMemoryPlayer, setPlayerData } = useActions();
     const { Crown } = useSvgIcon();
 
-    const playerOption: SelectOption = {
-        value: String(playerLink[0]._id),
-        label: teammateName
-    };
+    const playerOption: SelectOption =
+        playerLink.length !== 0
+            ? {
+                  value: String(playerLink[0]._id),
+                  label: teammateName
+              }
+            : {
+                  value: String(teammateId),
+                  label: teammateName
+              };
 
     const isСaptain = currentPlayerData.some(
         (data) => data.Nickname.toLowerCase() === teamName.toLowerCase()
