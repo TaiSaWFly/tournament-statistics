@@ -6,6 +6,7 @@
 <p> < ver. 1.0.2 > </p>
 <p> < ver. 1.1.2 > </p>
 <p> < ver. 1.1.3 > </p>
+<p> < ver. 1.1.4 > </p>
 
 Last current version
-< ver. 1.1.3 >
+< ver. 1.1.4 >
